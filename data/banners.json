@@ -1,0 +1,30 @@
+[
+  {
+    "id": "banner-1",
+    "title": "秋冬新品上架",
+    "subtitle": "温暖舒适的季节面料",
+    "image": "https://images.unsplash.com/photo-1618333233013-87d0b6cd4711?w=1600&h=600&fit=crop&q=80",
+    "link": "/products?tags=New",
+    "buttonText": "立即选购",
+    "order": 1
+  },
+  {
+    "id": "banner-2",
+    "title": "精选有机棉",
+    "subtitle": "环保健康，柔软舒适",
+    "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=1600&h=600&fit=crop&q=80",
+    "link": "/products",
+    "buttonText": "探索更多",
+    "order": 2
+  },
+  {
+    "id": "banner-3",
+    "title": "限时优惠",
+    "subtitle": "精选面料最高5折",
+    "image": "https://images.unsplash.com/photo-1617116225958-03b1617c025f?w=1600&h=600&fit=crop&q=80",
+    "link": "/products",
+    "buttonText": "查看促销",
+    "order": 3
+  }
+]
+
