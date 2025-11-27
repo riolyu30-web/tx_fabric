@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "resize-images": "node scripts/resize-images.js",
+    "process-images": "node scripts/process-images.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.46.1",
@@ -14,10 +16,14 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "embla-carousel-react": "^8.3.1",
+    "imagemin": "^9.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^10.0.0",
     "lucide-react": "^0.460.0",
     "next": "^15.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "sharp": "^0.34.5",
     "tailwind-merge": "^2.6.0",
     "zustand": "^5.0.2"
   },

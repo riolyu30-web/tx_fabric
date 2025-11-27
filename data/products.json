@@ -10,7 +10,11 @@
     "samplePrice": 7,
     "price": 4.1,
     "images": [
-      "https://images.unsplash.com/photo-1618333233013-87d0b6cd4711?w=800&h=800&fit=crop&q=80"
+      "/images/products/801_1.jpg",
+      "/images/products/801_2.jpg",
+      "/images/products/801_3.jpg",
+      "/images/products/801_4.jpg",
+      "/images/products/801_5.jpg"
     ],
     "category": "tencel",
     "fabricType": "Tencel Blend",
@@ -45,7 +49,11 @@
     "samplePrice": 6,
     "price": 4,
     "images": [
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&h=800&fit=crop&q=80"
+      "/images/products/802_1.jpg",
+      "/images/products/802_2.jpg",
+      "/images/products/802_3.jpg",
+      "/images/products/802_4.jpg",
+      "/images/products/802_5.jpg"
     ],
     "category": "tencel",
     "fabricType": "Tencel Blend",
@@ -78,7 +86,7 @@
     "samplePrice": 10,
     "price": 6.8,
     "images": [
-      "https://images.unsplash.com/photo-1617116225958-03b1617c025f?w=800&h=800&fit=crop&q=80"
+      "/images/products/803_1.jpg"
     ],
     "category": "tencel",
     "fabricType": "Tencel Blend",
@@ -111,7 +119,7 @@
     "samplePrice": 10,
     "price": 7.5,
     "images": [
-      "https://images.unsplash.com/photo-1614095457098-297266c3c51f?w=800&h=800&fit=crop&q=80"
+      "/images/products/804_1.jpg"
     ],
     "category": "tencel",
     "fabricType": "Tencel Blend",
@@ -144,7 +152,11 @@
     "samplePrice": 5,
     "price": 3,
     "images": [
-      "https://images.unsplash.com/photo-1604079628040-94301bb21b91?w=800&h=800&fit=crop&q=80"
+      "/images/products/805_1.jpg",
+      "/images/products/805_2.jpg",
+      "/images/products/805_3.jpg",
+      "/images/products/805_4.jpg",
+      "/images/products/805_5.jpg"
     ],
     "category": "tencel",
     "fabricType": "Satin",
@@ -177,7 +189,9 @@
     "samplePrice": 6,
     "price": 3.4,
     "images": [
-      "https://images.unsplash.com/photo-1610979319586-2d53c2d8d1ba?w=800&h=800&fit=crop&q=80"
+      "/images/products/806_1.jpg",
+      "/images/products/806_2.jpg",
+      "/images/products/806_3.jpg"
     ],
     "category": "tencel",
     "fabricType": "Rayon Blend",
@@ -210,7 +224,9 @@
     "samplePrice": 9,
     "price": 5.5,
     "images": [
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800&h=800&fit=crop&q=80"
+      "/images/products/807_1.jpg",
+      "/images/products/807_2.jpg",
+      "/images/products/807_3.jpg"
     ],
     "category": "tencel",
     "fabricType": "Rayon Blend",
@@ -243,7 +259,11 @@
     "samplePrice": 6,
     "price": 3.7,
     "images": [
-      "https://images.unsplash.com/photo-1618333233013-87d0b6cd4711?w=800&h=800&fit=crop&q=80"
+      "/images/products/808_1.jpg",
+      "/images/products/808_2.jpg",
+      "/images/products/808_3.jpg",
+      "/images/products/808_4.jpg",
+      "/images/products/808_5.jpg"
     ],
     "category": "tencel",
     "fabricType": "Tencel Satin",
@@ -278,7 +298,11 @@
     "samplePrice": 7,
     "price": 4.7,
     "images": [
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&h=800&fit=crop&q=80"
+      "/images/products/809_1.jpg",
+      "/images/products/809_2.jpg",
+      "/images/products/809_3.jpg",
+      "/images/products/809_4.jpg",
+      "/images/products/809_5.jpg"
     ],
     "category": "tencel",
     "fabricType": "Tencel Blend",
@@ -311,7 +335,9 @@
     "samplePrice": 7,
     "price": 4.9,
     "images": [
-      "https://images.unsplash.com/photo-1617116225958-03b1617c025f?w=800&h=800&fit=crop&q=80"
+      "/images/products/810_1.jpg",
+      "/images/products/810_2.jpg",
+      "/images/products/810_3.jpg"
     ],
     "category": "tencel",
     "fabricType": "Polyester",
@@ -340,7 +366,11 @@
     "samplePrice": 7,
     "price": 4.8,
     "images": [
-      "https://images.unsplash.com/photo-1614095457098-297266c3c51f?w=800&h=800&fit=crop&q=80"
+      "/images/products/811_1.jpg",
+      "/images/products/811_2.jpg",
+      "/images/products/811_3.jpg",
+      "/images/products/811_4.jpg",
+      "/images/products/811_5.jpg"
     ],
     "category": "tencel",
     "fabricType": "Tencel Blend",
@@ -381,7 +411,7 @@
     "samplePrice": 8,
     "price": 6.4,
     "images": [
-      "https://images.unsplash.com/photo-1604079628040-94301bb21b91?w=800&h=800&fit=crop&q=80"
+      "/images/products/812_1.jpg"
     ],
     "category": "tencel",
     "fabricType": "Tencel Blend",
@@ -414,7 +444,11 @@
     "samplePrice": 6,
     "price": 3.5,
     "images": [
-      "https://images.unsplash.com/photo-1610979319586-2d53c2d8d1ba?w=800&h=800&fit=crop&q=80"
+      "/images/products/813_1.jpg",
+      "/images/products/813_2.jpg",
+      "/images/products/813_3.jpg",
+      "/images/products/813_4.jpg",
+      "/images/products/813_5.jpg"
     ],
     "category": "tencel",
     "fabricType": "Tencel Blend",
@@ -447,7 +481,10 @@
     "samplePrice": 8,
     "price": 5.8,
     "images": [
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800&h=800&fit=crop&q=80"
+      "/images/products/814_1.jpg",
+      "/images/products/814_2.jpg",
+      "/images/products/814_3.jpg",
+      "/images/products/814_4.jpg"
     ],
     "category": "tencel",
     "fabricType": "Tencel Satin",
@@ -480,7 +517,10 @@
     "samplePrice": 6,
     "price": 3.8,
     "images": [
-      "https://images.unsplash.com/photo-1618333233013-87d0b6cd4711?w=800&h=800&fit=crop&q=80"
+      "/images/products/815_1.jpg",
+      "/images/products/815_2.jpg",
+      "/images/products/815_3.jpg",
+      "/images/products/815_4.jpg"
     ],
     "category": "tencel",
     "fabricType": "Rayon Blend",
@@ -513,7 +553,8 @@
     "samplePrice": 7,
     "price": 4.7,
     "images": [
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&h=800&fit=crop&q=80"
+      "/images/products/816_1.jpg",
+      "/images/products/816_2.jpg"
     ],
     "category": "tencel",
     "fabricType": "Rayon Blend",
@@ -548,7 +589,7 @@
     "samplePrice": 6,
     "price": 3.4,
     "images": [
-      "https://images.unsplash.com/photo-1617116225958-03b1617c025f?w=800&h=800&fit=crop&q=80"
+      "/images/products/817_1.jpg"
     ],
     "category": "tencel",
     "fabricType": "Rayon Blend",
@@ -581,7 +622,9 @@
     "samplePrice": 7,
     "price": 4,
     "images": [
-      "https://images.unsplash.com/photo-1614095457098-297266c3c51f?w=800&h=800&fit=crop&q=80"
+      "/images/products/818_1.jpg",
+      "/images/products/818_2.jpg",
+      "/images/products/818_3.jpg"
     ],
     "category": "tencel",
     "fabricType": "Tencel Blend",
@@ -614,7 +657,7 @@
     "samplePrice": 10,
     "price": 8.2,
     "images": [
-      "https://images.unsplash.com/photo-1604079628040-94301bb21b91?w=800&h=800&fit=crop&q=80"
+      "/images/products/822_1.jpg"
     ],
     "category": "tencel",
     "fabricType": "Tencel Blend",
@@ -651,7 +694,11 @@
     "samplePrice": 10,
     "price": 7.1,
     "images": [
-      "https://images.unsplash.com/photo-1610979319586-2d53c2d8d1ba?w=800&h=800&fit=crop&q=80"
+      "/images/products/823_1.jpg",
+      "/images/products/823_2.jpg",
+      "/images/products/823_3.jpg",
+      "/images/products/823_4.jpg",
+      "/images/products/823_5.jpg"
     ],
     "category": "tencel",
     "fabricType": "Tencel Linen Blend",
@@ -688,7 +735,9 @@
     "samplePrice": 10,
     "price": 7.3,
     "images": [
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800&h=800&fit=crop&q=80"
+      "/images/products/825_1.jpg",
+      "/images/products/825_2.jpg",
+      "/images/products/825_3.jpg"
     ],
     "category": "tencel",
     "fabricType": "Tencel Blend",
@@ -723,7 +772,9 @@
     "images": [
       "/images/products/826_1.jpg",
       "/images/products/826_2.jpg",
-      "/images/products/826_3.jpg"
+      "/images/products/826_3.jpg",
+      "/images/products/826_4.jpg",
+      "/images/products/826_5.jpg"
     ],
     "category": "tencel",
     "fabricType": "Cotton Blend",
@@ -760,7 +811,10 @@
     "samplePrice": 7,
     "price": 5.3,
     "images": [
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&h=800&fit=crop&q=80"
+      "/images/products/827_1.jpg",
+      "/images/products/827_2.jpg",
+      "/images/products/827_3.jpg",
+      "/images/products/827_4.jpg"
     ],
     "category": "tencel",
     "fabricType": "Rayon Blend",
@@ -797,7 +851,11 @@
     "samplePrice": 7,
     "price": 4.7,
     "images": [
-      "https://images.unsplash.com/photo-1617116225958-03b1617c025f?w=800&h=800&fit=crop&q=80"
+      "/images/products/828_1.jpg",
+      "/images/products/828_2.jpg",
+      "/images/products/828_3.jpg",
+      "/images/products/828_4.jpg",
+      "/images/products/828_5.jpg"
     ],
     "category": "tencel",
     "fabricType": "Rayon Blend",
@@ -830,7 +888,9 @@
     "samplePrice": 9,
     "price": 6.2,
     "images": [
-      "https://images.unsplash.com/photo-1614095457098-297266c3c51f?w=800&h=800&fit=crop&q=80"
+      "/images/products/829_1.jpg",
+      "/images/products/829_2.jpg",
+      "/images/products/829_3.jpg"
     ],
     "category": "tencel",
     "fabricType": "Rayon Blend",
@@ -863,7 +923,11 @@
     "samplePrice": 8,
     "price": 5.8,
     "images": [
-      "https://images.unsplash.com/photo-1604079628040-94301bb21b91?w=800&h=800&fit=crop&q=80"
+      "/images/products/830_1.jpg",
+      "/images/products/830_2.jpg",
+      "/images/products/830_3.jpg",
+      "/images/products/830_4.jpg",
+      "/images/products/830_5.jpg"
     ],
     "category": "tencel",
     "fabricType": "Linen Blend",
@@ -900,7 +964,10 @@
     "samplePrice": 7,
     "price": 4,
     "images": [
-      "https://images.unsplash.com/photo-1610979319586-2d53c2d8d1ba?w=800&h=800&fit=crop&q=80"
+      "/images/products/831_1.jpg",
+      "/images/products/831_2.jpg",
+      "/images/products/831_3.jpg",
+      "/images/products/831_4.jpg"
     ],
     "category": "tencel",
     "fabricType": "Rayon Blend",
@@ -933,7 +1000,9 @@
     "samplePrice": 7,
     "price": 4.2,
     "images": [
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800&h=800&fit=crop&q=80"
+      "/images/products/832_1.jpg",
+      "/images/products/832_2.jpg",
+      "/images/products/832_3.jpg"
     ],
     "category": "tencel",
     "fabricType": "Rayon Satin",
@@ -965,7 +1034,8 @@
     "samplePrice": 5,
     "price": 2.9,
     "images": [
-      "https://images.unsplash.com/photo-1618333233013-87d0b6cd4711?w=800&h=800&fit=crop&q=80"
+      "/images/products/601_1.jpg",
+      "/images/products/601_2.jpg"
     ],
     "category": "embroidery",
     "fabricType": "Chiffon",
@@ -992,7 +1062,9 @@
     "samplePrice": 5,
     "price": 3.15,
     "images": [
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&h=800&fit=crop&q=80"
+      "/images/products/602_1.jpg",
+      "/images/products/602_2.jpg",
+      "/images/products/602_3.jpg"
     ],
     "category": "embroidery",
     "fabricType": "Chiffon Satin",
@@ -1020,7 +1092,9 @@
     "samplePrice": 5,
     "price": 3.5,
     "images": [
-      "https://images.unsplash.com/photo-1617116225958-03b1617c025f?w=800&h=800&fit=crop&q=80"
+      "/images/products/603_1.jpg",
+      "/images/products/603_2.jpg",
+      "/images/products/603_3.jpg"
     ],
     "category": "embroidery",
     "fabricType": "Monofilament Satin",
@@ -1047,7 +1121,9 @@
     "samplePrice": 7,
     "price": 6,
     "images": [
-      "https://images.unsplash.com/photo-1614095457098-297266c3c51f?w=800&h=800&fit=crop&q=80"
+      "/images/products/604_1.jpg",
+      "/images/products/604_2.jpg",
+      "/images/products/604_3.jpg"
     ],
     "category": "embroidery",
     "fabricType": "Polyester Tencel-Like",
@@ -1078,7 +1154,9 @@
     "samplePrice": 5,
     "price": 2.6,
     "images": [
-      "https://images.unsplash.com/photo-1604079628040-94301bb21b91?w=800&h=800&fit=crop&q=80"
+      "/images/products/605_1.jpg",
+      "/images/products/605_2.jpg",
+      "/images/products/605_3.jpg"
     ],
     "category": "embroidery",
     "fabricType": "Gauze",
@@ -1104,7 +1182,9 @@
     "whitePrice": 4.6,
     "price": 4.6,
     "images": [
-      "https://images.unsplash.com/photo-1610979319586-2d53c2d8d1ba?w=800&h=800&fit=crop&q=80"
+      "/images/products/606_1.jpg",
+      "/images/products/606_2.jpg",
+      "/images/products/606_3.jpg"
     ],
     "category": "embroidery",
     "fabricType": "Slub",
@@ -1132,7 +1212,11 @@
     "samplePrice": 8,
     "price": 4.9,
     "images": [
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800&h=800&fit=crop&q=80"
+      "/images/products/901_1.jpg",
+      "/images/products/901_2.jpg",
+      "/images/products/901_3.jpg",
+      "/images/products/901_4.jpg",
+      "/images/products/901_5.jpg"
     ],
     "category": "cotton",
     "fabricType": "Cotton Slub",
@@ -1161,7 +1245,11 @@
     "samplePrice": 9,
     "price": 5.9,
     "images": [
-      "https://images.unsplash.com/photo-1618333233013-87d0b6cd4711?w=800&h=800&fit=crop&q=80"
+      "/images/products/903_1.jpg",
+      "/images/products/903_2.jpg",
+      "/images/products/903_3.jpg",
+      "/images/products/903_4.jpg",
+      "/images/products/903_5.jpg"
     ],
     "category": "cotton",
     "fabricType": "Cotton Linen Blend",
@@ -1198,7 +1286,11 @@
     "samplePrice": 10,
     "price": 6.7,
     "images": [
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&h=800&fit=crop&q=80"
+      "/images/products/904_1.jpg",
+      "/images/products/904_2.jpg",
+      "/images/products/904_3.jpg",
+      "/images/products/904_4.jpg",
+      "/images/products/904_5.jpg"
     ],
     "category": "cotton",
     "fabricType": "Cotton Slub",
@@ -1227,7 +1319,11 @@
     "samplePrice": 10,
     "price": 6.9,
     "images": [
-      "https://images.unsplash.com/photo-1617116225958-03b1617c025f?w=800&h=800&fit=crop&q=80"
+      "/images/products/912_1.jpg",
+      "/images/products/912_2.jpg",
+      "/images/products/912_3.jpg",
+      "/images/products/912_4.jpg",
+      "/images/products/912_5.jpg"
     ],
     "category": "cotton",
     "fabricType": "Cotton Double Layer",
@@ -1256,7 +1352,9 @@
     "samplePrice": 9,
     "price": 6.3,
     "images": [
-      "https://images.unsplash.com/photo-1614095457098-297266c3c51f?w=800&h=800&fit=crop&q=80"
+      "/images/products/905_1.jpg",
+      "/images/products/905_2.jpg",
+      "/images/products/905_3.jpg"
     ],
     "category": "cotton",
     "fabricType": "Cotton Fleece",
@@ -1285,7 +1383,8 @@
     "samplePrice": 12,
     "price": 8.8,
     "images": [
-      "https://images.unsplash.com/photo-1604079628040-94301bb21b91?w=800&h=800&fit=crop&q=80"
+      "/images/products/906_1.jpg",
+      "/images/products/906_2.jpg"
     ],
     "category": "cotton",
     "fabricType": "Viscose Linen Blend",
@@ -1318,7 +1417,8 @@
     "samplePrice": 8,
     "price": 4.9,
     "images": [
-      "https://images.unsplash.com/photo-1610979319586-2d53c2d8d1ba?w=800&h=800&fit=crop&q=80"
+      "/images/products/907_1.jpg",
+      "/images/products/907_2.jpg"
     ],
     "category": "cotton",
     "fabricType": "Cotton Satin",
@@ -1346,7 +1446,8 @@
     "colorPrice": 4.3,
     "price": 3.8,
     "images": [
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800&h=800&fit=crop&q=80"
+      "/images/products/908_1.jpg",
+      "/images/products/908_2.jpg"
     ],
     "category": "cotton",
     "fabricType": "Cotton",
@@ -1373,7 +1474,8 @@
     "colorPrice": 5.1,
     "price": 4.5,
     "images": [
-      "https://images.unsplash.com/photo-1618333233013-87d0b6cd4711?w=800&h=800&fit=crop&q=80"
+      "/images/products/909_1.jpg",
+      "/images/products/909_2.jpg"
     ],
     "category": "cotton",
     "fabricType": "Cotton",
@@ -1401,7 +1503,8 @@
     "samplePrice": 9,
     "price": 6.2,
     "images": [
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&h=800&fit=crop&q=80"
+      "/images/products/910_1.jpg",
+      "/images/products/910_2.jpg"
     ],
     "category": "cotton",
     "fabricType": "Cotton Tencel-Like",
@@ -1430,7 +1533,8 @@
     "samplePrice": 10,
     "price": 6.6,
     "images": [
-      "https://images.unsplash.com/photo-1617116225958-03b1617c025f?w=800&h=800&fit=crop&q=80"
+      "/images/products/911_1.jpg",
+      "/images/products/911_2.jpg"
     ],
     "category": "cotton",
     "fabricType": "Linen Blend",
@@ -1462,7 +1566,8 @@
     "samplePrice": 8,
     "price": 5.8,
     "images": [
-      "https://images.unsplash.com/photo-1614095457098-297266c3c51f?w=800&h=800&fit=crop&q=80"
+      "/images/products/913_1.jpg",
+      "/images/products/913_2.jpg"
     ],
     "category": "cotton",
     "fabricType": "Cotton Slub",
@@ -1491,7 +1596,9 @@
     "samplePrice": 8,
     "price": 5.6,
     "images": [
-      "https://images.unsplash.com/photo-1604079628040-94301bb21b91?w=800&h=800&fit=crop&q=80"
+      "/images/products/914_1.jpg",
+      "/images/products/914_2.jpg",
+      "/images/products/914_3.jpg"
     ],
     "category": "cotton",
     "fabricType": "Cotton Slub",

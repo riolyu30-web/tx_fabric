@@ -1,4 +1,5 @@
 import { Metadata } from "next"
+import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Users, Zap, Package, Phone, Mail, MapPin } from "lucide-react"
@@ -12,15 +13,24 @@ export default function FabricSourcingPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {/* 页面标题区 */}
-      <div className="bg-brand-brown text-white py-16">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">代客找版服务</h1>
-          <p className="text-xl text-brand-brown/80 max-w-2xl mx-auto">
-            让专业的人帮您找到最合适的面料
-          </p>
-          <p className="mt-4 text-brand-brown/70">
-            省时 · 省力 · 省心 · 省钱
-          </p>
+      <div className="relative h-[400px] bg-brand-brown">
+        <Image
+          src="/images/sourcing/sc_1.jpg"
+          alt="代客找版服务"
+          fill
+          className="object-cover opacity-70"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-brand-brown/80 to-brand-brown/60"></div>
+        <div className="relative h-full flex items-center justify-center">
+          <div className="container mx-auto px-4 text-center text-white">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">代客找版服务</h1>
+            <p className="text-xl max-w-2xl mx-auto">
+              让专业的人帮您找到最合适的面料
+            </p>
+            <p className="mt-4 text-lg">
+              省时 · 省力 · 省心 · 省钱
+            </p>
+          </div>
         </div>
       </div>
 
@@ -162,6 +172,15 @@ export default function FabricSourcingPage() {
                       天丝面料市场价¥6.5/米，我们的批发商价格¥5.2/米，一次采购500米就能省650元！
                     </p>
                   </div>
+                  <div className="mt-4 rounded-lg overflow-hidden">
+                    <Image
+                      src="/images/sourcing/s_1.jpg"
+                      alt="本地批发商资源"
+                      width={400}
+                      height={300}
+                      className="w-full h-auto object-cover"
+                    />
+                  </div>
                 </CardContent>
               </Card>
             </div>
@@ -191,6 +210,15 @@ export default function FabricSourcingPage() {
                       <li>• 平均2小时找到3-5个选择</li>
                       <li>• 比自己跑市场节省3-5天</li>
                     </ul>
+                  </div>
+                  <div className="mt-4 rounded-lg overflow-hidden">
+                    <Image
+                      src="/images/sourcing/s_2.jpg"
+                      alt="本地批发商资源"
+                      width={400}
+                      height={300}
+                      className="w-full h-auto object-cover"
+                    />
                   </div>
                 </CardContent>
               </Card>
@@ -223,8 +251,16 @@ export default function FabricSourcingPage() {
                       <span className="bg-white px-3 py-1 rounded-full text-gray-700">真丝</span>
                       <span className="bg-white px-3 py-1 rounded-full text-gray-700">化纤</span>
                       <span className="bg-white px-3 py-1 rounded-full text-gray-700">针织</span>
-                      <span className="bg-white px-3 py-1 rounded-full text-gray-700">...更多</span>
                     </div>
+                  </div>
+                  <div className="mt-4 rounded-lg overflow-hidden">
+                    <Image
+                      src="/images/sourcing/s_3.jpg"
+                      alt="本地批发商资源"
+                      width={400}
+                      height={300}
+                      className="w-full h-auto object-cover"
+                    />
                   </div>
                 </CardContent>
               </Card>
@@ -262,10 +298,10 @@ export default function FabricSourcingPage() {
                       <span className="font-bold text-gray-900">电话咨询</span>
                     </div>
                     <p className="text-2xl font-bold text-brand-brown ml-7">
-                      138-0000-0000
+                      185-2058-3992
                     </p>
                     <p className="text-sm text-gray-500 ml-7 mt-1">
-                      工作时间：9:00-18:00
+                      工作时间：9:00-23:00
                     </p>
                   </div>
 
@@ -277,7 +313,7 @@ export default function FabricSourcingPage() {
                       <span className="font-bold text-gray-900">微信咨询</span>
                     </div>
                     <p className="text-xl font-bold text-green-600 ml-7">
-                      txfabric2025
+                      ababa288
                     </p>
                     <p className="text-sm text-gray-500 ml-7 mt-1">
                       添加时请备注：找版
@@ -316,9 +352,9 @@ export default function FabricSourcingPage() {
                     <div>
                       <span className="font-bold text-gray-900 block mb-2">邮寄地址</span>
                       <p className="text-gray-700 leading-relaxed">
-                        广东省广州市海珠区中大布匹市场<br/>
-                        XXX号档口（收）<br/>
-                        电话：138-0000-0000
+                        广州长江(中国)轻纺城北区富一楼一横街H024-026、HT101-108<br/>
+                        卡卡（收）<br/>
+                        电话：185-2058-3992
                       </p>
                     </div>
                   </div>

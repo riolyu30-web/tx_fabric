@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* 关于我们 */}
           <div>
-            <h3 className="font-semibold text-gray-900 mb-4">关于 TX Fabric</h3>
+            <h3 className="font-semibold text-gray-900 mb-4">关于 千千纺织</h3>
             <p className="text-sm text-gray-600 mb-4">
               我们致力于为缝纫爱好者和专业设计师提供高品质面料，精选全球优质材料，支持可持续发展。
             </p>
@@ -96,8 +96,8 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-gray-900 mb-4">联系我们</h3>
             <ul className="space-y-2 text-sm text-gray-600">
-              <li>电话：1-800-TX-FABRIC</li>
-              <li>邮箱：hello@txfabric.com</li>
+              <li>电话：1-800-千千纺织</li>
+              <li>邮箱：hello@qianqiantextile.com</li>
               <li>地址：123 Fabric Street</li>
               <li>Vancouver, BC V6B 1A1</li>
               <li>Canada</li>
@@ -108,7 +108,7 @@ export default function Footer() {
         {/* 底部版权信息 */}
         <div className="border-t mt-8 pt-8 text-center">
           <p className="text-sm text-gray-500">
-            © {currentYear} TX Fabric. 保留所有权利。
+            © {currentYear} 千千纺织. 保留所有权利。
           </p>
           <div className="mt-2 flex justify-center space-x-4 text-sm">
             <Link href="/privacy" className="text-gray-500 hover:text-brand-brown transition-colors">

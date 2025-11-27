@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 // 网站元数据
 export const metadata: Metadata = {
-  title: "TX Fabric - 优质面料独立站",
+  title: "千千纺织 - 优质面料独立站",
   description: "探索高品质面料，棉、麻、丝、毛等多种材质，为您的创作提供最佳选择",
   keywords: "面料, 布料, 棉布, 亚麻, 丝绸, 羊毛, 缝纫, 手工",
 };

@@ -12,7 +12,7 @@ export default function BrandIntro() {
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <Image
               src="https://images.unsplash.com/photo-1558769132-cb1aea26d29b?w=800&h=600&fit=crop"
-              alt="关于 TX Fabric"
+              alt="关于 千千纺织"
               fill
               className="object-cover"
             />
@@ -22,7 +22,7 @@ export default function BrandIntro() {
           <div className="space-y-6">
             <h2 className="text-4xl font-bold">我们的故事</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              TX Fabric 创立于 2020 年，源于对优质面料和可持续时尚的热爱。
+              千千纺织 创立于 2020 年，源于对优质面料和可持续时尚的热爱。
               我们致力于为缝纫爱好者、设计师和手工艺人提供精心挑选的高品质面料。
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">

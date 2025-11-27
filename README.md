@@ -1,4 +1,4 @@
-# TX Fabric - 优质面料独立站
+# 千千纺织 - 优质面料独立站
 
 基于 Next.js 14 构建的现代化面料电商网站，提供优质的面料展示和购物体验。
 
@@ -197,9 +197,9 @@ MIT License
 
 ## 支持
 
-如有问题，请联系：hello@txfabric.com
+如有问题，请联系：hello@qianqiantextile.com
 
 ---
 
-**TX Fabric** - 让创作从优质面料开始
+**千千纺织** - 让创作从优质面料开始
 
