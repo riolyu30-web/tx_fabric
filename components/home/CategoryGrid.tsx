@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Category } from "@/types"
 
 // 分类网格组件
@@ -22,7 +23,7 @@ export default function CategoryGrid({ categories }: CategoryGridProps) {
   return (
     <section className="py-12 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8">按类型选购</h2>
+        <h2 className="text-3xl font-bold mb-8">按类型选购</h2>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {categories.slice(0, 8).map((category) => (
@@ -31,30 +32,20 @@ export default function CategoryGrid({ categories }: CategoryGridProps) {
               href={`/products?category=${category.slug}`}
               className="group"
             >
-              <div className="relative overflow-hidden rounded-lg bg-white shadow-sm hover:shadow-md transition-shadow">
-                {/* 渐变背景 */}
-                <div
-                  className={`h-40 bg-gradient-to-br ${
-                    categoryColors[category.slug] || "from-gray-400 to-gray-600"
-                  } flex items-center justify-center relative overflow-hidden`}
-                >
-                  {/* 装饰图案 */}
-                  <div className="absolute inset-0 opacity-10">
-                    <div className="absolute top-0 left-0 w-32 h-32 bg-white rounded-full -translate-x-1/2 -translate-y-1/2"></div>
-                    <div className="absolute bottom-0 right-0 w-24 h-24 bg-white rounded-full translate-x-1/2 translate-y-1/2"></div>
-                  </div>
-                  
-                  {/* 分类名称 */}
-                  <span className="relative text-white text-2xl font-bold z-10">
+              <div className="relative overflow-hidden rounded-lg bg-white shadow-sm hover:shadow-md transition-shadow aspect-[16/9]">
+                {/* 图片 */}
+                <Image
+                  src={category.image || "/placeholder.png"}
+                  alt={category.name}
+                  layout="fill"
+                  objectFit="cover"
+                  className="group-hover:scale-105 transition-transform duration-300"
+                />
+                {/* 覆盖层 */}
+                <div className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-50 transition-colors flex items-center justify-center p-4">
+                  <h3 className="text-white text-2xl font-bold text-center">
                     {category.name}
-                  </span>
-                </div>
-                
-                {/* 分类描述 */}
-                <div className="p-4 text-center">
-                  <p className="text-sm text-gray-600 group-hover:text-brand-brown transition-colors">
-                    {category.description}
-                  </p>
+                  </h3>
                 </div>
               </div>
             </Link>

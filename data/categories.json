@@ -4,6 +4,7 @@
     "name": "天丝",
     "slug": "tencel",
     "description": "天丝系列面料，柔软舒适，垂感好",
+    "image": "/images/categories/cate_1.png",
     "order": 1
   },
   {
@@ -11,6 +12,7 @@
     "name": "绣花底布",
     "slug": "embroidery",
     "description": "绣花印花底布系列，适合数码印花和手工刺绣",
+    "image": "/images/categories/cate_2.png",
     "order": 2
   },
   {
@@ -18,6 +20,7 @@
     "name": "棉布",
     "slug": "cotton",
     "description": "全棉系列面料，透气吸汗，天然舒适",
+    "image": "/images/categories/cate_3.png",
     "order": 3
   }
 ]

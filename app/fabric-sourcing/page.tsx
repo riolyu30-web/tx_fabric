@@ -316,7 +316,7 @@ export default function FabricSourcingPage() {
                       ababa288
                     </p>
                     <p className="text-sm text-gray-500 ml-7 mt-1">
-                      添加时请备注：找版
+                      添加时请备注：找版/咨询
                     </p>
                   </div>
                 </div>
@@ -326,10 +326,10 @@ export default function FabricSourcingPage() {
                     📋 请告诉我们：
                   </p>
                   <ul className="text-sm text-gray-600 space-y-1">
-                    <li>• 您需要什么类型的面料（如：天丝、棉布等）</li>
-                    <li>• 大概的幅宽、克重要求</li>
-                    <li>• 需要的数量（大货或打版）</li>
-                    <li>• 其他特殊要求（如：颜色、手感等）</li>
+                    <li>• 需要采购的面料型号（是否需要大货样）</li>
+                    <li>• 大概需要的数量</li>
+                    <li>• 预算范围（可选）</li>
+                    <li>• 交期要求</li>
                   </ul>
                 </div>
               </CardContent>
@@ -366,10 +366,10 @@ export default function FabricSourcingPage() {
                   </p>
                   <ul className="text-sm text-gray-600 space-y-1">
                     <li>• 您的姓名和联系方式</li>
-                    <li>• 需要找的面料类型（如果有样品）</li>
-                    <li>• 大概需要的数量</li>
-                    <li>• 预算范围（可选）</li>
-                    <li>• 交期要求</li>
+                    <li>• 您需要什么类型的面料（如：天丝、棉布等）</li>
+                    <li>• 大概的幅宽、克重要求</li>
+                    <li>• 需要的数量（大货或打版）</li>
+                    <li>• 其他特殊要求（如：颜色、手感等）</li>
                   </ul>
                 </div>
 
@@ -378,7 +378,7 @@ export default function FabricSourcingPage() {
                     💡 温馨提示
                   </p>
                   <p className="text-sm text-blue-700">
-                    收到样品后，我们会在24小时内联系您，提供3-5个相似面料选择及报价，让您对比挑选。
+                    我司原则上不接收到付快递，所有到付件将无法签收。烦请安排寄付，并将运单号提供给我们，谢谢您的理解与配合。
                   </p>
                 </div>
               </CardContent>

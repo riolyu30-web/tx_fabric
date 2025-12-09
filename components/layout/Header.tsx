@@ -68,6 +68,9 @@ export default function Header() {
             <Link href="/about" className="text-sm font-medium hover:text-brand-brown transition-colors">
               关于我们
             </Link>
+            <Link href="/contact" className="text-sm font-medium hover:text-brand-brown transition-colors">
+              联系我们
+            </Link>
             <Link href="/cart" className="text-sm font-medium hover:text-brand-brown transition-colors relative">
               <div className="flex items-center gap-1">
                 <ShoppingCart className="h-4 w-4" />
