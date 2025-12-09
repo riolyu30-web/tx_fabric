@@ -1,11 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-
-// 加载 Inter 字体
-const inter = Inter({ subsets: ["latin"] });
 
 // 网站元数据
 export const metadata: Metadata = {
@@ -21,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="zh-CN">
-      <body className={inter.className}>
+      <body>
         <Header />
         <main className="min-h-screen">
           {children}
