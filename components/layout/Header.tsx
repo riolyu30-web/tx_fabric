@@ -41,7 +41,7 @@ export default function Header() {
 
           {/* 中间：Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <h1 className="text-2xl font-bold">千千纺织</h1>
+            <h1 className="text-2xl font-bold">米亚坊纺织</h1>
           </Link>
 
           {/* 桌面端导航菜单 */}
