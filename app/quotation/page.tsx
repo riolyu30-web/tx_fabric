@@ -22,6 +22,11 @@ export default function QuotationPage() {
 
   // 筛选产品
   const filteredProducts = typedProducts.filter((product) => {
+    // 过滤缺货产品
+    if (!product.inStock) {
+      return false
+    }
+
     // 分类筛选
     if (selectedCategory !== "all" && product.category !== selectedCategory) {
       return false
@@ -133,6 +138,7 @@ export default function QuotationPage() {
                     <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">品名名称</th>
                     <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">幅宽</th>
                     <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">克重</th>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">每公斤出米数</th>
                     <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">成份</th>
                     <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">白色价格</th>
                     <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">彩色价格</th>
@@ -142,7 +148,7 @@ export default function QuotationPage() {
                 <tbody className="divide-y divide-gray-200">
                   {filteredProducts.length === 0 ? (
                     <tr>
-                      <td colSpan={8} className="px-4 py-8 text-center text-gray-500">
+                      <td colSpan={9} className="px-4 py-8 text-center text-gray-500">
                         没有找到匹配的产品
                       </td>
                     </tr>
@@ -158,7 +164,7 @@ export default function QuotationPage() {
                             className="bg-brand-brown/5 hover:bg-brand-brown/10 cursor-pointer transition-colors"
                             onClick={() => toggleCategory(categoryId)}
                           >
-                            <td colSpan={8} className="px-4 py-3">
+                            <td colSpan={9} className="px-4 py-3">
                               <div className="flex items-center gap-2">
                                 {/* 展开/折叠图标 */}
                                 {isCollapsed ? (
@@ -201,6 +207,11 @@ export default function QuotationPage() {
                               {/* 克重 */}
                               <td className="px-4 py-3 text-sm text-gray-700">
                                 {product.weight ? `${product.weight}g/m²` : "-"}
+                              </td>
+                              
+                              {/* 每公斤出米数 */}
+                              <td className="px-4 py-3 text-sm text-gray-700">
+                                {product.metersPerKg ? `${product.metersPerKg} m/kg` : "-"}
                               </td>
                               
                               {/* 成份 */}

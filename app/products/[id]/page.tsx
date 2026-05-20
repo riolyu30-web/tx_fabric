@@ -42,9 +42,9 @@ export default function ProductDetailPage() {
   // 计算显示价格（成本价转换为足米价并加上利润率）
   const displayPrices = calculateProductDisplayPrices(product)
 
-  // 推荐商品（同分类）
+  // 推荐商品（同分类，且有库存）
   const recommendedProducts = typedProducts
-    .filter((p) => p.category === product.category && p.id !== product.id)
+    .filter((p) => p.category === product.category && p.id !== product.id && p.inStock)
     .slice(0, 4)
 
   // 加入购物车
@@ -162,7 +162,7 @@ export default function ProductDetailPage() {
               </div>
               <div className="flex justify-between py-2 border-b">
                 <span className="text-gray-600">面料类型：</span>
-                <span className="font-medium">{product.fabricType}</span>
+                <span className="font-medium">{product.type}</span> {/* 使用新字段 type */}
               </div>
               <div className="flex justify-between py-2 border-b">
                 <span className="text-gray-600">成分：</span>
@@ -178,6 +178,12 @@ export default function ProductDetailPage() {
                 <div className="flex justify-between py-2 border-b">
                   <span className="text-gray-600">克重：</span>
                   <span className="font-medium">{product.weight} g/m²</span>
+                </div>
+              )}
+              {product.metersPerKg && (
+                <div className="flex justify-between py-2 border-b">
+                  <span className="text-gray-600">每公斤出米数：</span>
+                  <span className="font-medium">{product.metersPerKg} m/kg</span>
                 </div>
               )}
               <div className="flex justify-between py-2 border-b">

@@ -15,11 +15,12 @@ function ProductsContent() {
   const [showMobileFilter, setShowMobileFilter] = useState(false) // 移动端筛选器显示状态
   
   // 从URL参数初始化筛选状态
+  const [searchQuery, setSearchQuery] = useState(searchParams.get("q") || "") // 搜索关键词
   const [selectedCategories, setSelectedCategories] = useState<string[]>(
     searchParams.get("category")?.split(",").filter(Boolean) || []
   )
-  const [selectedTypes, setSelectedTypes] = useState<string[]>(
-    searchParams.get("fabricType")?.split(",").filter(Boolean) || []
+  const [selectedTypes, setSelectedTypes] = useState<string[]>( // 面料类型状态
+    searchParams.get("type")?.split(",").filter(Boolean) || [] // 从URL参数初始化面料类型
   )
   const [selectedContents, setSelectedContents] = useState<string[]>(
     searchParams.get("content")?.split(",").filter(Boolean) || []
@@ -34,7 +35,20 @@ function ProductsContent() {
 
   // 筛选和排序商品
   const filteredAndSortedProducts = useMemo(() => {
-    let filtered = [...typedProducts]
+    // 首先过滤掉缺货产品
+    let filtered = typedProducts.filter((p) => p.inStock)
+
+    // 关键词搜索
+    if (searchQuery) { // 如果有搜索关键词
+      const query = searchQuery.toLowerCase() // 转换为小写
+      filtered = filtered.filter(
+        (p) =>
+          p.name.toLowerCase().includes(query) || // 匹配名称
+          (p.fullname && p.fullname.toLowerCase().includes(query)) || // 匹配全名
+          p.productNo.toLowerCase().includes(query) || // 匹配编号
+          (p.keywords && p.keywords.some((k) => k.toLowerCase().includes(query))) // 匹配关键词
+      )
+    }
 
     // 按分类筛选
     if (selectedCategories.length > 0) {
@@ -42,14 +56,25 @@ function ProductsContent() {
     }
 
     // 按面料类型筛选
-    if (selectedTypes.length > 0) {
-      filtered = filtered.filter((p) => selectedTypes.includes(p.fabricType))
+    if (selectedTypes.length > 0) { // 如果有选中的类型
+      filtered = filtered.filter((p) => selectedTypes.includes(p.type)) // 按类型过滤
     }
 
     // 按成分筛选
-    if (selectedContents.length > 0) {
-      filtered = filtered.filter((p) =>
-        p.content.some((c) => selectedContents.includes(c.name))
+    if (selectedContents.length > 0) { // 如果有选中的成分
+      filtered = filtered.filter((p) => // 过滤商品列表
+        p.content.some((c) => { // 遍历商品成分
+          // 处理成分别名匹配
+          const contentName = c.name // 获取商品成分名称
+          return selectedContents.some((selected) => { // 遍历选中的成分进行匹配
+            if (selected === "涤纶" && (contentName === "涤" || contentName === "全涤" || contentName === "涤纶")) return true // 匹配涤纶及其别名
+            if (selected === "棉" && (contentName === "棉" || contentName === "全棉")) return true // 匹配棉及其别名
+            if (selected === "锦纶" && (contentName === "锦纶" || contentName === "锦" || contentName === "尼龙")) return true // 匹配锦纶及其别名
+            if (selected === "亚麻" && (contentName === "亚麻" || contentName === "麻")) return true // 匹配亚麻及其别名
+            if (selected === "醋酸" && contentName === "醋酸") return true // 匹配醋酸
+            return selected === contentName // 默认精准匹配
+          })
+        })
       )
     }
 
@@ -65,21 +90,21 @@ function ProductsContent() {
       case "newest":
         filtered.sort(
           (a, b) =>
-            new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+            new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime() // 使用 updatedAt
         )
         break
-      case "price-asc":
-        filtered.sort((a, b) => {
-          const priceA = a.salePrice || a.price
-          const priceB = b.salePrice || b.price
-          return priceA - priceB
+      case "price-asc": // 价格升序
+        filtered.sort((a, b) => { // 排序
+          const priceA = a.salePrice || a.fullPrice // A的价格
+          const priceB = b.salePrice || b.fullPrice // B的价格
+          return priceA - priceB // 返回升序
         })
         break
-      case "price-desc":
-        filtered.sort((a, b) => {
-          const priceA = a.salePrice || a.price
-          const priceB = b.salePrice || b.price
-          return priceB - priceA
+      case "price-desc": // 价格降序
+        filtered.sort((a, b) => { // 排序
+          const priceA = a.salePrice || a.fullPrice // A的价格
+          const priceB = b.salePrice || b.fullPrice // B的价格
+          return priceB - priceA // 返回降序
         })
         break
       case "name":
@@ -90,6 +115,7 @@ function ProductsContent() {
     return filtered
   }, [
     typedProducts,
+    searchQuery,
     selectedCategories,
     selectedTypes,
     selectedContents,

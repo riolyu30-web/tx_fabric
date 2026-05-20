@@ -14,16 +14,17 @@ export default function Home() {
   const typedCategories = categories as Category[]
   const typedProducts = products as Product[]
 
-  // 获取精选商品（featured = true）
-  const featuredProducts = typedProducts.filter(p => p.featured).slice(0, 8)
+  // 获取精选商品（featured = true，并且有货）
+  const featuredProducts = typedProducts.filter(p => p.featured && p.inStock).slice(0, 8)
   
-  // 获取新品（按创建时间排序）
+  // 获取新品（按创建时间排序，并且有货）
   const newProducts = typedProducts
-    .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())
+    .filter(p => p.inStock)
+    .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
     .slice(0, 8)
   
-  // 获取促销商品
-  const saleProducts = typedProducts.filter(p => p.salePrice).slice(0, 8)
+  // 获取促销商品（并且有货）
+  const saleProducts = typedProducts.filter(p => p.salePrice && p.inStock).slice(0, 8)
 
   return (
     <div className="min-h-screen">

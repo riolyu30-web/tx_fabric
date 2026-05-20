@@ -9,24 +9,28 @@ export interface Product {
   id: string // 商品唯一标识
   productNo: string // 产品编号（如：801#）
   name: string // 商品名称（品名名称）
+  fullname: string // 产品全名
   slug: string // URL友好的标识
   description: string // 商品描述
-  whitePrice?: number // 白色价格（元/米）
-  colorPrice?: number // 彩色价格（元/米）
-  samplePrice?: number // 版布价格
-  price: number // 默认价格（向后兼容）
+  whitePrice: number // 白色价格（元/米）
+  colorPrice: number // 彩色价格（元/米）
+  samplePrice: number // 版布价格
+  fullPrice: number // 足米价格
   salePrice?: number // 促销价格
   images: string[] // 图片URL数组
   category: string // 分类ID：tencel/embroidery/cotton
-  fabricType: string // 面料类型
+  type: string // 面料类型
   content: FabricContent[] // 面料成分数组
   tags: string[] // 标签：New/Sale/Deadstock/Exclusive
-  inStock: boolean // 库存状态
+  inStock: boolean // 库存状态  没货前端不展示
   width: number // 面料宽度（厘米）
-  weight?: number // 克重（g/m²）
-  hc?: number // 空差
-  createdAt: string // 创建时间
-  featured?: boolean // 是否为精选商品
+  weight: number // 克重（g/m²）
+  metersPerKg?: number // 每公斤出米数
+  empty: number // 空差
+  keywords: string[] // 关键词
+  colors: number // 颜色数量
+  updatedAt: string // 更新时间
+  featured: boolean // 是否为精选商品
 }
 
 // 分类接口
@@ -89,16 +93,16 @@ export const FabricTypes = {
 
 // 面料成分枚举
 export const FabricContents = {
-  COTTON: 'Cotton', // 棉
-  LINEN: 'Linen', // 亚麻
-  SILK: 'Silk', // 丝绸
-  WOOL: 'Wool', // 羊毛
-  VISCOSE: 'Viscose', // 粘胶
-  TENCEL: 'Tencel', // 天丝
-  MODAL: 'Modal', // 莫代尔
-  HEMP: 'Hemp', // 大麻
-  BAMBOO: 'Bamboo', // 竹纤维
-  POLYESTER: 'Polyester', // 涤纶
+  TENCEL: '天丝', // 天丝
+  POLYESTER: '涤纶', // 涤纶
+  SPANDEX: '氨纶', // 氨纶
+  POLYESTER_FIBER: '聚酯纤维', // 聚酯纤维
+  RAYON: '人棉', // 人棉
+  COTTON: '棉', // 棉
+  LINEN: '亚麻', // 亚麻
+  NYLON: '锦纶', // 锦纶
+  RAMIE: '苎麻', // 苎麻
+  ACETATE: '醋酸', // 醋酸
 } as const
 
 // 商品标签枚举

@@ -3,24 +3,22 @@ import categories from "@/data/categories.json"
 
 // 大型下拉菜单组件
 export default function MegaMenu() {
-  // 面料类型分类
-  const fabricTypes = [
-    { name: "机织布", slug: "woven", description: "经典机织面料" },
-    { name: "针织布", slug: "knit", description: "弹性舒适" },
-    { name: "印花布", slug: "print", description: "精美图案" },
-    { name: "牛仔布", slug: "denim", description: "耐用经典" },
-    { name: "灯芯绒", slug: "corduroy", description: "复古温暖" },
-    { name: "外套面料", slug: "coating", description: "厚实保暖" },
-  ]
+  // 使用 data/categories.json 中的分类
+  const fabricTypes = categories.map(c => ({
+    name: c.name,
+    slug: c.slug,
+    description: c.description
+  }))
 
   // 面料成分分类
   const fabricContents = [
-    { name: "棉", slug: "Cotton" },
-    { name: "亚麻", slug: "Linen" },
-    { name: "丝绸", slug: "Silk" },
-    { name: "羊毛", slug: "Wool" },
-    { name: "天丝", slug: "Tencel" },
-    { name: "Modal", slug: "Modal" },
+    { name: "棉", slug: "棉" },
+    { name: "亚麻", slug: "亚麻" },
+    { name: "天丝", slug: "天丝" },
+    { name: "涤纶", slug: "涤纶" },
+    { name: "人棉", slug: "人棉" },
+    { name: "锦纶", slug: "锦纶" },
+    { name: "醋酸", slug: "醋酸" },
   ]
 
   // 精选分类

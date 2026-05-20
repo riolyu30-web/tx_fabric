@@ -20,7 +20,7 @@ export default function ProductImageGallery({
       {/* 主图 */}
       <div className="relative aspect-square overflow-hidden rounded-lg bg-gray-100">
         <Image
-          src={images[selectedImage]}
+          src={images[selectedImage] || "/placeholder.png"}
           alt={`${productName} - 图片 ${selectedImage + 1}`}
           fill
           className="object-cover"

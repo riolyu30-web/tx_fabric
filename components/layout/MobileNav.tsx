@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { useState, useEffect } from "react"
 import { createPortal } from "react-dom"
 import { useCartStore } from "@/lib/store/cart"
+import categories from "@/data/categories.json"
 
 // 移动端导航抽屉组件
 interface MobileNavProps {
@@ -34,23 +35,21 @@ export default function MobileNav({ open, onClose }: MobileNavProps) {
     { name: "关于我们", href: "/about" },
   ]
 
-  // 面料类型
-  const fabricTypes = [
-    { name: "机织布", href: "/products?category=woven" },
-    { name: "针织布", href: "/products?category=knit" },
-    { name: "印花布", href: "/products?category=print" },
-    { name: "牛仔布", href: "/products?category=denim" },
-    { name: "灯芯绒", href: "/products?category=corduroy" },
-    { name: "外套面料", href: "/products?category=coating" },
-  ]
+  // 使用 data/categories.json 中的分类
+  const fabricTypes = categories.map(c => ({
+    name: c.name,
+    href: `/products?category=${c.slug}`
+  }))
 
   // 面料成分
   const fabricContents = [
-    { name: "棉", href: "/products?content=Cotton" },
-    { name: "亚麻", href: "/products?content=Linen" },
-    { name: "丝绸", href: "/products?content=Silk" },
-    { name: "羊毛", href: "/products?content=Wool" },
-    { name: "天丝", href: "/products?content=Tencel" },
+    { name: "棉", href: "/products?content=棉" },
+    { name: "亚麻", href: "/products?content=亚麻" },
+    { name: "天丝", href: "/products?content=天丝" },
+    { name: "涤纶", href: "/products?content=涤纶" },
+    { name: "人棉", href: "/products?content=人棉" },
+    { name: "锦纶", href: "/products?content=锦纶" },
+    { name: "醋酸", href: "/products?content=醋酸" },
   ]
 
   return createPortal(

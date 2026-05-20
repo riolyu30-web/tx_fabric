@@ -100,32 +100,36 @@ export function calculateProductDisplayPrices(
   product: {
     whitePrice?: number;
     colorPrice?: number;
-    price: number;
-    hc?: number;
+    fullPrice: number;
+    empty?: number;
     samplePrice?: number;
   }
 ): DisplayPrices {
-  const hc = product.hc || 0;
+  const hc = product.empty || 0; // 获取空差值
+  const config = getPricingConfig(); // 获取配置
+  
+  // 足米价本身已经是除以空差后的价格，只需加上利润率
+  const basePrice = Number((product.fullPrice * (1 + config.profitMargin)).toFixed(2)); // 计算基础显示价格
   
   const result: DisplayPrices = {
-    basePrice: calculateDisplayPrice(product.price, hc),
+    basePrice, // 基础价格
   };
   
   // 如果有白色成本价，计算白色显示价格
   if (product.whitePrice) {
-    result.whitePrice = calculateDisplayPrice(product.whitePrice, hc);
+    result.whitePrice = calculateDisplayPrice(product.whitePrice, hc); // 计算白色价格
   }
   
   // 如果有彩色成本价，计算彩色显示价格
   if (product.colorPrice) {
-    result.colorPrice = calculateDisplayPrice(product.colorPrice, hc);
+    result.colorPrice = calculateDisplayPrice(product.colorPrice, hc); // 计算彩色价格
   }
   
   // 如果有版布成本价，计算版布显示价格（成本价+人工费）
   if (product.samplePrice) {
-    result.samplePrice = calculateSampleDisplayPrice(product.samplePrice);
+    result.samplePrice = calculateSampleDisplayPrice(product.samplePrice); // 计算版布价格
   }
   
-  return result;
+  return result; // 返回结果
 }
 

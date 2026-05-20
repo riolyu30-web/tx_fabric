@@ -1,26 +1,42 @@
 [
   {
-    "id": "tencel",
+    "id": "天丝",
     "name": "天丝",
-    "slug": "tencel",
-    "description": "天丝系列面料，柔软舒适，垂感好",
+    "slug": "天丝",
+    "description": "天丝系列面料",
     "image": "/images/categories/cate_1.png",
     "order": 1
   },
   {
-    "id": "embroidery",
-    "name": "绣花底布",
-    "slug": "embroidery",
-    "description": "绣花印花底布系列，适合数码印花和手工刺绣",
-    "image": "/images/categories/cate_2.png",
+    "id": "乐丽丝",
+    "name": "乐丽丝",
+    "slug": "乐丽丝",
+    "description": "乐丽丝系列面料",
+    "image": "/images/categories/cate_1.png",
     "order": 2
   },
   {
-    "id": "cotton",
-    "name": "棉布",
-    "slug": "cotton",
-    "description": "全棉系列面料，透气吸汗，天然舒适",
-    "image": "/images/categories/cate_3.png",
+    "id": "仿牛仔",
+    "name": "仿牛仔",
+    "slug": "仿牛仔",
+    "description": "仿牛仔系列面料",
+    "image": "/images/categories/cate_1.png",
     "order": 3
+  },
+  {
+    "id": "绣花印花底布",
+    "name": "绣花印花底布",
+    "slug": "绣花印花底布",
+    "description": "绣花印花底布系列",
+    "image": "/images/categories/cate_2.png",
+    "order": 4
+  },
+  {
+    "id": "棉布",
+    "name": "棉布",
+    "slug": "棉布",
+    "description": "棉布系列面料",
+    "image": "/images/categories/cate_3.png",
+    "order": 5
   }
 ]

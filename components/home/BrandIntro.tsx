@@ -12,7 +12,7 @@ export default function BrandIntro() {
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <Image
               src="https://images.unsplash.com/photo-1558769132-cb1aea26d29b?w=800&h=600&fit=crop"
-              alt="关于 千千纺织"
+              alt="关于 米亚坊"
               fill
               className="object-cover"
             />

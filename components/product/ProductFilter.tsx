@@ -5,7 +5,7 @@ import { X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import categories from "@/data/categories.json"
-import { FabricTypes, FabricContents, ProductTags } from "@/types"
+import { FabricContents, ProductTags } from "@/types"
 
 // 商品筛选器组件
 interface ProductFilterProps {
@@ -112,22 +112,7 @@ export default function ProductFilter({
         </div>
       </div>
 
-      {/* 面料类型筛选 */}
-      <div className="mb-6 border-t pt-6">
-        <h4 className="font-medium mb-3">按面料类型</h4>
-        <div className="flex flex-wrap gap-2">
-          {Object.values(FabricTypes).map((type) => (
-            <Badge
-              key={type}
-              variant={selectedTypes.includes(type) ? "default" : "outline"}
-              className="cursor-pointer"
-              onClick={() => toggleType(type)}
-            >
-              {type}
-            </Badge>
-          ))}
-        </div>
-      </div>
+
 
       {/* 成分筛选 */}
       <div className="mb-6 border-t pt-6">
