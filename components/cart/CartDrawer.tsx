@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet"
 import { useCartStore } from "@/lib/store/cart"
 import { formatPrice } from "@/lib/utils"
+import { calculateProductDisplayPrices } from "@/lib/config/pricing"
 
 // 购物车侧边栏抽屉组件
 interface CartDrawerProps {
@@ -61,7 +62,8 @@ export default function CartDrawer({ open, onClose }: CartDrawerProps) {
             // 购物车商品列表
             <div className="space-y-4">
               {items.map((item) => {
-                const price = item.product.salePrice || item.product.price
+                const displayPrices = calculateProductDisplayPrices(item.product)
+                const price = item.product.salePrice || displayPrices.whitePrice || displayPrices.basePrice
                 const itemTotal = price * item.quantity
 
                 return (
