@@ -1,0 +1,266 @@
+{
+  "Common": {
+    "title": "TX Fabric - Premium Fabric Store",
+    "description": "Explore high quality fabrics",
+    "nav": {
+      "home": "Home",
+      "newProducts": "New Arrivals",
+      "quotation": "Latest Quotation",
+      "products": "Shop Fabrics",
+      "sourcing": "Fabric Sourcing",
+      "about": "About Us",
+      "contact": "Contact Us",
+      "cart": "Cart"
+    },
+    "header": {
+      "announcement": "Free shipping on orders over $150 | 15% off first order",
+      "openMenu": "Open Menu",
+      "brandName": "Miya Fabric",
+      "search": "Search",
+      "searchPlaceholder": "Search fabrics, colors, types..."
+    },
+    "footer": {
+      "aboutTitle": "About Miya Fabric",
+      "aboutDesc": "We are dedicated to providing high-quality fabrics for sewing enthusiasts and professional designers, sourcing premium materials globally and supporting sustainable development.",
+      "customerService": "Customer Service",
+      "shipping": "Shipping Info",
+      "returns": "Returns Policy",
+      "faq": "FAQ",
+      "contactTitle": "Contact Us",
+      "contactPhone": "Phone: +86 185-2058-3992",
+      "contactEmail": "Email: kefu@miyafab.com",
+      "contactAddress1": "Address: North District, Guangzhou Changjiang (China) Textile City",
+      "contactAddress2": "H024-026, HT101-108",
+      "contactCity": "Guangzhou",
+      "copyright": "© {year} Miya Fabric. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "accessibility": "Accessibility Statement"
+    }
+  },
+  "BrandIntro": {
+    "title": "Our Story",
+    "subtitle": "More than just a fabric factory, we are your strategic partner for Tencel sourcing and procurement.",
+    "description": "Backed by decades of Tencel manufacturing experience, we are the exclusive export subsidiary established by our parent factory. Our mission is clear: <strong>breaking the barriers between factory-bottom prices and seamless international trade</strong>. We combine the cost advantages of a source factory with the agile, multilingual professional service of a top sourcing agent.",
+    "whyChooseUs": "Why Brands Choose Us?",
+    "features": {
+      "feature1Title": "Pragmatic & Flexible:",
+      "feature1Desc": "Breaking rigid industry rules and high MOQs, focusing on what impacts your profit: commercial-grade quality, precise custom colors, and extreme flexibility.",
+      "feature2Title": "Transparent Quality Control:",
+      "feature2Desc": "Bulk sample confirmation before shipping, adhering to our promise: \"What you confirm is what we ship.\"",
+      "feature3Title": "On-Demand Certification:",
+      "feature3Desc": "Need Oeko-Tex or Lenzing tags? We don't impose hidden costs; we only assist you when needed, saving you money while aligning with the market."
+    },
+    "stats": {
+      "stat1": "Premium Fabrics",
+      "stat2": "Partner Suppliers",
+      "stat3": "Happy Customers",
+      "stat4": "Quality Guarantee"
+    },
+    "buttons": {
+      "learnMore": "Learn More",
+      "startShopping": "Start Shopping"
+    },
+    "imageAlt": {
+      "img1": "About Miya Fabric - Strength Showcase",
+      "img2": "About Miya Fabric - Professional Team",
+      "img3": "About Miya Fabric - Premium Service"
+    }
+  },
+  "Layout": {
+    "title": "Miya Fabric - Premium Fabric Store",
+    "description": "Explore high-quality fabrics, cotton, linen, silk, wool, and more materials, providing the best choice for your creation.",
+    "keywords": "fabric, cloth, cotton, linen, silk, wool, sewing, handmade"
+  },
+  "NewProducts": {
+    "title": "New Arrivals",
+    "subtitle": "Explore our latest fabric collections, bringing you more premium choices",
+    "updateTime": "Update time:",
+    "moreImages": "+{count} more images",
+    "viewDetails": "View Details",
+    "getQuote": "Get Quote",
+    "imageAlt": "{title} - Image {index}",
+    "noProducts": "No New Arrivals",
+    "noProductsDesc": "There are currently no new arrivals, please check back later.",
+    "browseAll": "Browse All Products",
+    "helpTitle": "Need More Help?",
+    "helpDesc": "Our professional team is always ready to provide fabric consultation and custom services.",
+    "sourcing": "Fabric Sourcing",
+    "contact": "Contact Us"
+  },
+  "FabricSourcing": {
+    "metaTitle": "Fabric Sourcing Service - Professional Purchasing Agent",
+    "metaDesc": "Providing professional fabric purchasing agent services, local wholesaler resources, years of sourcing experience, and complete fabric availability in Zhongda Market.",
+    "heroTitle": "Professional Fabric Sourcing Service",
+    "heroSubtitle": "Based in Zhongda Textile City, with years of industry experience, we provide you with accurate and efficient fabric sourcing and purchasing agent services.",
+    "consultNow": "Consult Now",
+    "learnProcess": "Learn the Process",
+    "whyChoose": "Why Choose Our Sourcing Service?",
+    "advantage1Title": "Local Resource Advantage",
+    "advantage1Desc": "Located in Asia's largest fabric wholesale market—Guangzhou Zhongda Textile City, we have a unique geographical advantage, directly connecting with tens of thousands of fabric stalls and factories.",
+    "advantage2Title": "Rich Professional Experience",
+    "advantage2Desc": "Our team has years of experience in fabric sourcing and development, familiar with the characteristics, compositions, processes, and market trends of various fabrics, accurately understanding customer needs.",
+    "advantage3Title": "Efficient and Worry-Free",
+    "advantage3Desc": "Save your time and travel costs of running the market yourself. We provide a one-stop closed-loop service from sourcing, sending samples, quoting, to bulk order tracking.",
+    "whatWeFind": "What Can We Help You Find?",
+    "scope1Title": "Conventional and Special Fabrics",
+    "scope1Desc": "Cotton, linen, silk, wool, synthetic fibers, blends, various knitted and woven fabrics, as well as special functional fabrics.",
+    "scope2Title": "Sourcing by Sample",
+    "scope2Desc": "Provide physical samples or clear pictures, and we will find identical or highly similar alternatives in the market.",
+    "scope3Title": "Custom Development",
+    "scope3Desc": "If there is no stock in the market, we can assist in connecting with factories for custom weaving, dyeing, or special finishing processes.",
+    "scope4Title": "Accessories Sourcing",
+    "scope4Desc": "Not limited to fabrics, we also provide sourcing services for various garment accessories such as buttons, zippers, webbing, and lace.",
+    "imageAlt": "Rich and diverse fabric resources",
+    "processTitle": "Standard Service Process",
+    "processSubtitle": "Standardized operations to ensure service quality and communication efficiency",
+    "step1Title": "1. Requirement Communication and Sample Sending",
+    "step1Desc": "Customers provide fabric pictures, specifications, or directly mail the original physical sample to us. We will conduct an initial assessment.",
+    "step2Title": "2. Market Sourcing",
+    "step2Desc": "Our professional team conducts a comprehensive search in the market, compares multiple stalls, and selects the most suitable and cost-effective A, B, and C options for you to choose from.",
+    "step3Title": "3. Sending Samples and Quotations",
+    "step3Desc": "We will courier the found samples (color cards/meter samples) to the customer for confirmation, along with detailed supplier quotations, width, weight, and stock status explanations.",
+    "step4Title": "4. Customer Confirmation and Bulk Purchasing",
+    "step4Desc": "After the customer confirms the sample, if a bulk order is placed, we can provide subsequent services such as purchasing, fabric inspection, and logistics forwarding to ensure the bulk quality matches the sample.",
+    "feeTitle": "Service Fee Description",
+    "fee1Title": "Basic Sourcing Fee",
+    "fee1Desc": "Negotiable based on sourcing difficulty and quantity, usually <strong>50-200 RMB/item</strong> (excluding sample fabric cost and courier fee). If a bulk order (reaching MOQ) is subsequently placed with us, this sourcing fee can be fully deducted from the payment.",
+    "fee2Title": "Purchasing Agent Fee (Commission)",
+    "fee2Desc": "If entrusted to us for bulk purchasing and tracking, a service commission of <strong>3% - 5%</strong> of the total purchase amount is charged (depending on the order amount and category difficulty), which includes inspection, fabric checking, and logistics arrangement.",
+    "feeTipTitle": "Special Commitment:",
+    "feeTipDesc": "We adhere to transparent pricing, providing original stall quotations for all fabric prices. We never earn price differences in the middle, only charging a reasonable purchasing agent fee.",
+    "contactTitle": "Ready to let us find fabrics for you?",
+    "phoneConsult": "Phone Consultation",
+    "workTime": "Working Hours: Mon-Sat 9:00-18:00",
+    "wechatConsult": "Add WeChat Customer Service",
+    "wechatDesc": "Send original sample pictures for initial assessment",
+    "mailAddress": "Original Sample Mailing Address:",
+    "addressDetail": "H024-026, HT101-108, North District, Guangzhou Changjiang (China) Textile City<br/>Attn: Kaka<br/>Phone: +86 185-2058-3992",
+    "mailTip": "(Note: Please be sure to communicate and confirm with us via WeChat or phone before sending, and include your contact information and sourcing requirements in the package)"
+  },
+  "ContactPage": {
+    "title": "Contact Us",
+    "subtitle": "We are here to serve you. Feel free to reach out through the following methods.",
+    "method1": {
+      "title": "Method 1: Direct Contact",
+      "desc": "The fastest way for real-time communication",
+      "phone": {
+        "title": "Phone Inquiry",
+        "number": "+86 185-2058-3992",
+        "time": "Working Hours: 9:00 - 23:00"
+      },
+      "wechat": {
+        "title": "WeChat Inquiry",
+        "id": "ababa288",
+        "note": "Please remark: Sourcing/Inquiry when adding"
+      },
+      "requirements": {
+        "title": "📋 Please tell us:",
+        "item1": "• The fabric model you need to purchase (whether you need a bulk sample)",
+        "item2": "• Approximate quantity needed",
+        "item3": "• Budget range (optional)",
+        "item4": "• Delivery time requirement"
+      }
+    },
+    "method2": {
+      "title": "Method 2: Mail Samples",
+      "desc": "Have samples? Send them to us for precision",
+      "address": {
+        "title": "Mailing Address",
+        "detail1": "H024-026, HT101-108, North District, Guangzhou Changjiang (China) Textile City",
+        "detail2": "Attn: Kaka",
+        "detail3": "Phone: +86 185-2058-3992"
+      },
+      "note": {
+        "title": "📝 Please include a note in the package with:",
+        "item1": "• Your name and contact information",
+        "item2": "• What type of fabric you need (e.g., Tencel, Cotton, etc.)",
+        "item3": "• Approximate width and weight requirements",
+        "item4": "• Quantity needed (bulk or sample)",
+        "item5": "• Other special requirements (e.g., color, hand feel, etc.)"
+      },
+      "tip": {
+        "title": "💡 Friendly Reminder",
+        "desc": "In principle, our company does not accept freight collect packages; all such packages will be rejected. Please arrange for prepaid shipping and provide us with the tracking number. Thank you for your understanding and cooperation."
+      }
+    }
+  },
+  "AboutClient": {
+    "hero": {
+      "title": "Guangdong Miyafang Trade Co., Ltd.",
+      "subtitle": "Premium Fabrics, Born from Passion",
+      "alt": "About Miyafang"
+    },
+    "story": {
+      "intro": "Deeply engaged in the textile industry for <span1>{years}</span1> years,focusing on fashion fabric research and production.",
+      "craftsmanship": {
+        "title": "Artisan Weaving",
+        "desc": "The company consists of three major departments, mainly operating <strong>Tencel</strong>, <strong>Washed Cotton</strong>, and <strong>Embroidery</strong> series fabrics. With mature craftsmanship and strict quality control, we provide stable and high-quality products and services for clothing, home textiles, and other fields. Adhering to the concept of deep cultivation in segments and quality first, we create comfortable, environmentally friendly, and exquisitely crafted specialty fabrics to win the future with our customers!"
+      },
+      "export": {
+        "title": "Exclusive Export",
+        "desc": "Backed by decades of Tencel manufacturing experience, Miya Fabric is the exclusive foreign trade export subsidiary established by our source parent factory located in Guangzhou. We not only possess the absolute cost advantage of a source manufacturing factory but also have the efficient and professional multilingual foreign trade service capabilities of a top purchasing agent."
+      },
+      "mission": {
+        "title": "We are dedicated to simplifying your fabric sourcing: \n<span1>Providing smooth, worry-free international trade services at source factory bottom prices.</span1>",
+        "desc": "Premium fabrics are the foundation of successful design, and we provide reliable supply chain support and sustainable choices. <strong1>Leave the tedious sourcing to us, so you can fully focus on creating your next season's best-selling products.</strong1>"
+      },
+      "auth": {
+        "title": "Official Joint Statement",
+        "cnAlt": "Joint Statement - Chinese Version",
+        "enAlt": "Joint Statement - English Version"
+      }
+    },
+    "gallery": {
+      "title": "Our Stores and Warehouses",
+      "alt": "Miya Fabric - Image {index}"
+    },
+    "video": {
+      "title": "15th Anniversary Real Shots"
+    },
+    "advantages": {
+      "title": "Our Core Advantages",
+      "factory": {
+        "title": "Factory Direct Prices",
+        "desc": "No middlemen. You get goods directly from the source factory."
+      },
+      "fast": {
+        "title": "Fast & Flexible",
+        "desc": "Lower MOQs for your seasonal collections."
+      },
+      "color": {
+        "title": "Custom Dyes",
+        "desc": "Exact color matching."
+      },
+      "sourcing": {
+        "title": "Sourcing Agent",
+        "desc": "We find your buttons, zippers, and trims."
+      },
+      "compliance": {
+        "title": "Compliance Support",
+        "desc": "Need specific certs or tags? We help you apply only when you need it."
+      }
+    },
+    "stats": {
+      "fabrics": "Premium Fabrics",
+      "area": "Warehouse Area",
+      "clients": "Happy Customers",
+      "quality": "Quality Guarantee"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Always at Your Service",
+      "desc": "If you have any questions about fabrics, orders, or services, please feel free to contact us anytime. Our professional team is dedicated to helping you.",
+      "phone": "Phone Number",
+      "wechat": "WeChat Customer Service",
+      "scan": "Scan to Add WeChat",
+      "qrAlt": "WeChat QR Code"
+    },
+    "cta": {
+      "title": "Ready to Start Your Creation?",
+      "desc": "Explore our curated collection of premium fabrics",
+      "button": "Start Shopping"
+    },
+    "error": "Failed to load about us images:"
+  }
+}

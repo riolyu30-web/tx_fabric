@@ -1,0 +1,42 @@
+[
+  {
+    "id": "天丝",
+    "name": "Tencel",
+    "slug": "天丝",
+    "description": "Tencel Series Fabric",
+    "image": "/images/categories/cate_1.png",
+    "order": 1
+  },
+  {
+    "id": "乐丽丝",
+    "name": "Lelise",
+    "slug": "乐丽丝",
+    "description": "Lelise Series Fabric",
+    "image": "/images/categories/cate_1.png",
+    "order": 2
+  },
+  {
+    "id": "仿牛仔",
+    "name": "Faux Denim",
+    "slug": "仿牛仔",
+    "description": "Faux Denim Series Fabric",
+    "image": "/images/categories/cate_1.png",
+    "order": 3
+  },
+  {
+    "id": "绣花印花底布",
+    "name": "Embroidery & Print Base",
+    "slug": "绣花印花底布",
+    "description": "Embroidery & Print Base Series",
+    "image": "/images/categories/cate_2.png",
+    "order": 4
+  },
+  {
+    "id": "棉布",
+    "name": "Cotton",
+    "slug": "棉布",
+    "description": "Cotton Series Fabric",
+    "image": "/images/categories/cate_3.png",
+    "order": 5
+  }
+]

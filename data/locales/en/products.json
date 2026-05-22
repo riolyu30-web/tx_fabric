@@ -1,0 +1,3392 @@
+[
+    {
+        "id": "prod-801",
+        "productNo": "801#",
+        "name": "PolyTencel（Curved Tencel）",
+        "fullname": "PolyTencel55g",
+        "slug": "121a04657bce602b",
+        "description": "",
+        "whitePrice": 4.3,
+        "colorPrice": 4.6,
+        "samplePrice": 7,
+        "fullPrice": 5.05,
+        "images": [
+            "/images/products/801/01.jpg",
+            "/images/products/801/02.jpg",
+            "/images/products/801/03.jpg",
+            "/images/products/801/04.jpg",
+            "/images/products/801/05.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Tencel",
+                "percentage": 90
+            },
+            {
+                "name": "Polyester",
+                "percentage": 10
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 55,
+        "metersPerKg": 12.12,
+        "empty": 91,
+        "keywords": [
+            "PolyTencel55g",
+            "226 colors",
+            "801#",
+            "PolyTencel（Curved Tencel）",
+            "150cm",
+            "55g",
+            "90%Tencel10%Poly"
+        ],
+        "colors": 226,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-802",
+        "productNo": "802#",
+        "name": "TencelFairy Stripe",
+        "fullname": "TencelFairy Stripe65g",
+        "slug": "3c17d907b28e1e55",
+        "description": "",
+        "whitePrice": 4.5,
+        "colorPrice": 4.7,
+        "samplePrice": 6,
+        "fullPrice": 5.16,
+        "images": [
+            "/images/products/802/01.jpg",
+            "/images/products/802/02.jpg",
+            "/images/products/802/03.jpg",
+            "/images/products/802/04.jpg",
+            "/images/products/802/05.jpg",
+            "/images/products/802/06.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Tencel",
+                "percentage": 75
+            },
+            {
+                "name": "Nylon",
+                "percentage": 25
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 65,
+        "metersPerKg": 10.26,
+        "empty": 91,
+        "keywords": [
+            "TencelFairy Stripe65g",
+            "141 colors",
+            "802#",
+            "TencelFairy Stripe",
+            "150cm",
+            "65g",
+            "75%Tencel25%Nylon"
+        ],
+        "colors": 141,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-803",
+        "productNo": "803#",
+        "name": "Tencel彩虹条（Curved 丝Crepe）",
+        "fullname": "Tencel彩虹条58g",
+        "slug": "b34813e3e9cf746c",
+        "description": "",
+        "whitePrice": 7.1,
+        "colorPrice": 7.3,
+        "samplePrice": 10,
+        "fullPrice": 7.85,
+        "images": [
+            "/images/products/803/01.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Tencel",
+                "percentage": 80
+            },
+            {
+                "name": "Polyester Fiber",
+                "percentage": 20
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 58,
+        "metersPerKg": 11.49,
+        "empty": 93,
+        "keywords": [
+            "Tencel彩虹条58g",
+            "0 colors",
+            "803#",
+            "Tencel彩虹条（Curved 丝Crepe）",
+            "150cm",
+            "58g",
+            "80%Tencel20%Polyester Fiber"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-804",
+        "productNo": "804#",
+        "name": "Tencel千鸟格",
+        "fullname": "Tencel千鸟格58g",
+        "slug": "9b39da64d50661a4",
+        "description": "",
+        "whitePrice": 7.8,
+        "colorPrice": 8,
+        "samplePrice": 10,
+        "fullPrice": 8.6,
+        "images": [
+            "/images/products/804/01.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Tencel",
+                "percentage": 80
+            },
+            {
+                "name": "Polyester Fiber",
+                "percentage": 20
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 58,
+        "metersPerKg": 11.49,
+        "empty": 93,
+        "keywords": [
+            "Tencel千鸟格58g",
+            "0 colors",
+            "804#",
+            "Tencel千鸟格",
+            "150cm",
+            "58g",
+            "80%Tencel20%Polyester Fiber"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-805",
+        "productNo": "805#",
+        "name": "加密花丝Crepe",
+        "fullname": "加密花丝Crepe65g",
+        "slug": "eed6d5bbabe4db7f",
+        "description": "",
+        "whitePrice": 3.3,
+        "colorPrice": 3.4,
+        "samplePrice": 5,
+        "fullPrice": 3.66,
+        "images": [
+            "/images/products/805/01.jpg",
+            "/images/products/805/02.jpg",
+            "/images/products/805/03.jpg",
+            "/images/products/805/04.jpg",
+            "/images/products/805/05.jpg",
+            "/images/products/805/06.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 80
+            },
+            {
+                "name": "Cotton",
+                "percentage": 20
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 65,
+        "metersPerKg": 10.26,
+        "empty": 93,
+        "keywords": [
+            "加密花丝Crepe65g",
+            "132 colors",
+            "805#",
+            "加密花丝Crepe",
+            "150cm",
+            "65g",
+            "80%Poly20%Cotton"
+        ],
+        "colors": 132,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-806",
+        "productNo": "806#",
+        "name": "洛施Cotton (彩珠纱）",
+        "fullname": "洛施Cotton60g",
+        "slug": "d768c7c8bfdc14c7",
+        "description": "",
+        "whitePrice": 3.7,
+        "colorPrice": 3.9,
+        "samplePrice": 6,
+        "fullPrice": 4.29,
+        "images": [
+            "/images/products/806/01.jpg",
+            "/images/products/806/02.jpg",
+            "/images/products/806/03.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Rayon",
+                "percentage": 68
+            },
+            {
+                "name": "Nylon",
+                "percentage": 32
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 60,
+        "metersPerKg": 11.11,
+        "empty": 91,
+        "keywords": [
+            "洛施Cotton60g",
+            "77 colors",
+            "806#",
+            "洛施Cotton (彩珠纱）",
+            "150cm",
+            "60g",
+            "68%Rayon32%Nylon"
+        ],
+        "colors": 77,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-807",
+        "productNo": "807#",
+        "name": "喜之麻（单丝横条）",
+        "fullname": "喜之麻80g",
+        "slug": "b00aa66de79ce82c",
+        "description": "",
+        "whitePrice": 5.8,
+        "colorPrice": 6,
+        "samplePrice": 9,
+        "fullPrice": 6.59,
+        "images": [
+            "/images/products/807/00.png",
+            "/images/products/807/01.jpg",
+            "/images/products/807/02.jpg",
+            "/images/products/807/03.jpg",
+            "/images/products/807/output_merged.png"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Rayon",
+                "percentage": 85
+            },
+            {
+                "name": "Nylon",
+                "percentage": 15
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 80,
+        "metersPerKg": 8.33,
+        "empty": 91,
+        "keywords": [
+            "喜之麻80g",
+            "83 colors",
+            "807#",
+            "喜之麻（单丝横条）",
+            "150cm",
+            "80g",
+            "85%Rayon15%Nylon"
+        ],
+        "colors": 83,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-808",
+        "productNo": "808#",
+        "name": "TencelCrepe（仙女Crepe）",
+        "fullname": "TencelCrepe65g",
+        "slug": "79dba6e7a0c5ed52",
+        "description": "",
+        "whitePrice": 4.1,
+        "colorPrice": 4.3,
+        "samplePrice": 6,
+        "fullPrice": 4.73,
+        "images": [
+            "/images/products/808/01.jpg",
+            "/images/products/808/02.jpg",
+            "/images/products/808/03.jpg",
+            "/images/products/808/04.jpg",
+            "/images/products/808/05.jpg",
+            "/images/products/808/06.jpg",
+            "/images/products/808/07.jpg",
+            "/images/products/808/08.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Tencel",
+                "percentage": 65
+            },
+            {
+                "name": "Nylon",
+                "percentage": 35
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 65,
+        "metersPerKg": 10.26,
+        "empty": 91,
+        "keywords": [
+            "TencelCrepe65g",
+            "162 colors",
+            "808#",
+            "TencelCrepe（仙女Crepe）",
+            "150cm",
+            "65g",
+            "65%Tencel35%Nylon"
+        ],
+        "colors": 162,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-809",
+        "productNo": "809#",
+        "name": "闪光Tencel",
+        "fullname": "闪光Tencel60g",
+        "slug": "f8f6b5246e91166b",
+        "description": "",
+        "whitePrice": 5,
+        "colorPrice": 5.2,
+        "samplePrice": 7,
+        "fullPrice": 5.71,
+        "images": [
+            "/images/products/809/01.jpg",
+            "/images/products/809/02.jpg",
+            "/images/products/809/03.jpg",
+            "/images/products/809/04.jpg",
+            "/images/products/809/05.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Tencel",
+                "percentage": 75
+            },
+            {
+                "name": "Nylon",
+                "percentage": 25
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 60,
+        "metersPerKg": 11.11,
+        "empty": 91,
+        "keywords": [
+            "闪光Tencel60g",
+            "58 colors",
+            "809#",
+            "闪光Tencel",
+            "150cm",
+            "60g",
+            "75#Tencel25#Nylon"
+        ],
+        "colors": 58,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-810",
+        "productNo": "810#",
+        "name": "亮丝麻",
+        "fullname": "亮丝麻50g",
+        "slug": "88ee465ac83a2055",
+        "description": "",
+        "whitePrice": 5.2,
+        "colorPrice": 5.4,
+        "samplePrice": 7,
+        "fullPrice": 5.93,
+        "images": [
+            "/images/products/810/01.jpg",
+            "/images/products/810/02.jpg",
+            "/images/products/810/03.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Nylon",
+                "percentage": 23
+            },
+            {
+                "name": "Polyester",
+                "percentage": 77
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 50,
+        "metersPerKg": 13.33,
+        "empty": 91,
+        "keywords": [
+            "亮丝麻50g",
+            "61 colors",
+            "810#",
+            "亮丝麻",
+            "150cm",
+            "50g",
+            "23%锦77%Poly"
+        ],
+        "colors": 61,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-811",
+        "productNo": "811#",
+        "name": "Tencel蚂蚁Crepe           （Tencel树皮Crepe）",
+        "fullname": "Tencel蚂蚁Crepe65g",
+        "slug": "b1cef616ac1b7483",
+        "description": "",
+        "whitePrice": 5.1,
+        "colorPrice": 5.3,
+        "samplePrice": 7,
+        "fullPrice": 5.82,
+        "images": [
+            "/images/products/811/01.jpg",
+            "/images/products/811/02.jpg",
+            "/images/products/811/03.jpg",
+            "/images/products/811/04.jpg",
+            "/images/products/811/05.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Tencel",
+                "percentage": 36
+            },
+            {
+                "name": "Nylon",
+                "percentage": 28
+            },
+            {
+                "name": "Rayon",
+                "percentage": 13
+            },
+            {
+                "name": "Polyester Fiber",
+                "percentage": 23
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 65,
+        "metersPerKg": 10.26,
+        "empty": 91,
+        "keywords": [
+            "Tencel蚂蚁Crepe65g",
+            "71 colors",
+            "811#",
+            "Tencel蚂蚁Crepe           （Tencel树皮Crepe）",
+            "150cm",
+            "65g",
+            "36%Tencel 28%Nylon\n13%Rayon 23%Polyester Fiber"
+        ],
+        "colors": 71,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-812",
+        "productNo": "812#",
+        "name": "Tencel波浪条",
+        "fullname": "Tencel波浪条65g",
+        "slug": "045eff8de9cd5c2d",
+        "description": "",
+        "whitePrice": 6.7,
+        "colorPrice": 6.9,
+        "samplePrice": 8,
+        "fullPrice": 7.42,
+        "images": [
+            "/images/products/812/01.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Tencel",
+                "percentage": 80
+            },
+            {
+                "name": "Nylon",
+                "percentage": 20
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 65,
+        "metersPerKg": 10.26,
+        "empty": 93,
+        "keywords": [
+            "Tencel波浪条65g",
+            "0 colors",
+            "812#",
+            "Tencel波浪条",
+            "150cm",
+            "65g",
+            "80%Tencel20%Nylon"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-813",
+        "productNo": "813#",
+        "name": "Tencel牙签条\n（Tencel小辣椒）",
+        "fullname": "Tencel牙签条85g",
+        "slug": "18d0dc96a6a9639c",
+        "description": "",
+        "whitePrice": 4.3,
+        "colorPrice": 4.5,
+        "samplePrice": 6,
+        "fullPrice": 4.95,
+        "images": [
+            "/images/products/813/01.jpg",
+            "/images/products/813/02.jpg",
+            "/images/products/813/03.jpg",
+            "/images/products/813/04.jpg",
+            "/images/products/813/05.jpg",
+            "/images/products/813/06.jpg",
+            "/images/products/813/07.jpg",
+            "/images/products/813/08.jpg",
+            "/images/products/813/09.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Tencel",
+                "percentage": 85
+            },
+            {
+                "name": "Nylon",
+                "percentage": 15
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 85,
+        "metersPerKg": 7.84,
+        "empty": 91,
+        "keywords": [
+            "Tencel牙签条85g",
+            "143 colors",
+            "813#",
+            "Tencel牙签条\n（Tencel小辣椒）",
+            "150cm",
+            "85g",
+            "85%Tencel15%Nylon"
+        ],
+        "colors": 143,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-814",
+        "productNo": "814#",
+        "name": "Tencel闪光Crepe",
+        "fullname": "Tencel闪光Crepe68g",
+        "slug": "0df80ce2d14575bd",
+        "description": "",
+        "whitePrice": 6.1,
+        "colorPrice": 6.3,
+        "samplePrice": 8,
+        "fullPrice": 6.92,
+        "images": [
+            "/images/products/814/01.jpg",
+            "/images/products/814/02.jpg",
+            "/images/products/814/03.jpg",
+            "/images/products/814/04.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "尼龙",
+                "percentage": 25
+            },
+            {
+                "name": "Tencel",
+                "percentage": 75
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 148,
+        "weight": 68,
+        "metersPerKg": 9.94,
+        "empty": 91,
+        "keywords": [
+            "Tencel闪光Crepe68g",
+            "49 colors",
+            "814#",
+            "Tencel闪光Crepe",
+            "148cm",
+            "68g",
+            "25%尼龙75%Tencel"
+        ],
+        "colors": 49,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-815",
+        "productNo": "815#",
+        "name": "蚕丝字母条（春蚕丝）",
+        "fullname": "蚕丝字母条80g",
+        "slug": "8c62b204d48c5911",
+        "description": "",
+        "whitePrice": 4.1,
+        "colorPrice": 4.3,
+        "samplePrice": 6,
+        "fullPrice": 4.73,
+        "images": [
+            "/images/products/815/01.jpg",
+            "/images/products/815/02.jpg",
+            "/images/products/815/03.jpg",
+            "/images/products/815/04.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Rayon",
+                "percentage": 80
+            },
+            {
+                "name": "Nylon",
+                "percentage": 20
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 80,
+        "metersPerKg": 8.33,
+        "empty": 91,
+        "keywords": [
+            "蚕丝字母条80g",
+            "59 colors",
+            "815#",
+            "蚕丝字母条（春蚕丝）",
+            "150cm",
+            "80g",
+            "80%Rayon 20%Nylon"
+        ],
+        "colors": 59,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-816",
+        "productNo": "816#",
+        "name": "高密Tencel666",
+        "fullname": "666高密Tencel120g",
+        "slug": "bd3e4c4ec4175d8d",
+        "description": "",
+        "whitePrice": 5,
+        "colorPrice": 5.2,
+        "samplePrice": 7,
+        "fullPrice": 5.71,
+        "images": [
+            "/images/products/816/01.jpg",
+            "/images/products/816/02.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Rayon",
+                "percentage": 65
+            },
+            {
+                "name": "Polyester Fiber",
+                "percentage": 35
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 120,
+        "metersPerKg": 5.56,
+        "empty": 91,
+        "keywords": [
+            "666高密Tencel120g",
+            "91 colors",
+            "816#",
+            "高密Tencel666",
+            "150cm",
+            "120g",
+            "65%Rayon35%Polyester Fiber"
+        ],
+        "colors": 91,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-817",
+        "productNo": "817#",
+        "name": "TencelSlub（加密高品质）",
+        "fullname": "TencelSlub85g",
+        "slug": "18f385602de20545",
+        "description": "",
+        "whitePrice": 3.7,
+        "colorPrice": 3.9,
+        "samplePrice": 6,
+        "fullPrice": 4.29,
+        "images": [
+            "/images/products/817/01.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Rayon",
+                "percentage": 65
+            },
+            {
+                "name": "Polyester",
+                "percentage": 35
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 85,
+        "metersPerKg": 7.84,
+        "empty": 91,
+        "keywords": [
+            "TencelSlub85g",
+            "95 colors",
+            "817#",
+            "TencelSlub（加密高品质）",
+            "150cm",
+            "85g",
+            "65%Rayon35%Poly"
+        ],
+        "colors": 95,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-818",
+        "productNo": "818#",
+        "name": "Tencel亚运条",
+        "fullname": "Tencel亚运条80g",
+        "slug": "19324686577ad533",
+        "description": "",
+        "whitePrice": 4.3,
+        "colorPrice": 4.5,
+        "samplePrice": 7,
+        "fullPrice": 4.95,
+        "images": [
+            "/images/products/818/01.jpg",
+            "/images/products/818/02.jpg",
+            "/images/products/818/03.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Tencel",
+                "percentage": 78
+            },
+            {
+                "name": "Nylon",
+                "percentage": 22
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 80,
+        "metersPerKg": 8.33,
+        "empty": 91,
+        "keywords": [
+            "Tencel亚运条80g",
+            "59 colors",
+            "818#",
+            "Tencel亚运条",
+            "150cm",
+            "80g",
+            "78%Tencel22%Nylon"
+        ],
+        "colors": 59,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-819",
+        "productNo": "819#",
+        "name": "朗姆",
+        "fullname": "朗姆58g",
+        "slug": "97f1ca28ae0194aa",
+        "description": "",
+        "whitePrice": 4.1,
+        "colorPrice": 4.3,
+        "samplePrice": 6,
+        "fullPrice": 4.73,
+        "images": [],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 148,
+        "weight": 58,
+        "metersPerKg": 11.65,
+        "empty": 91,
+        "keywords": [
+            "朗姆58g",
+            "0 colors",
+            "819#",
+            "朗姆",
+            "148cm",
+            "58g",
+            "100%全Poly"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-822",
+        "productNo": "822#",
+        "name": "Thick AcetateTencel",
+        "fullname": "Thick AcetateTencel73g",
+        "slug": "3a63d5f40913db3a",
+        "description": "",
+        "whitePrice": 8.5,
+        "colorPrice": 8.7,
+        "samplePrice": 10,
+        "fullPrice": 9.56,
+        "images": [
+            "/images/products/822/01.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Tencel",
+                "percentage": 80
+            },
+            {
+                "name": "Polyester",
+                "percentage": 12
+            },
+            {
+                "name": "Acetate",
+                "percentage": 8
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 73,
+        "metersPerKg": 9.13,
+        "empty": 91,
+        "keywords": [
+            "Thick AcetateTencel73g",
+            "18 colors",
+            "822#",
+            "Thick AcetateTencel",
+            "150cm",
+            "73g",
+            "80%Tencel12%Polyester8%Acetate"
+        ],
+        "colors": 18,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-823",
+        "productNo": "823#",
+        "name": "TencelLinen",
+        "fullname": "TencelLinen85g",
+        "slug": "09fec81b7da2314a",
+        "description": "",
+        "whitePrice": 7.4,
+        "colorPrice": 7.6,
+        "samplePrice": 10,
+        "fullPrice": 8.35,
+        "images": [
+            "/images/products/823/01.jpg",
+            "/images/products/823/02.jpg",
+            "/images/products/823/03.jpg",
+            "/images/products/823/04.jpg",
+            "/images/products/823/05.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Nylon",
+                "percentage": 35
+            },
+            {
+                "name": "Tencel",
+                "percentage": 55
+            },
+            {
+                "name": "麻",
+                "percentage": 10
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 155,
+        "weight": 85,
+        "metersPerKg": 7.59,
+        "empty": 91,
+        "keywords": [
+            "TencelLinen85g",
+            "65 colors",
+            "823#",
+            "TencelLinen",
+            "155cm",
+            "85g",
+            "35%Nylon55%Tencel10%麻"
+        ],
+        "colors": 65,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-825",
+        "productNo": "825#",
+        "name": "Thick Curved Tencel",
+        "fullname": "Thick Curved Tencel80g",
+        "slug": "a0b86d0537635f1b",
+        "description": "",
+        "whitePrice": 7.6,
+        "colorPrice": 7.8,
+        "samplePrice": 10,
+        "fullPrice": 8.57,
+        "images": [
+            "/images/products/825/01.jpg",
+            "/images/products/825/02.jpg",
+            "/images/products/825/03.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Tencel",
+                "percentage": 85
+            },
+            {
+                "name": "Polyester",
+                "percentage": 15
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 80,
+        "metersPerKg": 8.33,
+        "empty": 91,
+        "keywords": [
+            "Thick Curved Tencel80g",
+            "43 colors",
+            "825#",
+            "Thick Curved Tencel",
+            "150cm",
+            "80g",
+            "85%Tencel15%Polyester"
+        ],
+        "colors": 43,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-826",
+        "productNo": "826#",
+        "name": "沙面平纹",
+        "fullname": "沙面平纹140g",
+        "slug": "1a534f8d9673a9f2",
+        "description": "",
+        "whitePrice": 5.3,
+        "colorPrice": 5.5,
+        "samplePrice": 7,
+        "fullPrice": 6.04,
+        "images": [
+            "/images/products/826/01.jpg",
+            "/images/products/826/02.jpg",
+            "/images/products/826/03.jpg",
+            "/images/products/826/04.jpg",
+            "/images/products/826/05.jpg",
+            "/images/products/826/06.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Cotton",
+                "percentage": 65
+            },
+            {
+                "name": "Rayon",
+                "percentage": 25
+            },
+            {
+                "name": "Nylon",
+                "percentage": 10
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 140,
+        "metersPerKg": 4.76,
+        "empty": 91,
+        "keywords": [
+            "沙面平纹140g",
+            "111 colors",
+            "826#",
+            "沙面平纹",
+            "150cm",
+            "140g",
+            "65%全Cotton25%Rayon10%Nylon"
+        ],
+        "colors": 111,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-827",
+        "productNo": "827#",
+        "name": "香格麻",
+        "fullname": "香格麻160g",
+        "slug": "3a0a639466b69752",
+        "description": "",
+        "whitePrice": 5,
+        "colorPrice": 5.2,
+        "samplePrice": 7,
+        "fullPrice": 5.71,
+        "images": [
+            "/images/products/827/01.jpg",
+            "/images/products/827/02.jpg",
+            "/images/products/827/03.jpg",
+            "/images/products/827/04.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Rayon",
+                "percentage": 56
+            },
+            {
+                "name": "Polyester Fiber",
+                "percentage": 44
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 160,
+        "metersPerKg": 4.17,
+        "empty": 91,
+        "keywords": [
+            "香格麻160g",
+            "66 colors",
+            "827#",
+            "香格麻",
+            "150cm",
+            "160g",
+            "56%Rayon 44%Polyester Fiber"
+        ],
+        "colors": 66,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-828",
+        "productNo": "828#",
+        "name": "韩国Cotton",
+        "fullname": "韩国Cotton120g",
+        "slug": "dc70a150e8bb1ffe",
+        "description": "",
+        "whitePrice": 5,
+        "colorPrice": 5.2,
+        "samplePrice": 7,
+        "fullPrice": 5.71,
+        "images": [
+            "/images/products/828/01.jpg",
+            "/images/products/828/02.jpg",
+            "/images/products/828/03.jpg",
+            "/images/products/828/04.jpg",
+            "/images/products/828/05.jpg",
+            "/images/products/828/06.jpg",
+            "/images/products/828/07.jpg",
+            "/images/products/828/08.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Nylon",
+                "percentage": 15
+            },
+            {
+                "name": "Rayon",
+                "percentage": 85
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 120,
+        "metersPerKg": 5.56,
+        "empty": 91,
+        "keywords": [
+            "韩国Cotton120g",
+            "89 colors",
+            "828#",
+            "韩国Cotton",
+            "150cm",
+            "120g",
+            "15%Nylon85%Rayon"
+        ],
+        "colors": 89,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-829",
+        "productNo": "829#",
+        "name": "复古Cotton",
+        "fullname": "复古Cotton145g",
+        "slug": "780690f791a5076d",
+        "description": "",
+        "whitePrice": 6,
+        "colorPrice": 6.2,
+        "samplePrice": 9,
+        "fullPrice": 6.81,
+        "images": [
+            "/images/products/829/01.jpg",
+            "/images/products/829/02.jpg",
+            "/images/products/829/03.jpg",
+            "/images/products/829/04.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Nylon",
+                "percentage": 15
+            },
+            {
+                "name": "Rayon",
+                "percentage": 85
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 145,
+        "metersPerKg": 4.6,
+        "empty": 91,
+        "keywords": [
+            "复古Cotton145g",
+            "76 colors",
+            "829#",
+            "复古Cotton",
+            "150cm",
+            "145g",
+            "15%Nylon85%Rayon"
+        ],
+        "colors": 76,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-830",
+        "productNo": "830#",
+        "name": "平纹麻（Linen平纹）",
+        "fullname": "平纹麻110g",
+        "slug": "b3ca3aa1224ce92d",
+        "description": "",
+        "whitePrice": 6.1,
+        "colorPrice": 6.3,
+        "samplePrice": 8,
+        "fullPrice": 6.92,
+        "images": [
+            "/images/products/830/01.jpg",
+            "/images/products/830/02.jpg",
+            "/images/products/830/03.jpg",
+            "/images/products/830/04.jpg",
+            "/images/products/830/05.jpg",
+            "/images/products/830/06.jpg",
+            "/images/products/830/07.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Rayon",
+                "percentage": 70
+            },
+            {
+                "name": "Nylon",
+                "percentage": 18
+            },
+            {
+                "name": "Linen",
+                "percentage": 12
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 110,
+        "metersPerKg": 6.06,
+        "empty": 91,
+        "keywords": [
+            "平纹麻110g",
+            "72 colors",
+            "830#",
+            "平纹麻（Linen平纹）",
+            "150cm",
+            "110g",
+            "70%Rayon18%Nylon12#Linen"
+        ],
+        "colors": 72,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-831",
+        "productNo": "831#",
+        "name": "乱麻格（单丝乱条）",
+        "fullname": "乱麻格120g",
+        "slug": "aaf2c716f554726b",
+        "description": "",
+        "whitePrice": 4.5,
+        "colorPrice": 4.7,
+        "samplePrice": 7,
+        "fullPrice": 5.16,
+        "images": [
+            "/images/products/831/01.jpg",
+            "/images/products/831/02.jpg",
+            "/images/products/831/03.jpg",
+            "/images/products/831/04.jpg",
+            "/images/products/831/05.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Rayon",
+                "percentage": 80
+            },
+            {
+                "name": "Nylon",
+                "percentage": 20
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 120,
+        "metersPerKg": 5.56,
+        "empty": 91,
+        "keywords": [
+            "乱麻格120g",
+            "189 colors",
+            "831#",
+            "乱麻格（单丝乱条）",
+            "150cm",
+            "120g",
+            "80%Rayon20%Nylon"
+        ],
+        "colors": 189,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-832",
+        "productNo": "832#",
+        "name": "双股树皮Crepe（纤维麻）",
+        "fullname": "双股树皮Crepe130g",
+        "slug": "efb19f165ab5c2e9",
+        "description": "",
+        "whitePrice": 4.5,
+        "colorPrice": 4.7,
+        "samplePrice": 7,
+        "fullPrice": 5.16,
+        "images": [
+            "/images/products/832/01.jpg",
+            "/images/products/832/02.jpg",
+            "/images/products/832/03.jpg",
+            "/images/products/832/04.jpg",
+            "/images/products/832/05.jpg",
+            "/images/products/832/06.jpg",
+            "/images/products/832/07.jpg",
+            "/images/products/832/08.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Nylon",
+                "percentage": 15
+            },
+            {
+                "name": "Rayon",
+                "percentage": 85
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 130,
+        "metersPerKg": 5.13,
+        "empty": 91,
+        "keywords": [
+            "双股树皮Crepe130g",
+            "123 colors",
+            "832#",
+            "双股树皮Crepe（纤维麻）",
+            "150cm",
+            "130g",
+            "15%Nylon85%Rayon"
+        ],
+        "colors": 123,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-A801",
+        "productNo": "A801#",
+        "name": "Curved Tencel",
+        "fullname": "Curved Tencel",
+        "slug": "cad4178c0de7509c",
+        "description": "",
+        "whitePrice": 5.2,
+        "colorPrice": 5.5,
+        "samplePrice": 7,
+        "fullPrice": 6.04,
+        "images": [
+            "/images/products/A801/01.jpg",
+            "/images/products/A801/02.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Tencel",
+                "percentage": 90
+            },
+            {
+                "name": "Polyester",
+                "percentage": 10
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 58,
+        "metersPerKg": 11.49,
+        "empty": 91,
+        "keywords": [
+            "Curved Tencel",
+            "88 colors",
+            "A801#",
+            "Curved Tencel",
+            "150cm",
+            "58g",
+            "90%Tencel10%Poly"
+        ],
+        "colors": 88,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-B801",
+        "productNo": "B801#",
+        "name": "Curved Tencel",
+        "fullname": "Curved Tencel",
+        "slug": "cad4178c0de7509c",
+        "description": "",
+        "whitePrice": 4.5,
+        "colorPrice": 4.6,
+        "samplePrice": 5,
+        "fullPrice": 4.6,
+        "images": [
+            "/images/products/B801/01.jpg",
+            "/images/products/B801/02.jpg",
+            "/images/products/B801/03.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Tencel",
+                "percentage": 90
+            },
+            {
+                "name": "Polyester",
+                "percentage": 10
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 55,
+        "metersPerKg": 12.12,
+        "empty": 100,
+        "keywords": [
+            "Curved Tencel",
+            "88 colors",
+            "B801#",
+            "Curved Tencel",
+            "150cm",
+            "55g",
+            "90%Tencel10%Poly"
+        ],
+        "colors": 88,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-703",
+        "productNo": "703#",
+        "name": "Tencel麻",
+        "fullname": "Tencel麻165-170g",
+        "slug": "39eedf3cfdc7e928",
+        "description": "",
+        "whitePrice": 0,
+        "colorPrice": 5.7,
+        "samplePrice": 8,
+        "fullPrice": 5.76,
+        "images": [
+            "/images/products/703/01.jpg",
+            "/images/products/703/02.jpg",
+            "/images/products/703/03.jpg"
+        ],
+        "category": "Faux Denim",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 50
+            },
+            {
+                "name": "Rayon",
+                "percentage": 50
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 165,
+        "metersPerKg": 4.04,
+        "empty": 99,
+        "keywords": [
+            "Tencel麻165-170g",
+            "0 colors",
+            "703#",
+            "Tencel麻",
+            "150cm",
+            "165-170g",
+            "50%Poly50%Rayon"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-713",
+        "productNo": "713#",
+        "name": "TencelCotton",
+        "fullname": "TencelCotton140-145g",
+        "slug": "1f8f916621cd1975",
+        "description": "",
+        "whitePrice": 0,
+        "colorPrice": 6.3,
+        "samplePrice": 8,
+        "fullPrice": 6.36,
+        "images": [
+            "/images/products/713/01.jpg",
+            "/images/products/713/02.jpg",
+            "/images/products/713/03.jpg"
+        ],
+        "category": "Faux Denim",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 30
+            },
+            {
+                "name": "Rayon",
+                "percentage": 70
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 140,
+        "metersPerKg": 4.76,
+        "empty": 99,
+        "keywords": [
+            "TencelCotton140-145g",
+            "0 colors",
+            "713#",
+            "TencelCotton",
+            "150cm",
+            "140-145g",
+            "30%Poly70%Rayon"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-726",
+        "productNo": "726#",
+        "name": "32支斜纹",
+        "fullname": "32支斜纹145g",
+        "slug": "5c6a5e788c043c5f",
+        "description": "",
+        "whitePrice": 0,
+        "colorPrice": 6.6,
+        "samplePrice": 8,
+        "fullPrice": 6.67,
+        "images": [
+            "/images/products/726/01.jpg",
+            "/images/products/726/02.jpg"
+        ],
+        "category": "Faux Denim",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 60
+            },
+            {
+                "name": "Rayon",
+                "percentage": 40
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 145,
+        "metersPerKg": 4.6,
+        "empty": 99,
+        "keywords": [
+            "32支斜纹145g",
+            "0 colors",
+            "726#",
+            "32支斜纹",
+            "150cm",
+            "145g",
+            "60%Poly40%Rayon"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-746",
+        "productNo": "746#",
+        "name": "3236免洗牛仔",
+        "fullname": "3236免洗牛仔160g",
+        "slug": "3f1e5b0368e189cc",
+        "description": "",
+        "whitePrice": 0,
+        "colorPrice": 8.6,
+        "samplePrice": 10,
+        "fullPrice": 8.69,
+        "images": [
+            "/images/products/746/01.jpg",
+            "/images/products/746/02.jpg",
+            "/images/products/746/03.jpg"
+        ],
+        "category": "Faux Denim",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 30
+            },
+            {
+                "name": "Rayon",
+                "percentage": 70
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 160,
+        "metersPerKg": 4.17,
+        "empty": 99,
+        "keywords": [
+            "3236免洗牛仔160g",
+            "0 colors",
+            "746#",
+            "3236免洗牛仔",
+            "150cm",
+            "160g",
+            "30%Poly70%Rayon"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-501",
+        "productNo": "501#",
+        "name": "Lelise玲珑麻（起CrepeSlub）",
+        "fullname": "Lelise玲珑麻135g",
+        "slug": "7549794362d6a1e4",
+        "description": "",
+        "whitePrice": 3.2,
+        "colorPrice": 3.3,
+        "samplePrice": 5,
+        "fullPrice": 3.63,
+        "images": [
+            "/images/products/501/01.jpg",
+            "/images/products/501/02.jpg",
+            "/images/products/501/03.jpg",
+            "/images/products/501/04.jpg"
+        ],
+        "category": "Lelise",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 135,
+        "metersPerKg": 4.94,
+        "empty": 91,
+        "keywords": [
+            "Lelise玲珑麻135g",
+            "88 colors",
+            "501#",
+            "Lelise玲珑麻（起CrepeSlub）",
+            "150cm",
+            "135g",
+            "100%全Poly"
+        ],
+        "colors": 88,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-502",
+        "productNo": "502#",
+        "name": "Lelise双 colors平纹（平纹麻）",
+        "fullname": "Lelise双 colors平纹135g",
+        "slug": "51d108f6a222321c",
+        "description": "",
+        "whitePrice": 3.4,
+        "colorPrice": 3.6,
+        "samplePrice": 6,
+        "fullPrice": 3.96,
+        "images": [
+            "/images/products/502/01.jpg",
+            "/images/products/502/02.jpg",
+            "/images/products/502/03.jpg",
+            "/images/products/502/04.jpg",
+            "/images/products/502/05.jpg",
+            "/images/products/502/06.jpg"
+        ],
+        "category": "Lelise",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 135,
+        "metersPerKg": 4.94,
+        "empty": 91,
+        "keywords": [
+            "Lelise双 colors平纹135g",
+            "70 colors",
+            "502#",
+            "Lelise双 colors平纹（平纹麻）",
+            "150cm",
+            "135g",
+            "100%全Poly"
+        ],
+        "colors": 70,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-503",
+        "productNo": "503#",
+        "name": "Lelise直条（隐条）",
+        "fullname": "Lelise直条135g",
+        "slug": "8b54c3f9389b8b83",
+        "description": "",
+        "whitePrice": 4.7,
+        "colorPrice": 4.9,
+        "samplePrice": 8,
+        "fullPrice": 5.38,
+        "images": [
+            "/images/products/503/01.jpg",
+            "/images/products/503/02.jpg",
+            "/images/products/503/03.jpg",
+            "/images/products/503/04.jpg",
+            "/images/products/503/05.jpg"
+        ],
+        "category": "Lelise",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 135,
+        "metersPerKg": 4.94,
+        "empty": 91,
+        "keywords": [
+            "Lelise直条135g",
+            "66 colors",
+            "503#",
+            "Lelise直条（隐条）",
+            "150cm",
+            "135g",
+            "100%全Poly"
+        ],
+        "colors": 66,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-504",
+        "productNo": "504#",
+        "name": "Lelise波浪条",
+        "fullname": "Lelise波浪条135g",
+        "slug": "cf0e9fb582080269",
+        "description": "",
+        "whitePrice": 4.7,
+        "colorPrice": 4.9,
+        "samplePrice": 8,
+        "fullPrice": 5.38,
+        "images": [
+            "/images/products/504/01.jpg",
+            "/images/products/504/02.jpg",
+            "/images/products/504/03.jpg",
+            "/images/products/504/04.jpg",
+            "/images/products/504/05.jpg",
+            "/images/products/504/06.jpg"
+        ],
+        "category": "Lelise",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 135,
+        "metersPerKg": 4.94,
+        "empty": 91,
+        "keywords": [
+            "Lelise波浪条135g",
+            "66 colors",
+            "504#",
+            "Lelise波浪条",
+            "150cm",
+            "135g",
+            "100%全Poly"
+        ],
+        "colors": 66,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-505",
+        "productNo": "505#",
+        "name": "Lelise宝格丽（珍珠条）",
+        "fullname": "Lelise宝格丽135g",
+        "slug": "7faed2ba7e6b28bf",
+        "description": "",
+        "whitePrice": 4.8,
+        "colorPrice": 5,
+        "samplePrice": 8,
+        "fullPrice": 5.49,
+        "images": [
+            "/images/products/505/01.jpg",
+            "/images/products/505/02.jpg",
+            "/images/products/505/03.jpg",
+            "/images/products/505/04.jpg",
+            "/images/products/505/05.jpg",
+            "/images/products/505/06.jpg"
+        ],
+        "category": "Lelise",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 135,
+        "metersPerKg": 4.94,
+        "empty": 91,
+        "keywords": [
+            "Lelise宝格丽135g",
+            "66 colors",
+            "505#",
+            "Lelise宝格丽（珍珠条）",
+            "150cm",
+            "135g",
+            "100%全Poly"
+        ],
+        "colors": 66,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-506",
+        "productNo": "506#",
+        "name": "Lelise菱形条",
+        "fullname": "Lelise菱形条135g",
+        "slug": "2b09067fb2d1fd15",
+        "description": "",
+        "whitePrice": 4.5,
+        "colorPrice": 4.7,
+        "samplePrice": 8,
+        "fullPrice": 5.16,
+        "images": [
+            "/images/products/506/01.jpg",
+            "/images/products/506/02.jpg",
+            "/images/products/506/03.jpg",
+            "/images/products/506/04.jpg",
+            "/images/products/506/05.jpg"
+        ],
+        "category": "Lelise",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 135,
+        "metersPerKg": 4.94,
+        "empty": 91,
+        "keywords": [
+            "Lelise菱形条135g",
+            "66 colors",
+            "506#",
+            "Lelise菱形条",
+            "150cm",
+            "135g",
+            "100%全Poly"
+        ],
+        "colors": 66,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-507",
+        "productNo": "507#",
+        "name": "Lelise仿麻",
+        "fullname": "Lelise仿麻135g",
+        "slug": "c815a1f63678b890",
+        "description": "",
+        "whitePrice": 3.8,
+        "colorPrice": 3.9,
+        "samplePrice": 6,
+        "fullPrice": 4.29,
+        "images": [
+            "/images/products/507/01.jpg",
+            "/images/products/507/02.jpg",
+            "/images/products/507/03.jpg",
+            "/images/products/507/04.jpg",
+            "/images/products/507/05.jpg",
+            "/images/products/507/06.jpg",
+            "/images/products/507/07.jpg"
+        ],
+        "category": "Lelise",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 97
+            },
+            {
+                "name": "Spandex",
+                "percentage": 3
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 135,
+        "metersPerKg": 4.94,
+        "empty": 91,
+        "keywords": [
+            "Lelise仿麻135g",
+            "88 colors",
+            "507#",
+            "Lelise仿麻",
+            "150cm",
+            "135g",
+            "97%Polyester3%Spandex"
+        ],
+        "colors": 88,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-508",
+        "productNo": "508#",
+        "name": "Lelise猫眼",
+        "fullname": "Lelise猫眼135g",
+        "slug": "c65de1e7e99eeb4c",
+        "description": "",
+        "whitePrice": 3.2,
+        "colorPrice": 3.4,
+        "samplePrice": 6,
+        "fullPrice": 3.74,
+        "images": [
+            "/images/products/508/01.jpg",
+            "/images/products/508/02.jpg",
+            "/images/products/508/03.jpg",
+            "/images/products/508/04.jpg",
+            "/images/products/508/05.jpg",
+            "/images/products/508/06.jpg"
+        ],
+        "category": "Lelise",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 135,
+        "metersPerKg": 4.94,
+        "empty": 91,
+        "keywords": [
+            "Lelise猫眼135g",
+            "70 colors",
+            "508#",
+            "Lelise猫眼",
+            "150cm",
+            "135g",
+            "100%全Poly"
+        ],
+        "colors": 70,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-101",
+        "productNo": "101#",
+        "name": "天维丝（Tencel字母条）",
+        "fullname": "天维丝（Tencel字母条）",
+        "slug": "79f265b010f1e6fb",
+        "description": "",
+        "whitePrice": 6.4,
+        "colorPrice": 6.6,
+        "samplePrice": 10,
+        "fullPrice": 7.25,
+        "images": [
+            "/images/products/101/01.jpg",
+            "/images/products/101/02.jpg",
+            "/images/products/101/03.jpg"
+        ],
+        "category": "Tencel",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Tencel",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 95,
+        "metersPerKg": 7.02,
+        "empty": 91,
+        "keywords": [
+            "天维丝（Tencel字母条）",
+            "88 colors",
+            "101#",
+            "天维丝（Tencel字母条）",
+            "150cm",
+            "95g",
+            "100%莱塞尔Tencel"
+        ],
+        "colors": 88,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-601",
+        "productNo": "601#",
+        "name": "75D珍珠雪纺",
+        "fullname": "75D珍珠雪纺85g",
+        "slug": "420592a424d0d61a",
+        "description": "",
+        "whitePrice": 3.1,
+        "colorPrice": 3.9,
+        "samplePrice": 5,
+        "fullPrice": 4.29,
+        "images": [
+            "/images/products/601/01.jpg",
+            "/images/products/601/02.jpg"
+        ],
+        "category": "Embroidery Base",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 85,
+        "metersPerKg": 7.84,
+        "empty": 91,
+        "keywords": [
+            "75D珍珠雪纺85g",
+            "0 colors",
+            "601#",
+            "75D珍珠雪纺",
+            "150cm",
+            "85g",
+            "100%全Poly"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-602",
+        "productNo": "602#",
+        "name": "75D雪纺Crepe",
+        "fullname": "75D雪纺Crepe85g",
+        "slug": "36d8ea1be359d624",
+        "description": "",
+        "whitePrice": 3.1,
+        "colorPrice": 3.7,
+        "samplePrice": 5,
+        "fullPrice": 4.07,
+        "images": [
+            "/images/products/602/01.jpg",
+            "/images/products/602/02.jpg",
+            "/images/products/602/03.jpg"
+        ],
+        "category": "Embroidery Base",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 85,
+        "metersPerKg": 7.84,
+        "empty": 91,
+        "keywords": [
+            "75D雪纺Crepe85g",
+            "0 colors",
+            "602#",
+            "75D雪纺Crepe",
+            "150cm",
+            "85g",
+            "100%全Poly"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-603",
+        "productNo": "603#",
+        "name": "30D真丝Crepe",
+        "fullname": "30D真丝Crepe35g",
+        "slug": "bf0bf9b68cabcdd9",
+        "description": "",
+        "whitePrice": 3.65,
+        "colorPrice": 3.85,
+        "samplePrice": 5,
+        "fullPrice": 4.23,
+        "images": [
+            "/images/products/603/01.jpg",
+            "/images/products/603/02.jpg",
+            "/images/products/603/03.jpg",
+            "/images/products/603/04.jpg"
+        ],
+        "category": "Embroidery Base",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 160,
+        "weight": 35,
+        "metersPerKg": 17.86,
+        "empty": 91,
+        "keywords": [
+            "30D真丝Crepe35g",
+            "0 colors",
+            "603#",
+            "30D真丝Crepe",
+            "160cm",
+            "35g",
+            "100%全Poly"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-604",
+        "productNo": "604#",
+        "name": "全Poly闪光Tencel\n（可数码印花）",
+        "fullname": "全Poly闪光Tencel60g",
+        "slug": "8d2ff56bf2bcb564",
+        "description": "",
+        "whitePrice": 6.3,
+        "colorPrice": 0,
+        "samplePrice": 7,
+        "fullPrice": 6.3,
+        "images": [
+            "/images/products/604/01.jpg",
+            "/images/products/604/02.jpg",
+            "/images/products/604/03.jpg"
+        ],
+        "category": "Embroidery Base",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 60,
+        "metersPerKg": 11.11,
+        "empty": 93,
+        "keywords": [
+            "全Poly闪光Tencel60g",
+            "0 colors",
+            "604#",
+            "全Poly闪光Tencel\n（可数码印花）",
+            "150cm",
+            "60g",
+            "100%全Poly"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-605",
+        "productNo": "605#",
+        "name": "麻纱",
+        "fullname": "麻纱65g",
+        "slug": "8002532ccf4c0d7c",
+        "description": "",
+        "whitePrice": 2.9,
+        "colorPrice": 3.8,
+        "samplePrice": 5,
+        "fullPrice": 3.88,
+        "images": [
+            "/images/products/605/01.jpg",
+            "/images/products/605/02.jpg",
+            "/images/products/605/03.jpg"
+        ],
+        "category": "Embroidery Base",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 65,
+        "metersPerKg": 10.26,
+        "empty": 98,
+        "keywords": [
+            "麻纱65g",
+            "0 colors",
+            "605#",
+            "麻纱",
+            "150cm",
+            "65g",
+            "100%全Poly"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-606",
+        "productNo": "606#",
+        "name": "40支Cotton感Slub",
+        "fullname": "40支Cotton感Slub95g",
+        "slug": "addc5f8300dda44c",
+        "description": "",
+        "whitePrice": 4.9,
+        "colorPrice": 0,
+        "samplePrice": 0,
+        "fullPrice": 4.9,
+        "images": [
+            "/images/products/606/01.jpg",
+            "/images/products/606/02.jpg",
+            "/images/products/606/03.jpg"
+        ],
+        "category": "Embroidery Base",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester Fiber",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 95,
+        "metersPerKg": 7.02,
+        "empty": 100,
+        "keywords": [
+            "40支Cotton感Slub95g",
+            "0 colors",
+            "606#",
+            "40支Cotton感Slub",
+            "150cm",
+            "95g",
+            "100%Polyester Fiber"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-607",
+        "productNo": "607#",
+        "name": "双碱雪纺Crepe",
+        "fullname": "双碱雪纺Crepe85g",
+        "slug": "3661f0fe41c029a2",
+        "description": "",
+        "whitePrice": 3.9,
+        "colorPrice": 0,
+        "samplePrice": 5,
+        "fullPrice": 3.9,
+        "images": [
+            "/images/products/607/01.jpg",
+            "/images/products/607/02.jpg",
+            "/images/products/607/03.jpg"
+        ],
+        "category": "Embroidery Base",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 85,
+        "metersPerKg": 7.84,
+        "empty": 100,
+        "keywords": [
+            "双碱雪纺Crepe85g",
+            "0 colors",
+            "607#",
+            "双碱雪纺Crepe",
+            "150cm",
+            "85g",
+            "100%全Poly"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-608",
+        "productNo": "608#",
+        "name": "加密珍珠雪纺（高品质）",
+        "fullname": "加密珍珠雪纺100g",
+        "slug": "a8a18feba5e5e7e7",
+        "description": "",
+        "whitePrice": 3.9,
+        "colorPrice": 4.1,
+        "samplePrice": 6,
+        "fullPrice": 4.51,
+        "images": [
+            "/images/products/608/01.jpg"
+        ],
+        "category": "Embroidery Base",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 100,
+        "metersPerKg": 6.67,
+        "empty": 91,
+        "keywords": [
+            "加密珍珠雪纺100g",
+            "0 colors",
+            "608#",
+            "加密珍珠雪纺（高品质）",
+            "150cm",
+            "100g",
+            "100%全Poly"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-609",
+        "productNo": "609#",
+        "name": "花瑶Crepe",
+        "fullname": "花瑶Crepe85g",
+        "slug": "af9e0e36de3c56c5",
+        "description": "",
+        "whitePrice": 3,
+        "colorPrice": 0,
+        "samplePrice": 5,
+        "fullPrice": 3,
+        "images": [
+            "/images/products/609/01.jpg",
+            "/images/products/609/02.jpg",
+            "/images/products/609/03.jpg"
+        ],
+        "category": "Embroidery Base",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Polyester",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 152,
+        "weight": 85,
+        "metersPerKg": 7.74,
+        "empty": 91,
+        "keywords": [
+            "花瑶Crepe85g",
+            "0 colors",
+            "609#",
+            "花瑶Crepe",
+            "152cm",
+            "85g",
+            "100%全Poly"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-901",
+        "productNo": "901#",
+        "name": "2060Washed Slub",
+        "fullname": "2060Washed Slub100g",
+        "slug": "2f13d99cb5087df9",
+        "description": "",
+        "whitePrice": 4.7,
+        "colorPrice": 5.2,
+        "samplePrice": 8,
+        "fullPrice": 5.71,
+        "images": [
+            "/images/products/901/01.jpg",
+            "/images/products/901/02.jpg",
+            "/images/products/901/03.jpg",
+            "/images/products/901/04.jpg",
+            "/images/products/901/05.jpg",
+            "/images/products/901/06.jpg",
+            "/images/products/901/07.jpg",
+            "/images/products/901/08.jpg",
+            "/images/products/901/09.jpg",
+            "/images/products/901/10.jpg",
+            "/images/products/901/11.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Cotton",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 100,
+        "metersPerKg": 6.67,
+        "empty": 91,
+        "keywords": [
+            "2060Washed Slub100g",
+            "186 colors",
+            "901#",
+            "2060Washed Slub",
+            "150cm",
+            "100g",
+            "100%全Cotton"
+        ],
+        "colors": 186,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-903",
+        "productNo": "903#",
+        "name": "4438#高品质",
+        "fullname": "4438高品质180g",
+        "slug": "9ae07557b91f18d1",
+        "description": "",
+        "whitePrice": 6,
+        "colorPrice": 5.7,
+        "samplePrice": 9,
+        "fullPrice": 5.76,
+        "images": [
+            "/images/products/903/01.jpg",
+            "/images/products/903/02.jpg",
+            "/images/products/903/03.jpg",
+            "/images/products/903/04.jpg",
+            "/images/products/903/05.jpg",
+            "/images/products/903/06.jpg",
+            "/images/products/903/07.jpg",
+            "/images/products/903/08.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Cotton",
+                "percentage": 50
+            },
+            {
+                "name": "Linen",
+                "percentage": 30
+            },
+            {
+                "name": "Polyester",
+                "percentage": 20
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 140,
+        "weight": 180,
+        "metersPerKg": 3.97,
+        "empty": 99,
+        "keywords": [
+            "4438高品质180g",
+            "168 colors",
+            "903#",
+            "4438#高品质",
+            "140cm",
+            "180g",
+            "50%Cotton30%Linen20%Poly"
+        ],
+        "colors": 168,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-904",
+        "productNo": "904#",
+        "name": "Thick Sand Washed Slub（高品质）",
+        "fullname": "Thick Sand Washed Slub145g",
+        "slug": "c3e29ec1d1ab0283",
+        "description": "",
+        "whitePrice": 6.7,
+        "colorPrice": 7.1,
+        "samplePrice": 10,
+        "fullPrice": 7.8,
+        "images": [
+            "/images/products/904/01.jpg",
+            "/images/products/904/02.jpg",
+            "/images/products/904/03.jpg",
+            "/images/products/904/04.jpg",
+            "/images/products/904/05.jpg",
+            "/images/products/904/06.jpg",
+            "/images/products/904/07.jpg",
+            "/images/products/904/08.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Cotton",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 145,
+        "weight": 145,
+        "metersPerKg": 4.76,
+        "empty": 91,
+        "keywords": [
+            "Thick Sand Washed Slub145g",
+            "159 colors",
+            "904#",
+            "Thick Sand Washed Slub（高品质）",
+            "145cm",
+            "145g",
+            "100%全Cotton"
+        ],
+        "colors": 159,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-912",
+        "productNo": "912#",
+        "name": "Thick 双层平布",
+        "fullname": "Thick 双层平布125g",
+        "slug": "0820d9f5bec2fa88",
+        "description": "",
+        "whitePrice": 7.1,
+        "colorPrice": 7.4,
+        "samplePrice": 10,
+        "fullPrice": 8.13,
+        "images": [
+            "/images/products/912/01.jpg",
+            "/images/products/912/02.jpg",
+            "/images/products/912/03.jpg",
+            "/images/products/912/04.jpg",
+            "/images/products/912/05.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Cotton",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 125,
+        "metersPerKg": 5.33,
+        "empty": 91,
+        "keywords": [
+            "Thick 双层平布125g",
+            "86 colors",
+            "912#",
+            "Thick 双层平布",
+            "150cm",
+            "125g",
+            "100%Cotton"
+        ],
+        "colors": 86,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-907",
+        "productNo": "907#",
+        "name": "20支Washed Crepe",
+        "fullname": "20支Washed Crepe130g",
+        "slug": "dd32c9f2a581b541",
+        "description": "",
+        "whitePrice": 5,
+        "colorPrice": 5.4,
+        "samplePrice": 8,
+        "fullPrice": 5.93,
+        "images": [
+            "/images/products/907/01.jpg",
+            "/images/products/907/02.jpg",
+            "/images/products/907/03.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Cotton",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 140,
+        "weight": 130,
+        "metersPerKg": 5.49,
+        "empty": 91,
+        "keywords": [
+            "20支Washed Crepe130g",
+            "301 colors",
+            "907#",
+            "20支Washed Crepe",
+            "140cm",
+            "130g",
+            "100%全Cotton"
+        ],
+        "colors": 301,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-911",
+        "productNo": "911#",
+        "name": "天然麻",
+        "fullname": "天然麻140g",
+        "slug": "1846b43fadb84e99",
+        "description": "",
+        "whitePrice": 6.6,
+        "colorPrice": 6.9,
+        "samplePrice": 10,
+        "fullPrice": 7.58,
+        "images": [
+            "/images/products/911/01.jpg",
+            "/images/products/911/02.jpg",
+            "/images/products/911/03.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Cotton",
+                "percentage": 50
+            },
+            {
+                "name": "Rayon",
+                "percentage": 50
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 145,
+        "metersPerKg": 4.6,
+        "empty": 91,
+        "keywords": [
+            "天然麻140g",
+            "171 colors",
+            "911#",
+            "天然麻",
+            "150cm",
+            "145g",
+            "50%Cotton50%Rayon"
+        ],
+        "colors": 171,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-905",
+        "productNo": "905#",
+        "name": "双层Crepe布",
+        "fullname": "双层Crepe布125g",
+        "slug": "46a7fb8848a5a361",
+        "description": "",
+        "whitePrice": 6.7,
+        "colorPrice": 7.2,
+        "samplePrice": 9,
+        "fullPrice": 7.91,
+        "images": [
+            "/images/products/905/01.jpg",
+            "/images/products/905/02.jpg",
+            "/images/products/905/03.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Cotton",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 135,
+        "weight": 125,
+        "metersPerKg": 5.93,
+        "empty": 91,
+        "keywords": [
+            "双层Crepe布125g",
+            "0 colors",
+            "905#",
+            "双层Crepe布",
+            "135cm",
+            "125g",
+            "100%全Cotton"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-906",
+        "productNo": "906#",
+        "name": "12*12粘麻SlubSand Washed ",
+        "fullname": "12*12粘麻SlubSand Washed 210g",
+        "slug": "084c97dde9cfdefa",
+        "description": "",
+        "whitePrice": 9.3,
+        "colorPrice": 8.8,
+        "samplePrice": 12,
+        "fullPrice": 9.07,
+        "images": [
+            "/images/products/906/01.jpg",
+            "/images/products/906/02.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "粘",
+                "percentage": 70
+            },
+            {
+                "name": "Linen",
+                "percentage": 30
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 140,
+        "weight": 210,
+        "metersPerKg": 3.4,
+        "empty": 97,
+        "keywords": [
+            "12*12粘麻SlubSand Washed 210g",
+            "0 colors",
+            "906#",
+            "12*12粘麻SlubSand Washed ",
+            "140cm",
+            "210g",
+            "70%粘30%Linen"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-908",
+        "productNo": "908#",
+        "name": "9088半工艺",
+        "fullname": "9088半工艺60g",
+        "slug": "edd5f3deccc73eef",
+        "description": "",
+        "whitePrice": 4.2,
+        "colorPrice": 4.6,
+        "samplePrice": 6,
+        "fullPrice": 4.6,
+        "images": [
+            "/images/products/908/01.jpg",
+            "/images/products/908/02.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Cotton",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 60,
+        "metersPerKg": 11.11,
+        "empty": 100,
+        "keywords": [
+            "9088半工艺60g",
+            "0 colors",
+            "908#",
+            "9088半工艺",
+            "150cm",
+            "60g",
+            "100%全Cotton"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-909",
+        "productNo": "909#",
+        "name": "9088全工艺",
+        "fullname": "9088全工艺75g",
+        "slug": "e5667bb21ab10d67",
+        "description": "",
+        "whitePrice": 4.9,
+        "colorPrice": 5.4,
+        "samplePrice": 7,
+        "fullPrice": 5.4,
+        "images": [
+            "/images/products/909/01.jpg",
+            "/images/products/909/02.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Cotton",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 150,
+        "weight": 75,
+        "metersPerKg": 8.89,
+        "empty": 100,
+        "keywords": [
+            "9088全工艺75g",
+            "0 colors",
+            "909#",
+            "9088全工艺",
+            "150cm",
+            "75g",
+            "100%全Cotton"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-910",
+        "productNo": "910#",
+        "name": "40支平纹仿Tencel",
+        "fullname": "40支平纹仿Tencel125g",
+        "slug": "c9bfabb814fa49f9",
+        "description": "",
+        "whitePrice": 7,
+        "colorPrice": 7.5,
+        "samplePrice": 9,
+        "fullPrice": 8.15,
+        "images": [
+            "/images/products/910/01.jpg",
+            "/images/products/910/02.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Cotton",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 156,
+        "weight": 125,
+        "metersPerKg": 5.13,
+        "empty": 92,
+        "keywords": [
+            "40支平纹仿Tencel125g",
+            "0 colors",
+            "910#",
+            "40支平纹仿Tencel",
+            "156cm",
+            "125g",
+            "100%全Cotton"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-913",
+        "productNo": "913#",
+        "name": "24支Sand Washed Slub",
+        "fullname": "24支Sand Washed Slub110g",
+        "slug": "da7824d4422e7db9",
+        "description": "",
+        "whitePrice": 5.8,
+        "colorPrice": 0,
+        "samplePrice": 8,
+        "fullPrice": 5.8,
+        "images": [
+            "/images/products/913/01.jpg",
+            "/images/products/913/02.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Cotton",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 145,
+        "weight": 110,
+        "metersPerKg": 6.27,
+        "empty": 91,
+        "keywords": [
+            "24支Sand Washed Slub110g",
+            "0 colors",
+            "913#",
+            "24支Sand Washed Slub",
+            "145cm",
+            "110g",
+            "100%Cotton"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-914",
+        "productNo": "914#",
+        "name": "高密2060Slub",
+        "fullname": "高密2060Slub120g",
+        "slug": "688940a85e7be8ae",
+        "description": "",
+        "whitePrice": 5.6,
+        "colorPrice": 6.1,
+        "samplePrice": 8,
+        "fullPrice": 6.7,
+        "images": [
+            "/images/products/914/01.jpg",
+            "/images/products/914/02.jpg",
+            "/images/products/914/03.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Cotton",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 145,
+        "weight": 120,
+        "metersPerKg": 5.75,
+        "empty": 91,
+        "keywords": [
+            "高密2060Slub120g",
+            "0 colors",
+            "914#",
+            "高密2060Slub",
+            "145cm",
+            "120g",
+            "100%Cotton"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-915",
+        "productNo": "915#",
+        "name": "高密Washed Crepe",
+        "fullname": "高密Washed Crepe135g",
+        "slug": "5f822b8b7ba13760",
+        "description": "",
+        "whitePrice": 5.3,
+        "colorPrice": 5.8,
+        "samplePrice": 7,
+        "fullPrice": 6.37,
+        "images": [
+            "/images/products/915/01.jpg",
+            "/images/products/915/02.jpg",
+            "/images/products/915/03.jpg",
+            "/images/products/915/04.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Cotton",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 145,
+        "weight": 135,
+        "metersPerKg": 5.11,
+        "empty": 91,
+        "keywords": [
+            "高密Washed Crepe135g",
+            "0 colors",
+            "915#",
+            "高密Washed Crepe",
+            "145cm",
+            "135g",
+            "100%Cotton"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-916",
+        "productNo": "916#",
+        "name": "Washed Crepe（145g）",
+        "fullname": "Washed Crepe145g",
+        "slug": "8d01b8a60fa5e072",
+        "description": "",
+        "whitePrice": 6.8,
+        "colorPrice": 7,
+        "samplePrice": 9,
+        "fullPrice": 7.69,
+        "images": [
+            "/images/products/916/01.jpg",
+            "/images/products/916/02.jpg",
+            "/images/products/916/03.jpg",
+            "/images/products/916/04.jpg",
+            "/images/products/916/05.jpg",
+            "/images/products/916/06.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Cotton",
+                "percentage": 100
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 140,
+        "weight": 145,
+        "metersPerKg": 4.93,
+        "empty": 91,
+        "keywords": [
+            "Washed Crepe145g",
+            "0 colors",
+            "916#",
+            "Washed Crepe（145g）",
+            "140cm",
+            "145g",
+            "100%Cotton"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-917",
+        "productNo": "917#",
+        "name": "12*12Slub长车",
+        "fullname": "12*12Slub长车185g",
+        "slug": "9665be8af0c1e5bc",
+        "description": "",
+        "whitePrice": 8.3,
+        "colorPrice": 8,
+        "samplePrice": 11,
+        "fullPrice": 8.08,
+        "images": [
+            "/images/products/917/01.jpg",
+            "/images/products/917/02.jpg",
+            "/images/products/917/03.jpg",
+            "/images/products/917/04.jpg",
+            "/images/products/917/05.jpg",
+            "/images/products/917/06.jpg",
+            "/images/products/917/08.jpg",
+            "/images/products/917/97.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Rayon",
+                "percentage": 70
+            },
+            {
+                "name": "Linen",
+                "percentage": 30
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 140,
+        "weight": 185,
+        "metersPerKg": 3.86,
+        "empty": 99,
+        "keywords": [
+            "12*12Slub长车185g",
+            "0 colors",
+            "917#",
+            "12*12Slub长车",
+            "140cm",
+            "185g",
+            "70%Rayon30%Linen"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-918",
+        "productNo": "918#",
+        "name": "5147麻Cotton",
+        "fullname": "5147麻Cotton200g",
+        "slug": "7e278e2f38dc259c",
+        "description": "",
+        "whitePrice": 7.9,
+        "colorPrice": 7.5,
+        "samplePrice": 10,
+        "fullPrice": 7.58,
+        "images": [
+            "/images/products/918/01.jpg",
+            "/images/products/918/02.jpg",
+            "/images/products/918/03.jpg",
+            "/images/products/918/04.jpg",
+            "/images/products/918/05.jpg",
+            "/images/products/918/06.jpg",
+            "/images/products/918/07.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Linen",
+                "percentage": 30
+            },
+            {
+                "name": "Rayon",
+                "percentage": 30
+            },
+            {
+                "name": "Polyester",
+                "percentage": 30
+            },
+            {
+                "name": "Cotton",
+                "percentage": 10
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 140,
+        "weight": 200,
+        "metersPerKg": 3.57,
+        "empty": 99,
+        "keywords": [
+            "5147麻Cotton200g",
+            "0 colors",
+            "918#",
+            "5147麻Cotton",
+            "140cm",
+            "200g",
+            "30%Linen 30%Rayon 30%Poly 10%Cotton"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-919",
+        "productNo": "919#",
+        "name": "2119RamieCotton",
+        "fullname": "2119RamieCotton140g",
+        "slug": "f05809c2d870fc3a",
+        "description": "",
+        "whitePrice": 7.5,
+        "colorPrice": 8,
+        "samplePrice": 10,
+        "fullPrice": 8.08,
+        "images": [
+            "/images/products/919/01.jpg",
+            "/images/products/919/02.jpg",
+            "/images/products/919/03.jpg",
+            "/images/products/919/04.jpg",
+            "/images/products/919/05.jpg",
+            "/images/products/919/06.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Ramie",
+                "percentage": 10
+            },
+            {
+                "name": "Cotton",
+                "percentage": 90
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 140,
+        "weight": 140,
+        "metersPerKg": 5.1,
+        "empty": 99,
+        "keywords": [
+            "2119RamieCotton140g",
+            "0 colors",
+            "919#",
+            "2119RamieCotton",
+            "140cm",
+            "140g",
+            "10%Ramie 90%Cotton"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    },
+    {
+        "id": "prod-920",
+        "productNo": "920#",
+        "name": "3068麻Cotton",
+        "fullname": "3068麻Cotton110g",
+        "slug": "e0a1e4d80938bc3b",
+        "description": "",
+        "whitePrice": 8.5,
+        "colorPrice": 8,
+        "samplePrice": 11,
+        "fullPrice": 8.08,
+        "images": [
+            "/images/products/920/01.jpg",
+            "/images/products/920/02.jpg",
+            "/images/products/920/03.jpg",
+            "/images/products/920/04.jpg",
+            "/images/products/920/05.jpg",
+            "/images/products/920/06.jpg"
+        ],
+        "category": "Cotton布",
+        "type": "Fabric",
+        "content": [
+            {
+                "name": "Linen",
+                "percentage": 10
+            },
+            {
+                "name": "Rayon",
+                "percentage": 80
+            },
+            {
+                "name": "Cotton",
+                "percentage": 10
+            }
+        ],
+        "tags": [],
+        "inStock": true,
+        "width": 140,
+        "weight": 110,
+        "metersPerKg": 6.49,
+        "empty": 99,
+        "keywords": [
+            "3068麻Cotton110g",
+            "0 colors",
+            "920#",
+            "3068麻Cotton",
+            "140cm",
+            "110g",
+            "10%Linen 80%Rayon 10%Cotton"
+        ],
+        "colors": 0,
+        "updatedAt": "2026-05-15",
+        "featured": false
+    }
+]

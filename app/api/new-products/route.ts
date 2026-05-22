@@ -3,10 +3,14 @@ import fs from "fs"
 import path from "path"
 
 // 获取新品数据API
-export async function GET() {
+export async function GET(request: Request) {
   try {
-    // 读取新品数据文件
-    const filePath = path.join(process.cwd(), "data", "new-product.json")
+    // 解析查询参数获取语言环境，默认为 zh
+    const { searchParams } = new URL(request.url)
+    const locale = searchParams.get('locale') || 'zh'
+
+    // 读取对应语言的新品数据文件
+    const filePath = path.join(process.cwd(), "data", "locales", locale, "new-product.json")
     
     // 检查文件是否存在
     if (!fs.existsSync(filePath)) {

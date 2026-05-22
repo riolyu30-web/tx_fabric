@@ -6,7 +6,9 @@ import { Button } from "@/components/ui/button"
 import { useState, useEffect } from "react"
 import { createPortal } from "react-dom"
 import { useCartStore } from "@/lib/store/cart"
-import categories from "@/data/categories.json"
+import zhCategories from "@/data/locales/zh/categories.json"
+import enCategories from "@/data/locales/en/categories.json"
+import { useLocale } from "next-intl"
 
 // 移动端导航抽屉组件
 interface MobileNavProps {
@@ -15,6 +17,8 @@ interface MobileNavProps {
 }
 
 export default function MobileNav({ open, onClose }: MobileNavProps) {
+  const locale = useLocale()
+  const categories = locale === 'en' ? enCategories : zhCategories
   const [expandedSection, setExpandedSection] = useState<string | null>(null) // 展开的分类
   const { items } = useCartStore() // 获取购物车商品数量
   const cartItemsCount = items.reduce((sum, item) => sum + item.quantity, 0)

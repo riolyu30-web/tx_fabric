@@ -1,8 +1,12 @@
 import Link from "next/link"
-import categories from "@/data/categories.json"
+import zhCategories from "@/data/locales/zh/categories.json"
+import enCategories from "@/data/locales/en/categories.json"
+import { useLocale } from "next-intl"
 
 // 大型下拉菜单组件
 export default function MegaMenu() {
+  const locale = useLocale()
+  const categories = locale === 'en' ? enCategories : zhCategories
   // 使用 data/categories.json 中的分类
   const fabricTypes = categories.map(c => ({
     name: c.name,

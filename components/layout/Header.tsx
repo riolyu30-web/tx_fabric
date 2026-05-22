@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image" // 引入 Next.js 的图片组件
 import { useState } from "react"
 import { Menu, Search, ShoppingCart, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -8,6 +9,7 @@ import { Input } from "@/components/ui/input"
 import MegaMenu from "./MegaMenu"
 import MobileNav from "./MobileNav"
 import { useCartStore } from "@/lib/store/cart"
+import { useTranslations } from "next-intl"
 
 // 顶部导航栏组件
 export default function Header() {
@@ -17,12 +19,15 @@ export default function Header() {
   
   const { items } = useCartStore() // 获取购物车商品数量
   const cartItemsCount = items.reduce((sum, item) => sum + item.quantity, 0)
+  
+  const tNav = useTranslations('Common.nav');
+  const tHeader = useTranslations('Common.header');
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       {/* 顶部公告栏 */}
       <div className="bg-brand-brown text-white text-center py-2 text-sm">
-        <p>全场包邮订单满 $150 | 新用户首单享 15% 折扣</p>
+        <p>{tHeader('announcement')}</p>
       </div>
 
       {/* 主导航区域 */}
@@ -36,21 +41,24 @@ export default function Header() {
             onClick={() => setMobileMenuOpen(true)}
           >
             <Menu className="h-6 w-6" />
-            <span className="sr-only">打开菜单</span>
+            <span className="sr-only">{tHeader('openMenu')}</span>
           </Button>
 
           {/* 中间：Logo */}
+          {/* 创建一个跳转到首页的链接容器 */}
           <Link href="/" className="flex items-center space-x-2">
-            <h1 className="text-2xl font-bold">米亚坊纺织</h1>
+            {/* 使用 Next.js Image 组件加载公用目录下的 logo 图片 */}
+            <Image src="/images/logo.png" alt={tHeader('brandName')} width={160} height={40} className="h-10 w-auto" priority />
+          {/* 闭合 Link 标签 */}
           </Link>
 
           {/* 桌面端导航菜单 */}
           <nav className="hidden md:flex items-center space-x-6">
             <Link href="/new-products" className="text-sm font-medium hover:text-brand-brown transition-colors">
-              新品上线
+              {tNav('newProducts')}
             </Link>
             <Link href="/quotation" className="text-sm font-medium hover:text-brand-brown transition-colors">
-              最新报价
+              {tNav('quotation')}
             </Link>
             <div
               className="relative"
@@ -58,23 +66,23 @@ export default function Header() {
               onMouseLeave={() => setMegaMenuOpen(false)}
             >
               <Link href="/products" className="text-sm font-medium hover:text-brand-brown transition-colors">
-                选购面料
+                {tNav('products')}
               </Link>
               {megaMenuOpen && <MegaMenu />}
             </div>
             <Link href="/fabric-sourcing" className="text-sm font-medium hover:text-brand-brown transition-colors">
-              代客找版
+              {tNav('sourcing')}
             </Link>
             <Link href="/about" className="text-sm font-medium hover:text-brand-brown transition-colors">
-              关于我们
+              {tNav('about')}
             </Link>
             <Link href="/contact" className="text-sm font-medium hover:text-brand-brown transition-colors">
-              联系我们
+              {tNav('contact')}
             </Link>
             <Link href="/cart" className="text-sm font-medium hover:text-brand-brown transition-colors relative">
               <div className="flex items-center gap-1">
                 <ShoppingCart className="h-4 w-4" />
-                购物车
+                {tNav('cart')}
                 {cartItemsCount > 0 && (
                   <span className="absolute -top-2 -right-2 h-5 w-5 rounded-full bg-brand-brown text-white text-xs flex items-center justify-center">
                     {cartItemsCount}
@@ -93,7 +101,7 @@ export default function Header() {
               onClick={() => setSearchOpen(!searchOpen)}
             >
               {searchOpen ? <X className="h-5 w-5" /> : <Search className="h-5 w-5" />}
-              <span className="sr-only">搜索</span>
+              <span className="sr-only">{tHeader('search')}</span>
             </Button>
           </div>
         </div>
@@ -106,7 +114,7 @@ export default function Header() {
                 <Input
                   type="search"
                   name="q"
-                  placeholder="搜索面料、颜色、类型..."
+                  placeholder={tHeader('searchPlaceholder')}
                   className="w-full pr-10"
                   autoFocus
                 />

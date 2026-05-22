@@ -4,7 +4,9 @@ import { useState } from "react"
 import { X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import categories from "@/data/categories.json"
+import zhCategories from "@/data/locales/zh/categories.json"
+import enCategories from "@/data/locales/en/categories.json"
+import { useLocale } from "next-intl"
 import { FabricContents, ProductTags } from "@/types"
 
 // 商品筛选器组件
@@ -28,6 +30,8 @@ export default function ProductFilter({
   selectedTags,
   onFilterChange,
 }: ProductFilterProps) {
+  const locale = useLocale()
+  const categories = locale === 'en' ? enCategories : zhCategories
   const [isOpen, setIsOpen] = useState(true) // 筛选器展开状态
 
   // 切换分类筛选
