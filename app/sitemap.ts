@@ -6,7 +6,7 @@ import products from '@/data/locales/zh/products.json';
 import { routing } from '@/i18n/routing';
 
 // 定义网站的基础 URL，优先使用环境变量，否则使用默认域名
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.tx-fabric.com';
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.miyafab.com';
 
 // 导出一个默认函数，Next.js 会自动将其识别为 sitemap 生成器
 export default function sitemap(): MetadataRoute.Sitemap {
