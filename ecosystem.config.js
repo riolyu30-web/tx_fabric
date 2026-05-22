@@ -1,7 +1,7 @@
 module.exports = {
   apps: [{
     name: 'tx_fabric',
-    script: 'npm',
+    script: 'node_modules/next/dist/bin/next', // 推荐：直接指向 Next.js 运行文件
     args: 'start',
     cwd: '/var/www/tx_fabric',
     instances: 'max',
