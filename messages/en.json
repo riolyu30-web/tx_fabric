@@ -1,6 +1,6 @@
 {
   "Common": {
-    "title": "TX Fabric - Premium Fabric Store",
+    "title": "Miya Fabric - Premium Fabric Store",
     "description": "Explore high quality fabrics",
     "nav": {
       "home": "Home",
@@ -73,6 +73,8 @@
     "keywords": "fabric, cloth, cotton, linen, silk, wool, sewing, handmade"
   },
   "NewProducts": {
+    "metaTitle": "New Arrivals - Miya Fabric",
+    "metaDesc": "Explore all newly arrived fabric products",
     "title": "New Arrivals",
     "subtitle": "Explore our latest fabric collections, bringing you more premium choices",
     "updateTime": "Update time:",
