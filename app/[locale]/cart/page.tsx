@@ -6,11 +6,13 @@ import { Trash2, ShoppingBag } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { useCartStore } from "@/lib/store/cart"
-import { formatPrice } from "@/lib/utils"
+import { formatPrice, getPrimaryImage } from "@/lib/utils"
 import { calculateProductDisplayPrices } from "@/lib/config/pricing"
+import { useLocale } from "next-intl"
 
 // 购物车页面
 export default function CartPage() {
+  const locale = useLocale()
   const { items, removeItem, updateQuantity, getTotalPrice, clearCart } =
     useCartStore() // 购物车状态和方法
 
@@ -65,7 +67,7 @@ export default function CartPage() {
                       className="relative w-32 h-32 flex-shrink-0 rounded overflow-hidden"
                     >
                       <Image
-                        src={item.product.images[0]}
+                        src={getPrimaryImage(item.product.images)}
                         alt={item.product.name}
                         fill
                         className="object-cover hover:scale-105 transition-transform"
@@ -92,15 +94,15 @@ export default function CartPage() {
                         {item.product.salePrice ? (
                           <>
                             <span className="text-xl font-bold text-red-600">
-                              {formatPrice(item.product.salePrice)}
+                              {formatPrice(item.product.salePrice, locale)}
                             </span>
                             <span className="text-sm text-gray-500 line-through">
-                              {formatPrice(displayPrices.basePrice)}
+                              {formatPrice(displayPrices.basePrice, locale)}
                             </span>
                           </>
                         ) : (
                           <span className="text-xl font-bold">
-                            {formatPrice(price)}
+                            {formatPrice(price, locale)}
                           </span>
                         )}
                         <span className="text-sm text-gray-500">/米</span>
@@ -141,7 +143,7 @@ export default function CartPage() {
                         <div className="text-right">
                           <p className="text-sm text-gray-600 mb-1">小计</p>
                           <p className="text-xl font-bold">
-                            {formatPrice(itemTotal)}
+                            {formatPrice(itemTotal, locale)}
                           </p>
                         </div>
                       </div>
@@ -171,7 +173,7 @@ export default function CartPage() {
               {/* 商品总价 */}
               <div className="flex justify-between text-base">
                 <span className="text-gray-600">商品总价：</span>
-                <span className="font-medium">{formatPrice(totalPrice)}</span>
+                <span className="font-medium">{formatPrice(totalPrice, locale)}</span>
               </div>
 
               {/* 运费 */}
@@ -181,7 +183,7 @@ export default function CartPage() {
                   {shippingCost === 0 ? (
                     <span className="text-green-600">免费</span>
                   ) : (
-                    formatPrice(shippingCost)
+                    formatPrice(shippingCost, locale)
                   )}
                 </span>
               </div>
@@ -190,7 +192,7 @@ export default function CartPage() {
               <div className="border-t pt-4">
                 <div className="flex justify-between text-xl font-bold">
                   <span>总计：</span>
-                  <span>{formatPrice(finalTotal)}</span>
+                  <span>{formatPrice(finalTotal, locale)}</span>
                 </div>
               </div>
 
@@ -202,7 +204,7 @@ export default function CartPage() {
                   </p>
                 ) : (
                   <p className="text-gray-600">
-                    再购买 {formatPrice(150 - totalPrice)} 即可享受免费配送
+                    再购买 {formatPrice(150 - totalPrice, locale)} 即可享受免费配送
                   </p>
                 )}
               </div>

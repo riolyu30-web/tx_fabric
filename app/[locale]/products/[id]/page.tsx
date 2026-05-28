@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge"
 import ProductImageGallery from "@/components/product/ProductImageGallery"
 import ProductGrid from "@/components/product/ProductGrid"
 import { useCartStore } from "@/lib/store/cart"
-import { formatPrice } from "@/lib/utils"
+import { formatPrice, getDetailImages } from "@/lib/utils"
 import { calculateProductDisplayPrices } from "@/lib/config/pricing"
 import zhProducts from "@/data/locales/zh/products.json"
 import enProducts from "@/data/locales/en/products.json"
@@ -108,7 +108,7 @@ export default function ProductDetailPage() {
                     <div className="flex items-baseline gap-3">
                       <span className="text-gray-600 text-sm">白色：</span>
                       <span className="text-3xl font-bold">
-                        ¥{displayPrices.whitePrice.toFixed(2)}
+                        {formatPrice(displayPrices.whitePrice, locale)}
                       </span>
                       <span className="text-lg text-gray-500">/米</span>
                     </div>
@@ -116,7 +116,7 @@ export default function ProductDetailPage() {
                       <div className="flex items-baseline gap-3">
                         <span className="text-gray-600 text-sm">彩色：</span>
                         <span className="text-3xl font-bold">
-                          ¥{displayPrices.colorPrice.toFixed(2)}
+                          {formatPrice(displayPrices.colorPrice, locale)}
                         </span>
                         <span className="text-lg text-gray-500">/米</span>
                       </div>
@@ -125,7 +125,7 @@ export default function ProductDetailPage() {
                       <div className="flex items-baseline gap-3">
                         <span className="text-gray-600 text-sm">版布价：</span>
                         <span className="text-xl font-medium text-brand-brown">
-                          ¥{displayPrices.samplePrice.toFixed(2)}
+                          {formatPrice(displayPrices.samplePrice, locale)}
                         </span>
                       </div>
                     )}
@@ -135,15 +135,15 @@ export default function ProductDetailPage() {
                     {product.salePrice ? (
                       <>
                         <span className="text-4xl font-bold text-red-600">
-                          {formatPrice(product.salePrice)}
+                          {formatPrice(product.salePrice, locale)}
                         </span>
                         <span className="text-2xl text-gray-500 line-through">
-                          {formatPrice(displayPrices.basePrice)}
+                          {formatPrice(displayPrices.basePrice, locale)}
                         </span>
                       </>
                     ) : (
                       <span className="text-4xl font-bold">
-                        {formatPrice(displayPrices.basePrice)}
+                        {formatPrice(displayPrices.basePrice, locale)}
                       </span>
                     )}
                     <span className="text-lg text-gray-500">/米</span>
@@ -152,7 +152,7 @@ export default function ProductDetailPage() {
                 {product.salePrice && !displayPrices.whitePrice && (
                   <p className="text-sm text-red-600">
                     节省{" "}
-                    {formatPrice(displayPrices.basePrice - product.salePrice)}
+                    {formatPrice(displayPrices.basePrice - product.salePrice, locale)}
                   </p>
                 )}
               </div>
@@ -245,7 +245,7 @@ export default function ProductDetailPage() {
               {/* 小计 */}
               <div className="flex items-baseline gap-2 text-xl">
                 <span className="text-gray-600">小计：</span>
-                <span className="font-bold">{formatPrice(totalPrice)}</span>
+                <span className="font-bold">{formatPrice(totalPrice, locale)}</span>
               </div>
             </div>
 
@@ -283,6 +283,26 @@ export default function ProductDetailPage() {
               <p>✓ 100% 品质保证</p>
               <p>✓ 安全支付保护</p>
             </div>
+
+            {/* 详情图片 */}
+            {getDetailImages(product.images).length > 0 && (
+              <div className="pt-8 border-t">
+                <h3 className="text-lg font-bold mb-4">商品详情</h3>
+                <div className="space-y-4">
+                  {getDetailImages(product.images).map((img, idx) => (
+                    <div key={idx} className="relative w-full rounded-lg overflow-hidden border">
+                      {/* 使用 img 标签以支持自适应高度 */}
+                      <img 
+                        src={img} 
+                        alt={`${product.name} 详情图片 ${idx + 1}`} 
+                        className="w-full h-auto object-cover" 
+                        loading="lazy"
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>

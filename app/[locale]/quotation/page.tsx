@@ -12,6 +12,7 @@ import enCategories from "@/data/locales/en/categories.json"
 import { Product, Category } from "@/types"
 import { calculateProductDisplayPrices } from "@/lib/config/pricing"
 import { useLocale } from "next-intl"
+import { formatPrice } from "@/lib/utils"
 
 // 最新报价页面
 export default function QuotationPage() {
@@ -231,7 +232,7 @@ export default function QuotationPage() {
                               <td className="px-4 py-3 text-sm font-medium text-gray-900">
                                 {displayPrices.whitePrice ? (
                                   <span className="text-green-600">
-                                    ¥{displayPrices.whitePrice.toFixed(2)}
+                                    {formatPrice(displayPrices.whitePrice, locale)}
                                   </span>
                                 ) : (
                                   <span className="text-gray-400">-</span>
@@ -242,7 +243,7 @@ export default function QuotationPage() {
                               <td className="px-4 py-3 text-sm font-medium text-gray-900">
                                 {displayPrices.colorPrice ? (
                                   <span className="text-blue-600">
-                                    ¥{displayPrices.colorPrice.toFixed(2)}
+                                    {formatPrice(displayPrices.colorPrice, locale)}
                                   </span>
                                 ) : (
                                   <span className="text-gray-400">-</span>
@@ -253,7 +254,7 @@ export default function QuotationPage() {
                               <td className="px-4 py-3 text-sm font-medium text-gray-900">
                                 {displayPrices.samplePrice ? (
                                   <span className="text-orange-600">
-                                    ¥{displayPrices.samplePrice.toFixed(2)}
+                                    {formatPrice(displayPrices.samplePrice, locale)}
                                   </span>
                                 ) : (
                                   <span className="text-gray-400">-</span>

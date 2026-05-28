@@ -3,7 +3,7 @@
     "id": "banner-1",
     "title": "Autumn & Winter Collection",
     "subtitle": "Warm and comfortable seasonal fabrics",
-    "image": "/images/banners/banner_1.jpg",
+    "image": "/images/banners/banner_1.png",
     "link": "/products?tags=New",
     "buttonText": "Explore More",
     "order": 1
@@ -12,7 +12,7 @@
     "id": "banner-2",
     "title": "High Quality, Best Price",
     "subtitle": "Eco-friendly, healthy, and soft",
-    "image": "/images/banners/banner_2.jpg",
+    "image": "/images/banners/banner_2.png",
     "link": "/products",
     "buttonText": "Shop Now",
     "order": 2
@@ -21,7 +21,7 @@
     "id": "banner-3",
     "title": "Professional Sourcing Team",
     "subtitle": "24h response, no fee if not found",
-    "image": "/images/banners/banner_3.jpg",
+    "image": "/images/banners/banner_3.png",
     "link": "/fabric-sourcing",
     "buttonText": "Service Details",
     "order": 3

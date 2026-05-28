@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Image from "next/image"
+import { getDisplayImages } from "@/lib/utils"
 
 // 商品图片画廊组件
 interface ProductImageGalleryProps {
@@ -14,13 +15,15 @@ export default function ProductImageGallery({
   productName,
 }: ProductImageGalleryProps) {
   const [selectedImage, setSelectedImage] = useState(0) // 当前选中图片索引
+  const displayImages = getDisplayImages(images) // 过滤掉 index 和 part 前缀的图片
+  const currentImage = displayImages[selectedImage] || displayImages[0] || "/placeholder.png"
 
   return (
     <div className="space-y-4">
       {/* 主图 */}
       <div className="relative aspect-square overflow-hidden rounded-lg bg-gray-100">
         <Image
-          src={images[selectedImage] || "/placeholder.png"}
+          src={currentImage}
           alt={`${productName} - 图片 ${selectedImage + 1}`}
           fill
           className="object-cover"
@@ -29,15 +32,15 @@ export default function ProductImageGallery({
       </div>
 
       {/* 缩略图 */}
-      {images.length > 1 && (
+      {displayImages.length > 1 && (
         <div className="grid grid-cols-4 gap-4">
-          {images.map((image, index) => (
+          {displayImages.map((image, index) => (
             <button
               key={index}
               onClick={() => setSelectedImage(index)}
               className={`relative aspect-square overflow-hidden rounded-lg border-2 transition-all ${
                 index === selectedImage
-                  ? "border-brand-brown"
+                  ? "border-primary"
                   : "border-transparent hover:border-gray-300"
               }`}
             >

@@ -3,7 +3,7 @@
     "id": "banner-1",
     "title": "秋冬新品上架",
     "subtitle": "温暖舒适的季节面料",
-    "image": "/images/banners/banner_1.jpg",
+    "image": "/images/banners/banner_1.png",
     "link": "/products?tags=New",
     "buttonText": "探索更多",
     "order": 1
@@ -12,7 +12,7 @@
     "id": "banner-2",
     "title": "质美价优",
     "subtitle": "环保健康，柔软舒适",
-    "image": "/images/banners/banner_2.jpg",
+    "image": "/images/banners/banner_2.png",
     "link": "/products",
     "buttonText": "立即选购",
     "order": 2
@@ -21,7 +21,7 @@
     "id": "banner-3",
     "title": "专业找版团队",
     "subtitle": "24小时内响应，找不到不收费",
-    "image": "/images/banners/banner_3.jpg",
+    "image": "/images/banners/banner_3.png",
     "link": "/fabric-sourcing",
     "buttonText": "服务细节",
     "order": 3

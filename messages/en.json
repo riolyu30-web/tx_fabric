@@ -13,7 +13,7 @@
       "cart": "Cart"
     },
     "header": {
-      "announcement": "Free shipping on orders over $150 | 15% off first order",
+      "announcement": "For inquiries, please contact online customer service: +86 185-2058-3992",
       "openMenu": "Open Menu",
       "brandName": "Miya Fabric",
       "search": "Search",
@@ -137,7 +137,7 @@
     "wechatConsult": "Add WeChat Customer Service",
     "wechatDesc": "Send original sample pictures for initial assessment",
     "mailAddress": "Original Sample Mailing Address:",
-    "addressDetail": "H024-026, HT101-108, North District, Guangzhou Changjiang (China) Textile City<br/>Attn: Kaka<br/>Phone: +86 185-2058-3992",
+    "addressDetail": "H024-026, HT101-108, North District, Guangzhou Changjiang (China) Textile City  Attn: Kaka  Phone: +86 185 2058 3992",
     "mailTip": "(Note: Please be sure to communicate and confirm with us via WeChat or phone before sending, and include your contact information and sourcing requirements in the package)"
   },
   "ContactPage": {
@@ -147,8 +147,8 @@
       "title": "Method 1: Direct Contact",
       "desc": "The fastest way for real-time communication",
       "phone": {
-        "title": "Phone Inquiry",
-        "number": "+86 185-2058-3992",
+        "title": "WhatsApp",
+        "number": "+86 185 2058 3992",
         "time": "Working Hours: 9:00 - 23:00"
       },
       "wechat": {

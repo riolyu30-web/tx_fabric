@@ -3,8 +3,10 @@ import Image from "next/image"
 import { Product } from "@/types"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { formatPrice } from "@/lib/utils"
+import { formatPrice, getDisplayImages, getPrimaryImage } from "@/lib/utils"
 import { calculateProductDisplayPrices } from "@/lib/config/pricing"
+
+import { useLocale } from "next-intl"
 
 // 商品卡片组件
 interface ProductCardProps {
@@ -12,8 +14,11 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
+  const locale = useLocale()
   // 计算显示价格（成本价转换为足米价并加上利润率）
   const displayPrices = calculateProductDisplayPrices(product)
+  const displayImages = getDisplayImages(product.images)
+  
   return (
     <Link href={`/products/${product.slug}`} className="group">
       <Card className="overflow-hidden border-0 shadow-sm hover:shadow-lg transition-all duration-300">
@@ -21,15 +26,15 @@ export default function ProductCard({ product }: ProductCardProps) {
         <div className="relative aspect-square overflow-hidden bg-gray-100">
           {/* 第一张图片 */}
           <Image
-            src={product.images?.[0] || "/placeholder.png"}
+            src={displayImages[0] || getPrimaryImage(product.images)}
             alt={product.name}
             fill
             className="object-cover group-hover:opacity-0 transition-opacity duration-300"
           />
           {/* 第二张图片（hover显示） */}
-          {product.images[1] && (
+          {displayImages[1] && (
             <Image
-              src={product.images[1]}
+              src={displayImages[1]}
               alt={product.name}
               fill
               className="object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -76,26 +81,26 @@ export default function ProductCard({ product }: ProductCardProps) {
             {product.salePrice ? (
               <>
                 <span className="text-lg font-bold text-red-600">
-                  {formatPrice(product.salePrice)}
+                  {formatPrice(product.salePrice, locale)}
                 </span>
                 <span className="text-sm text-gray-500 line-through">
-                  {formatPrice(displayPrices.basePrice)}
+                  {formatPrice(displayPrices.basePrice, locale)}
                 </span>
               </>
             ) : displayPrices.whitePrice ? (
               <>
                 <span className="text-lg font-bold">
-                  ¥{displayPrices.whitePrice.toFixed(2)}
+                  {formatPrice(displayPrices.whitePrice, locale)}
                 </span>
                 {displayPrices.colorPrice && displayPrices.colorPrice !== displayPrices.whitePrice && (
                   <span className="text-sm text-gray-600">
-                    / ¥{displayPrices.colorPrice.toFixed(2)}
+                    / {formatPrice(displayPrices.colorPrice, locale)}
                   </span>
                 )}
               </>
             ) : (
               <span className="text-lg font-bold">
-                {formatPrice(displayPrices.basePrice)}
+                {formatPrice(displayPrices.basePrice, locale)}
               </span>
             )}
             <span className="text-xs text-gray-500">/米</span>

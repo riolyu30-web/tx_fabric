@@ -3,9 +3,10 @@ import Image from "next/image"
 import { Product } from "@/types"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { formatPrice } from "@/lib/utils"
+import { formatPrice, getPrimaryImage } from "@/lib/utils"
 // 导入计算价格工具函数
 import { calculateProductDisplayPrices } from "@/lib/config/pricing"
+import { useLocale } from "next-intl"
 
 // 精选商品区域组件
 interface FeaturedSectionProps {
@@ -19,6 +20,7 @@ export default function FeaturedSection({
   products,
   viewAllLink,
 }: FeaturedSectionProps) {
+  const locale = useLocale()
   return (
     <section className="py-12">
       <div className="container mx-auto px-4">
@@ -50,7 +52,7 @@ export default function FeaturedSection({
                   {/* 商品图片 */}
                   <div className="relative aspect-square overflow-hidden bg-gray-100">
                     <Image
-                      src={product.images[0]}
+                      src={getPrimaryImage(product.images)}
                       alt={product.name}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -87,26 +89,26 @@ export default function FeaturedSection({
                       {product.salePrice ? (
                         <>
                           <span className="text-lg font-bold text-red-600">
-                            {formatPrice(product.salePrice)}
+                            {formatPrice(product.salePrice, locale)}
                           </span>
                           <span className="text-sm text-gray-500 line-through">
-                            {formatPrice(displayPrices.basePrice)}
+                            {formatPrice(displayPrices.basePrice, locale)}
                           </span>
                         </>
                       ) : displayPrices.whitePrice ? (
                         <>
                           <span className="text-lg font-bold">
-                            ¥{displayPrices.whitePrice.toFixed(2)}
+                            {formatPrice(displayPrices.whitePrice, locale)}
                           </span>
                           {displayPrices.colorPrice && displayPrices.colorPrice !== displayPrices.whitePrice && (
                             <span className="text-sm text-gray-600">
-                              / ¥{displayPrices.colorPrice.toFixed(2)}
+                              / {formatPrice(displayPrices.colorPrice, locale)}
                             </span>
                           )}
                         </>
                       ) : (
                         <span className="text-lg font-bold">
-                          {formatPrice(displayPrices.basePrice)}
+                          {formatPrice(displayPrices.basePrice, locale)}
                         </span>
                       )}
                       <span className="text-xs text-gray-500">/米</span>

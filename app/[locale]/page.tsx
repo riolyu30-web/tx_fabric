@@ -41,11 +41,6 @@ export default async function Home() {
 
   return (
     <div className="min-h-screen">
-      {/* 翻译测试展示区域 */}
-      <div className="bg-brand-brown text-white text-center py-2 text-sm font-medium">
-        多语言测试: {t('title')} - {t('description')}
-      </div>
-
       {/* Hero轮播图 */}
       <HeroCarousel banners={typedBanners} />
 

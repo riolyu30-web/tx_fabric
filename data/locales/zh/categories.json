@@ -4,7 +4,7 @@
     "name": "天丝",
     "slug": "天丝",
     "description": "天丝系列面料",
-    "image": "/images/categories/cate_1.png",
+    "image": "/images/categories/cate_2.png",
     "order": 1
   },
   {
@@ -20,7 +20,7 @@
     "name": "仿牛仔",
     "slug": "仿牛仔",
     "description": "仿牛仔系列面料",
-    "image": "/images/categories/cate_1.png",
+    "image": "/images/categories/cate_4.png",
     "order": 3
   },
   {
@@ -28,7 +28,7 @@
     "name": "绣花印花底布",
     "slug": "绣花印花底布",
     "description": "绣花印花底布系列",
-    "image": "/images/categories/cate_2.png",
+    "image": "/images/categories/cate_3.png",
     "order": 4
   },
   {
@@ -36,7 +36,7 @@
     "name": "棉布",
     "slug": "棉布",
     "description": "棉布系列面料",
-    "image": "/images/categories/cate_3.png",
+    "image": "/images/categories/cate_5.png",
     "order": 5
   }
 ]

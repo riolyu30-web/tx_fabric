@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import colors from "tailwindcss/colors";
 
 const config: Config = {
   darkMode: ["class"],
@@ -10,10 +11,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        gray: colors.slate,
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         brand: {
-          brown: "#8B5A3C",
+          brown: "hsl(var(--primary))",
         },
         card: {
           DEFAULT: "hsl(var(--card))",

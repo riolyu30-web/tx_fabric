@@ -6,8 +6,9 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet"
 import { useCartStore } from "@/lib/store/cart"
-import { formatPrice } from "@/lib/utils"
+import { formatPrice, getPrimaryImage } from "@/lib/utils"
 import { calculateProductDisplayPrices } from "@/lib/config/pricing"
+import { useLocale } from "next-intl"
 
 // 购物车侧边栏抽屉组件
 interface CartDrawerProps {
@@ -16,6 +17,7 @@ interface CartDrawerProps {
 }
 
 export default function CartDrawer({ open, onClose }: CartDrawerProps) {
+  const locale = useLocale()
   const { items, removeItem, updateQuantity, getTotalPrice, clearCart } =
     useCartStore() // 购物车状态和方法
 
@@ -78,7 +80,7 @@ export default function CartDrawer({ open, onClose }: CartDrawerProps) {
                       className="relative w-20 h-20 flex-shrink-0 rounded overflow-hidden"
                     >
                       <Image
-                        src={item.product.images[0]}
+                        src={getPrimaryImage(item.product.images)}
                         alt={item.product.name}
                         fill
                         className="object-cover"
@@ -103,7 +105,7 @@ export default function CartDrawer({ open, onClose }: CartDrawerProps) {
                       {/* 价格和数量 */}
                       <div className="flex items-center justify-between">
                         <div className="text-sm font-bold">
-                          {formatPrice(itemTotal)}
+                          {formatPrice(itemTotal, locale)}
                         </div>
                         
                         {/* 数量调整 */}
@@ -160,7 +162,7 @@ export default function CartDrawer({ open, onClose }: CartDrawerProps) {
             {/* 总价 */}
             <div className="flex items-center justify-between text-lg">
               <span className="font-medium">总计：</span>
-              <span className="font-bold text-2xl">{formatPrice(totalPrice)}</span>
+              <span className="font-bold text-2xl">{formatPrice(totalPrice, locale)}</span>
             </div>
 
             {/* 配送提示 */}
@@ -169,7 +171,7 @@ export default function CartDrawer({ open, onClose }: CartDrawerProps) {
                 <p className="text-green-600">✓ 您的订单符合免费配送条件</p>
               ) : (
                 <p>
-                  再购买 {formatPrice(150 - totalPrice)} 即可享受免费配送
+                  再购买 {formatPrice(150 - totalPrice, locale)} 即可享受免费配送
                 </p>
               )}
             </div>

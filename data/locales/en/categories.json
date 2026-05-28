@@ -4,7 +4,7 @@
     "name": "Tencel",
     "slug": "天丝",
     "description": "Tencel Series Fabric",
-    "image": "/images/categories/cate_1.png",
+    "image": "/images/categories/cate_2.png",
     "order": 1
   },
   {
@@ -20,7 +20,7 @@
     "name": "Faux Denim",
     "slug": "仿牛仔",
     "description": "Faux Denim Series Fabric",
-    "image": "/images/categories/cate_1.png",
+    "image": "/images/categories/cate_4.png",
     "order": 3
   },
   {
@@ -28,7 +28,7 @@
     "name": "Embroidery & Print Base",
     "slug": "绣花印花底布",
     "description": "Embroidery & Print Base Series",
-    "image": "/images/categories/cate_2.png",
+    "image": "/images/categories/cate_3.png",
     "order": 4
   },
   {
@@ -36,7 +36,7 @@
     "name": "Cotton",
     "slug": "棉布",
     "description": "Cotton Series Fabric",
-    "image": "/images/categories/cate_3.png",
+    "image": "/images/categories/cate_5.png",
     "order": 5
   }
 ]
