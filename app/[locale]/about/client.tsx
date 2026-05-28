@@ -159,36 +159,7 @@ export default function AboutClient() {
         </section>
       )}
 
-      {/* 工厂实拍栏目区域 */}
-      <section className="py-16">
-        {/* 设置居中容器并添加水平内边距 */}
-        <div className="container mx-auto px-4">
-          {/* 显示工厂实拍标题 */}
-          <h2 className="text-3xl font-bold text-center mb-12">{t("video.title")}</h2>
-          {/* 限制视频最大宽度并水平居中 */}
-          <div className="max-w-4xl mx-auto">
-            {/* 视频外部容器，设置圆角、阴影、背景色及16:9比例 */}
-            <div className="relative rounded-2xl overflow-hidden shadow-lg bg-black aspect-video">
-              {/* 引入视频元素，设置相关播放属性与样式 */}
-              <video 
-                /* 自动播放视频 */
-                autoPlay 
-                /* 循环播放视频 */
-                loop 
-                /* 静音播放视频 */
-                muted 
-                /* 允许内联播放视频 */
-                playsInline
-                /* 设置视频宽度高度为100%并覆盖容器 */
-                className="w-full h-full object-cover"
-              >
-                {/* 指定视频源文件路径与类型 */}
-                <source src="/videos/about01.mp4" type="video/mp4" />
-              </video>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* 我们的核心优势 */}
       <section className="py-16 bg-gray-50">
