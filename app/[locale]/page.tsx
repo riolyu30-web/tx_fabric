@@ -138,9 +138,9 @@ export default async function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">{th('factoryTitle')}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <ImageSequencePlayer images={video1Images} interval={1000} title={th('factoryProduction')} />
-            <ImageSequencePlayer images={video2Images} interval={1000} title={th('factoryInspection')} />
-            <ImageSequencePlayer images={video3Images} interval={1000} title={th('factoryLogistics')} />
+            <ImageSequencePlayer images={video1Images} interval={1000} title={th('factoryProduction')} initialDelay={0} /> {/* 第一个组件，无延迟刷新 */}
+            <ImageSequencePlayer images={video2Images} interval={1000} title={th('factoryInspection')} initialDelay={333} /> {/* 第二个组件，延迟333毫秒后开始刷新，形成错开效果 */}
+            <ImageSequencePlayer images={video3Images} interval={1000} title={th('factoryLogistics')} initialDelay={666} /> {/* 第三个组件，延迟666毫秒后开始刷新，形成错开效果 */}
           </div>
         </div>
       </section>
