@@ -3,8 +3,9 @@ import {getMessages} from 'next-intl/server';
 import {getTranslations} from 'next-intl/server';
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
+
+// 引入布局包装器组件，用于根据路由动态显示头部尾部
+import LayoutWrapper from "@/components/layout/LayoutWrapper";
 
 // 网站元数据
 export async function generateMetadata({
@@ -19,6 +20,14 @@ export async function generateMetadata({
     title: t('title'),
     description: t('description'),
     keywords: t('keywords'),
+    // 站点验证配置
+    verification: {
+      // 配置其他自定义验证
+      other: {
+        // 百度站点验证的meta标签内容
+        'baidu-site-verification': 'codeva-uCNaaRZAUQ',
+      },
+    },
   };
 }
 
@@ -38,11 +47,9 @@ export default async function RootLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
-          <Header />
-          <main className="min-h-screen">
+          <LayoutWrapper>
             {children}
-          </main>
-          <Footer />
+          </LayoutWrapper>
         </NextIntlClientProvider>
       </body>
     </html>

@@ -13,7 +13,7 @@
       "cart": "购物车"
     },
     "header": {
-      "announcement": "如需咨询，请联系在线客服：+86 185-2058-3992",
+      "announcement": "如需咨询，请联系销售专员：+86 185-2058-3992",
       "openMenu": "打开菜单",
       "brandName": "米亚坊纺织",
       "search": "搜索",
@@ -274,5 +274,15 @@
       "button": "开始选购"
     },
     "error": "加载关于我们图片失败:"
+  },
+  "ChatWidget": {
+    "title": "销售专员",
+    "welcome": "您好！欢迎来到我们的面料中心。请问您来自哪个国家/地区？",
+    "askQuantity": "好的，了解！请问您的预计采购数量是多少？（例如：1000米 / 50卷）",
+    "askContact": "收到。最后，请留下您的联系方式（邮箱或 WhatsApp），我们会安排销售专员为您报价。",
+    "thankYou": "非常感谢！我们已收到您的需求，销售专员会尽快与您取得联系。",
+    "defaultReply": "如果您还有其他问题，请随时留言。",
+    "placeholderActive": "请输入您的回复...",
+    "placeholderEnded": "对话已结束"
   }
 }

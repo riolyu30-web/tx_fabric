@@ -274,5 +274,15 @@
       "button": "Start Shopping"
     },
     "error": "Failed to load about us images:"
+  },
+  "ChatWidget": {
+    "title": "Sales Representative",
+    "welcome": "Hello! Welcome to our fabric center. May I ask which country/region you are from?",
+    "askQuantity": "Got it! What is your estimated purchase quantity? (e.g., 1000 meters / 50 rolls)",
+    "askContact": "Received. Finally, please leave your contact information (Email or WhatsApp), and our dedicated sales representative will provide a quotation for you.",
+    "thankYou": "Thank you very much! We have received your request, and our sales representative will contact you as soon as possible.",
+    "defaultReply": "If you have any other questions, please feel free to leave a message.",
+    "placeholderActive": "Type your message...",
+    "placeholderEnded": "Chat has ended"
   }
 }
