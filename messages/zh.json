@@ -90,6 +90,16 @@
     "sourcing": "代客找版",
     "contact": "联系我们"
   },
+  "HomePage": {
+    "factoryTitle": "我的工厂",
+    "factoryProduction": "生产车间",
+    "factoryInspection": "质量检验",
+    "factoryLogistics": "仓储物流",
+    "contactTitle": "联系我们",
+    "workTime": "工作时间: 周一至周六 9:00 - 18:00",
+    "wechatConsult": "微信咨询",
+    "wechatDesc": "扫码添加客服微信，获取快速回复"
+  },
   "FabricSourcing": {
     "metaTitle": "代客找版服务 - 专业面料采购代理",
     "metaDesc": "提供专业的面料采购代理服务，本地批发商资源，多年找布经验，中大市场面料齐全",

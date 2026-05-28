@@ -90,6 +90,16 @@
     "sourcing": "Fabric Sourcing",
     "contact": "Contact Us"
   },
+  "HomePage": {
+    "factoryTitle": "Our Factory",
+    "factoryProduction": "Production Workshop",
+    "factoryInspection": "Quality Inspection",
+    "factoryLogistics": "Warehouse & Logistics",
+    "contactTitle": "Contact Us",
+    "workTime": "Working Hours: Mon-Sat 9:00 - 18:00 (GMT+8)",
+    "wechatConsult": "WeChat Consultation",
+    "wechatDesc": "Scan to add WeChat customer service for a quick reply"
+  },
   "FabricSourcing": {
     "metaTitle": "Fabric Sourcing Service - Professional Purchasing Agent",
     "metaDesc": "Providing professional fabric purchasing agent services, local wholesaler resources, years of sourcing experience, and complete fabric availability in Zhongda Market.",
