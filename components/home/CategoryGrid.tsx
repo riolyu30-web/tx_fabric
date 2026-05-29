@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Category } from "@/types"
+import { useTranslations } from "next-intl"
 
 // 分类网格组件
 interface CategoryGridProps {
@@ -8,6 +9,8 @@ interface CategoryGridProps {
 }
 
 export default function CategoryGrid({ categories }: CategoryGridProps) {
+  const t = useTranslations("HomePage")
+  
   // 分类图标映射（使用渐变背景色）
   const categoryColors: Record<string, string> = {
     woven: "from-blue-400 to-blue-600",
@@ -23,7 +26,7 @@ export default function CategoryGrid({ categories }: CategoryGridProps) {
   return (
     <section className="py-12 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8">按类型选购</h2>
+        <h2 className="text-3xl font-bold mb-8">{t("shopByCategory")}</h2>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {categories.slice(0, 8).map((category) => (

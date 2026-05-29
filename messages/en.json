@@ -38,6 +38,21 @@
       "accessibility": "Accessibility Statement"
     }
   },
+  "HomePage": {
+    "factoryTitle": "My Factory",
+    "factoryProduction": "Production",
+    "factoryInspection": "Inspection",
+    "factoryLogistics": "Logistics",
+    "contactTitle": "Quick Contact",
+    "workTime": "Working Hours: 9:00 - 23:00",
+    "wechatConsult": "WeChat Consultation",
+    "wechatDesc": "Sourcing / Inquiry",
+    "featuredProducts": "Featured Products",
+    "newProducts": "New Arrivals",
+    "saleProducts": "Limited Time Offers",
+    "viewAll": "View All →",
+    "shopByCategory": "Shop by Category"
+  },
   "BrandIntro": {
     "title": "Our Story",
     "subtitle": "More than just a fabric factory, we are your strategic partner for Tencel sourcing and procurement.",
@@ -89,16 +104,6 @@
     "helpDesc": "Our professional team is always ready to provide fabric consultation and custom services.",
     "sourcing": "Fabric Sourcing",
     "contact": "Contact Us"
-  },
-  "HomePage": {
-    "factoryTitle": "Our Factory",
-    "factoryProduction": "Production Workshop",
-    "factoryInspection": "Quality Inspection",
-    "factoryLogistics": "Warehouse & Logistics",
-    "contactTitle": "Contact Us",
-    "workTime": "Working Hours: Mon-Sat 9:00 - 18:00 (GMT+8)",
-    "wechatConsult": "WeChat Consultation",
-    "wechatDesc": "Scan to add WeChat customer service for a quick reply"
   },
   "FabricSourcing": {
     "metaTitle": "Fabric Sourcing Service - Professional Purchasing Agent",
@@ -284,5 +289,95 @@
     "defaultReply": "If you have any other questions, please feel free to leave a message.",
     "placeholderActive": "Type your message...",
     "placeholderEnded": "Chat has ended"
+  },
+  "CartPage": {
+    "empty": {
+      "title": "Shopping Cart is Empty",
+      "desc": "No items added yet, check out our selected fabrics!",
+      "button": "Start Shopping"
+    },
+    "title": "Shopping Cart",
+    "clear": "Clear Cart",
+    "item": {
+      "width": "Width",
+      "quantity": "Quantity:",
+      "meter": "m",
+      "subtotal": "Subtotal"
+    },
+    "summary": {
+      "title": "Order Summary",
+      "itemsTotal": "Items Total:",
+      "shipping": "Shipping:",
+      "free": "Free",
+      "total": "Total:",
+      "freeShippingTip": "✓ Your order qualifies for free shipping",
+      "buyMore": "Buy ",
+      "enjoyFreeShipping": " more to enjoy free shipping",
+      "country": "Country/Region",
+      "countryPlaceholder": "Please enter your country or region",
+      "countryRequired": "Country/Region is required",
+      "contact": "Contact Information",
+      "contactPlaceholder": "Please enter your email or phone number",
+      "contactRequired": "Contact information is required",
+      "processing": "Processing...",
+      "checkout": "Checkout",
+      "continue": "Continue Shopping"
+    },
+    "guarantees": {
+      "secure": "✓ 100% Secure Payment",
+      "return": "✓ 30 Days Return",
+      "quality": "✓ Quality Guarantee"
+    },
+    "successModal": {
+      "title": "Order Received",
+      "p1": "Dear customer, thank you for your trust and support.",
+      "p2": "We have successfully received your order request. Our sales representative will contact you shortly to provide one-on-one professional follow-up service.",
+      "button": "I Understand"
+    }
+  },
+  "QuotationPage": {
+    "title": "Latest Quotations",
+    "subtitle": "Real-time updated product price information",
+    "searchPlaceholder": "Search number, name or composition...",
+    "all": "All",
+    "table": {
+      "title": "Product Quotation List",
+      "number": "Number",
+      "name": "Product Name",
+      "width": "Width",
+      "weight": "Weight",
+      "metersPerKg": "Meters per kg",
+      "composition": "Composition",
+      "whitePrice": "White Price",
+      "colorPrice": "Color Price",
+      "samplePrice": "Sample Price",
+      "empty": "No matching products found",
+      "categoryTotal": "(Total {count} products)"
+    },
+    "total": "Total {count} products"
+  },
+  "ProductsPage": {
+    "title": "All Products",
+    "foundCount": "{count} products found",
+    "sort": {
+      "newest": "Newest",
+      "priceAsc": "Price: Low to High",
+      "priceDesc": "Price: High to Low",
+      "name": "Sort by Name"
+    },
+    "filter": "Filter",
+    "close": "Close",
+    "loading": "Loading...",
+    "noProducts": "No matching products found",
+    "noProductsDesc": "Try adjusting filters or searching for other keywords",
+    "clearFilter": "Clear Filters"
+  },
+  "ProductFilter": {
+    "clearAll": "Clear All",
+    "fabricType": "Fabric Type",
+    "category": "Category",
+    "composition": "Composition",
+    "tag": "Tags",
+    "selected": "Selected"
   }
 }

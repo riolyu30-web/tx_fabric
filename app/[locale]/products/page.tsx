@@ -9,11 +9,12 @@ import { SlidersHorizontal } from "lucide-react"
 import zhProducts from "@/data/locales/zh/products.json"
 import enProducts from "@/data/locales/en/products.json"
 import { Product, SortOption } from "@/types"
-import { useLocale } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 
 // 商品列表内容组件
 function ProductsContent() {
   const locale = useLocale()
+  const t = useTranslations("ProductsPage")
   const products = locale === 'en' ? enProducts : zhProducts
   const searchParams = useSearchParams()
   const [showMobileFilter, setShowMobileFilter] = useState(false) // 移动端筛选器显示状态
@@ -29,13 +30,21 @@ function ProductsContent() {
   const [selectedContents, setSelectedContents] = useState<string[]>(
     searchParams.get("content")?.split(",").filter(Boolean) || []
   )
-  const [selectedTags, setSelectedTags] = useState<string[]>(
-    searchParams.get("tags")?.split(",").filter(Boolean) || []
-  )
   const [sortBy, setSortBy] = useState<SortOption>("newest") // 排序方式
 
   // 类型断言
   const typedProducts = products as Product[]
+
+  // 提取所有唯一成分用于筛选
+  const availableContents = useMemo(() => {
+    const contents = new Set<string>()
+    typedProducts.forEach(p => {
+      p.content?.forEach(c => {
+        if (c.name) contents.add(c.name)
+      })
+    })
+    return Array.from(contents).sort()
+  }, [typedProducts])
 
   // 筛选和排序商品
   const filteredAndSortedProducts = useMemo(() => {
@@ -67,25 +76,7 @@ function ProductsContent() {
     // 按成分筛选
     if (selectedContents.length > 0) { // 如果有选中的成分
       filtered = filtered.filter((p) => // 过滤商品列表
-        p.content.some((c) => { // 遍历商品成分
-          // 处理成分别名匹配
-          const contentName = c.name // 获取商品成分名称
-          return selectedContents.some((selected) => { // 遍历选中的成分进行匹配
-            if (selected === "涤纶" && (contentName === "涤" || contentName === "全涤" || contentName === "涤纶")) return true // 匹配涤纶及其别名
-            if (selected === "棉" && (contentName === "棉" || contentName === "全棉")) return true // 匹配棉及其别名
-            if (selected === "锦纶" && (contentName === "锦纶" || contentName === "锦" || contentName === "尼龙")) return true // 匹配锦纶及其别名
-            if (selected === "亚麻" && (contentName === "亚麻" || contentName === "麻")) return true // 匹配亚麻及其别名
-            if (selected === "醋酸" && contentName === "醋酸") return true // 匹配醋酸
-            return selected === contentName // 默认精准匹配
-          })
-        })
-      )
-    }
-
-    // 按标签筛选
-    if (selectedTags.length > 0) {
-      filtered = filtered.filter((p) =>
-        p.tags.some((t) => selectedTags.includes(t))
+        p.content?.some((c) => selectedContents.includes(c.name)) // 直接精准匹配名称
       )
     }
 
@@ -123,7 +114,6 @@ function ProductsContent() {
     selectedCategories,
     selectedTypes,
     selectedContents,
-    selectedTags,
     sortBy,
   ])
 
@@ -132,13 +122,34 @@ function ProductsContent() {
     categories?: string[]
     types?: string[]
     contents?: string[]
-    tags?: string[]
   }) => {
     if (filters.categories !== undefined)
       setSelectedCategories(filters.categories)
     if (filters.types !== undefined) setSelectedTypes(filters.types)
     if (filters.contents !== undefined) setSelectedContents(filters.contents)
-    if (filters.tags !== undefined) setSelectedTags(filters.tags)
+
+    // 更新URL参数以支持分享和刷新
+    const params = new URLSearchParams(searchParams.toString())
+    
+    if (filters.categories?.length) {
+      params.set("category", filters.categories.join(","))
+    } else if (filters.categories !== undefined) {
+      params.delete("category")
+    }
+
+    if (filters.types?.length) {
+      params.set("type", filters.types.join(","))
+    } else if (filters.types !== undefined) {
+      params.delete("type")
+    }
+
+    if (filters.contents?.length) {
+      params.set("content", filters.contents.join(","))
+    } else if (filters.contents !== undefined) {
+      params.delete("content")
+    }
+
+    window.history.pushState(null, '', `?${params.toString()}`)
   }
 
   return (
@@ -146,9 +157,9 @@ function ProductsContent() {
       {/* 页面标题和排序 */}
       <div className="flex items-center justify-between mb-8">
         <div>
-          <h1 className="text-3xl font-bold mb-2">全部商品</h1>
+          <h1 className="text-3xl font-bold mb-2">{t("title")}</h1>
           <p className="text-gray-600">
-            找到 {filteredAndSortedProducts.length} 件商品
+            {t("foundCount", { count: filteredAndSortedProducts.length })}
           </p>
         </div>
 
@@ -159,10 +170,10 @@ function ProductsContent() {
             onChange={(e) => setSortBy(e.target.value as SortOption)}
             className="border rounded-md px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-brand-brown"
           >
-            <option value="newest">最新上架</option>
-            <option value="price-asc">价格从低到高</option>
-            <option value="price-desc">价格从高到低</option>
-            <option value="name">按名称排序</option>
+            <option value="newest">{t("sort.newest")}</option>
+            <option value="price-asc">{t("sort.priceAsc")}</option>
+            <option value="price-desc">{t("sort.priceDesc")}</option>
+            <option value="name">{t("sort.name")}</option>
           </select>
 
           {/* 移动端筛选按钮 */}
@@ -172,7 +183,7 @@ function ProductsContent() {
             onClick={() => setShowMobileFilter(true)}
           >
             <SlidersHorizontal className="h-4 w-4 mr-2" />
-            筛选
+            {t("filter")}
           </Button>
         </div>
       </div>
@@ -185,7 +196,7 @@ function ProductsContent() {
             selectedCategories={selectedCategories}
             selectedTypes={selectedTypes}
             selectedContents={selectedContents}
-            selectedTags={selectedTags}
+            availableContents={availableContents}
             onFilterChange={handleFilterChange}
           />
         </div>
@@ -206,20 +217,20 @@ function ProductsContent() {
           <div className="fixed inset-y-0 left-0 w-80 bg-white z-50 overflow-y-auto lg:hidden">
             <div className="p-4">
               <div className="flex items-center justify-between mb-6">
-                <h3 className="text-lg font-semibold">筛选</h3>
+                <h3 className="text-lg font-semibold">{t("filter")}</h3>
                 <Button
                   variant="ghost"
                   size="sm"
                   onClick={() => setShowMobileFilter(false)}
                 >
-                  关闭
+                  {t("close")}
                 </Button>
               </div>
               <ProductFilter
                 selectedCategories={selectedCategories}
                 selectedTypes={selectedTypes}
                 selectedContents={selectedContents}
-                selectedTags={selectedTags}
+                availableContents={availableContents}
                 onFilterChange={handleFilterChange}
               />
             </div>
@@ -232,8 +243,9 @@ function ProductsContent() {
 
 // 商品列表页面
 export default function ProductsPage() {
+  const t = useTranslations("ProductsPage")
   return (
-    <Suspense fallback={<div className="container mx-auto px-4 py-8 text-center">加载中...</div>}>
+    <Suspense fallback={<div className="container mx-auto px-4 py-8 text-center">{t("loading")}</div>}>
       <ProductsContent />
     </Suspense>
   )

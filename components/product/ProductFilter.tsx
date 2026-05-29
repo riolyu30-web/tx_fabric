@@ -6,20 +6,19 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import zhCategories from "@/data/locales/zh/categories.json"
 import enCategories from "@/data/locales/en/categories.json"
-import { useLocale } from "next-intl"
-import { FabricContents, ProductTags } from "@/types"
+import { useLocale, useTranslations } from "next-intl"
+import { FabricContents } from "@/types"
 
 // 商品筛选器组件
 interface ProductFilterProps {
   selectedCategories: string[] // 已选分类
   selectedTypes: string[] // 已选面料类型
   selectedContents: string[] // 已选成分
-  selectedTags: string[] // 已选标签
+  availableContents: string[] // 可选成分
   onFilterChange: (filters: {
     categories?: string[]
     types?: string[]
     contents?: string[]
-    tags?: string[]
   }) => void // 筛选变更回调
 }
 
@@ -27,10 +26,11 @@ export default function ProductFilter({
   selectedCategories,
   selectedTypes,
   selectedContents,
-  selectedTags,
+  availableContents,
   onFilterChange,
 }: ProductFilterProps) {
   const locale = useLocale()
+  const t = useTranslations("ProductFilter")
   const categories = locale === 'en' ? enCategories : zhCategories
   const [isOpen, setIsOpen] = useState(true) // 筛选器展开状态
 
@@ -58,21 +58,12 @@ export default function ProductFilter({
     onFilterChange({ contents: newContents })
   }
 
-  // 切换标签筛选
-  const toggleTag = (tag: string) => {
-    const newTags = selectedTags.includes(tag)
-      ? selectedTags.filter((t) => t !== tag)
-      : [...selectedTags, tag]
-    onFilterChange({ tags: newTags })
-  }
-
   // 清除所有筛选
   const clearAll = () => {
     onFilterChange({
       categories: [],
       types: [],
       contents: [],
-      tags: [],
     })
   }
 
@@ -80,24 +71,23 @@ export default function ProductFilter({
   const totalSelected =
     selectedCategories.length +
     selectedTypes.length +
-    selectedContents.length +
-    selectedTags.length
+    selectedContents.length
 
   return (
     <div className="bg-white rounded-lg border p-6 sticky top-20">
       {/* 筛选器头部 */}
       <div className="flex items-center justify-between mb-6">
-        <h3 className="text-lg font-semibold">筛选</h3>
+        <h3 className="text-lg font-semibold">{t("selected")}</h3>
         {totalSelected > 0 && (
           <Button variant="ghost" size="sm" onClick={clearAll}>
-            清除全部
+            {t("clearAll")}
           </Button>
         )}
       </div>
 
       {/* 分类筛选 */}
       <div className="mb-6">
-        <h4 className="font-medium mb-3">按分类</h4>
+        <h4 className="font-medium mb-3">{t("category")}</h4>
         <div className="space-y-2">
           {categories.map((category) => (
             <label
@@ -120,9 +110,9 @@ export default function ProductFilter({
 
       {/* 成分筛选 */}
       <div className="mb-6 border-t pt-6">
-        <h4 className="font-medium mb-3">按成分</h4>
+        <h4 className="font-medium mb-3">{t("composition")}</h4>
         <div className="flex flex-wrap gap-2">
-          {Object.values(FabricContents).map((content) => (
+          {availableContents.map((content) => (
             <Badge
               key={content}
               variant={selectedContents.includes(content) ? "default" : "outline"}
@@ -131,27 +121,6 @@ export default function ProductFilter({
             >
               {content}
             </Badge>
-          ))}
-        </div>
-      </div>
-
-      {/* 标签筛选 */}
-      <div className="border-t pt-6">
-        <h4 className="font-medium mb-3">特殊标签</h4>
-        <div className="space-y-2">
-          {Object.values(ProductTags).map((tag) => (
-            <label
-              key={tag}
-              className="flex items-center space-x-2 cursor-pointer"
-            >
-              <input
-                type="checkbox"
-                checked={selectedTags.includes(tag)}
-                onChange={() => toggleTag(tag)}
-                className="w-4 h-4 rounded border-gray-300 text-brand-brown focus:ring-brand-brown"
-              />
-              <span className="text-sm">{tag}</span>
-            </label>
           ))}
         </div>
       </div>

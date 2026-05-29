@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge"
 import { formatPrice, getPrimaryImage } from "@/lib/utils"
 // 导入计算价格工具函数
 import { calculateProductDisplayPrices } from "@/lib/config/pricing"
-import { useLocale } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 
 // 精选商品区域组件
 interface FeaturedSectionProps {
@@ -21,6 +21,7 @@ export default function FeaturedSection({
   viewAllLink,
 }: FeaturedSectionProps) {
   const locale = useLocale()
+  const t = useTranslations("HomePage")
   return (
     <section className="py-12">
       <div className="container mx-auto px-4">
@@ -32,7 +33,7 @@ export default function FeaturedSection({
               href={viewAllLink}
               className="text-brand-brown hover:underline font-medium"
             >
-              查看全部 →
+              {t("viewAll")}
             </Link>
           )}
         </div>

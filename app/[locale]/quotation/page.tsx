@@ -11,12 +11,13 @@ import zhCategories from "@/data/locales/zh/categories.json"
 import enCategories from "@/data/locales/en/categories.json"
 import { Product, Category } from "@/types"
 import { calculateProductDisplayPrices } from "@/lib/config/pricing"
-import { useLocale } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import { formatPrice } from "@/lib/utils"
 
 // 最新报价页面
 export default function QuotationPage() {
   const locale = useLocale()
+  const t = useTranslations("QuotationPage")
   const categories = locale === 'en' ? enCategories : zhCategories
   const products = locale === 'en' ? enProducts : zhProducts
   const [searchQuery, setSearchQuery] = useState("") // 搜索关键词
@@ -87,8 +88,8 @@ export default function QuotationPage() {
       <div className="container mx-auto px-4 py-8">
         {/* 页面标题 */}
         <div className="mb-8">
-          <h1 className="text-3xl font-bold mb-2">最新报价</h1>
-          <p className="text-gray-600">实时更新的产品价格信息</p>
+          <h1 className="text-3xl font-bold mb-2">{t("title")}</h1>
+          <p className="text-gray-600">{t("subtitle")}</p>
         </div>
 
         {/* 筛选工具栏 */}
@@ -100,7 +101,7 @@ export default function QuotationPage() {
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
                 <Input
                   type="text"
-                  placeholder="搜索编号、品名或成分..."
+                  placeholder={t("searchPlaceholder")}
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className="pl-10"
@@ -114,7 +115,7 @@ export default function QuotationPage() {
                   className="cursor-pointer px-4 py-2"
                   onClick={() => setSelectedCategory("all")}
                 >
-                  全部
+                  {t("all")}
                 </Badge>
                 {typedCategories.map((category) => (
                   <Badge
@@ -134,29 +135,29 @@ export default function QuotationPage() {
         {/* 报价表格 */}
         <Card>
           <CardHeader>
-            <CardTitle>产品报价列表</CardTitle>
+            <CardTitle>{t("table.title")}</CardTitle>
           </CardHeader>
           <CardContent className="p-0">
             <div className="overflow-x-auto">
               <table className="w-full">
                 <thead className="bg-gray-50 border-b">
                   <tr>
-                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">编号</th>
-                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">品名名称</th>
-                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">幅宽</th>
-                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">克重</th>
-                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">每公斤出米数</th>
-                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">成份</th>
-                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">白色价格</th>
-                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">彩色价格</th>
-                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">版布价</th>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">{t("table.number")}</th>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">{t("table.name")}</th>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">{t("table.width")}</th>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">{t("table.weight")}</th>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">{t("table.metersPerKg")}</th>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">{t("table.composition")}</th>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">{t("table.whitePrice")}</th>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">{t("table.colorPrice")}</th>
+                    <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700">{t("table.samplePrice")}</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   {filteredProducts.length === 0 ? (
                     <tr>
                       <td colSpan={9} className="px-4 py-8 text-center text-gray-500">
-                        没有找到匹配的产品
+                        {t("table.empty")}
                       </td>
                     </tr>
                   ) : (
@@ -183,7 +184,7 @@ export default function QuotationPage() {
                                   {getCategoryName(categoryId)}
                                 </span>
                                 <span className="text-xs text-gray-500">
-                                  （共 {categoryProducts.length} 个产品）
+                                  {t("table.categoryTotal", { count: categoryProducts.length })}
                                 </span>
                               </div>
                             </td>
@@ -274,7 +275,7 @@ export default function QuotationPage() {
 
         {/* 统计信息 */}
         <div className="mt-6 text-sm text-gray-600 text-center">
-          共 {filteredProducts.length} 个产品
+          {t("total", { count: filteredProducts.length })}
         </div>
       </div>
     </div>

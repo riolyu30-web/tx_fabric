@@ -45,6 +45,43 @@ export default function ChatWidget() {
   
   // 创建用于自动滚动到底部的引用
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  
+  // 创建一个 ref 用于存储自动关闭的定时器
+  const autoCloseTimerRef = useRef<NodeJS.Timeout | null>(null);
+
+  // 定义一个函数来重置/启动自动关闭定时器
+  const resetAutoCloseTimer = () => {
+    // 如果存在旧的定时器，先清除
+    if (autoCloseTimerRef.current) {
+      clearTimeout(autoCloseTimerRef.current);
+    }
+    // 如果窗口是打开的，并且对话还没有结束
+    if (isOpen && step < 4) {
+      // 设置 10 秒后自动关闭窗口
+      autoCloseTimerRef.current = setTimeout(() => {
+        setIsOpen(false);
+      }, 10000); // 10000 毫秒 = 10 秒
+    }
+  };
+
+  // 监听窗口打开状态，如果打开则启动定时器
+  useEffect(() => {
+    if (isOpen) {
+      resetAutoCloseTimer();
+    } else {
+      // 如果窗口关闭，清除定时器
+      if (autoCloseTimerRef.current) {
+        clearTimeout(autoCloseTimerRef.current);
+      }
+    }
+    
+    // 组件卸载时清理定时器
+    return () => {
+      if (autoCloseTimerRef.current) {
+        clearTimeout(autoCloseTimerRef.current);
+      }
+    };
+  }, [isOpen, step]);
 
   // 使用 useEffect 处理延迟弹出逻辑
   useEffect(() => {
@@ -206,8 +243,14 @@ export default function ChatWidget() {
               // 动态显示占位符，使用多语言
               placeholder={step === 4 ? t('placeholderEnded') : t('placeholderActive')}
               value={input}
-              onChange={(e) => setInput(e.target.value)}
+              // 当输入变化时更新状态，并重置自动关闭定时器
+              onChange={(e) => {
+                setInput(e.target.value);
+                resetAutoCloseTimer();
+              }}
               onKeyDown={handleKeyDown}
+              // 当输入框获取焦点时，也重置定时器
+              onFocus={() => resetAutoCloseTimer()}
               disabled={step === 4}
             />
             {/* 发送按钮 */}

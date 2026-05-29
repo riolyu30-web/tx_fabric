@@ -38,6 +38,21 @@
       "accessibility": "无障碍声明"
     }
   },
+  "HomePage": {
+    "factoryTitle": "我的工厂",
+    "factoryProduction": "生产",
+    "factoryInspection": "验布",
+    "factoryLogistics": "发货",
+    "contactTitle": "快速联系我们",
+    "workTime": "工作时间：9:00 - 23:00",
+    "wechatConsult": "微信咨询",
+    "wechatDesc": "找版 / 咨询",
+    "featuredProducts": "精选推荐",
+    "newProducts": "新品上架",
+    "saleProducts": "限时优惠",
+    "viewAll": "查看全部 →",
+    "shopByCategory": "按类型选购"
+  },
   "BrandIntro": {
     "title": "我们的故事",
     "subtitle": "不只是一间面料厂，更是您天丝采购与寻源的战略合作伙伴。",
@@ -89,16 +104,6 @@
     "helpDesc": "我们的专业团队随时为您提供面料咨询和定制服务",
     "sourcing": "代客找版",
     "contact": "联系我们"
-  },
-  "HomePage": {
-    "factoryTitle": "我们的工厂",
-    "factoryProduction": "生产车间",
-    "factoryInspection": "质量检验",
-    "factoryLogistics": "仓储物流",
-    "contactTitle": "联系我们",
-    "workTime": "工作时间: 周一至周六 9:00 - 18:00",
-    "wechatConsult": "微信咨询",
-    "wechatDesc": "扫码添加客服微信，获取快速回复"
   },
   "FabricSourcing": {
     "metaTitle": "代客找版服务 - 专业面料采购代理",
@@ -284,5 +289,95 @@
     "defaultReply": "如果您还有其他问题，请随时留言。",
     "placeholderActive": "请输入您的回复...",
     "placeholderEnded": "对话已结束"
+  },
+  "CartPage": {
+    "empty": {
+      "title": "购物车是空的",
+      "desc": "还没有添加任何商品，去看看我们的精选面料吧！",
+      "button": "开始选购"
+    },
+    "title": "购物车",
+    "clear": "清空购物车",
+    "item": {
+      "width": "宽度",
+      "quantity": "数量：",
+      "meter": "米",
+      "subtotal": "小计"
+    },
+    "summary": {
+      "title": "订单摘要",
+      "itemsTotal": "商品总价：",
+      "shipping": "运费：",
+      "free": "免费",
+      "total": "总计：",
+      "freeShippingTip": "✓ 您的订单符合免费配送条件",
+      "buyMore": "再购买",
+      "enjoyFreeShipping": "即可享受免费配送",
+      "country": "国家/地区",
+      "countryPlaceholder": "请输入您的国家或地区",
+      "countryRequired": "国家/地区为必填项",
+      "contact": "联系方式",
+      "contactPlaceholder": "请输入您的邮箱或电话",
+      "contactRequired": "联系方式为必填项",
+      "processing": "处理中...",
+      "checkout": "去结算",
+      "continue": "继续购物"
+    },
+    "guarantees": {
+      "secure": "✓ 100% 安全支付",
+      "return": "✓ 30 天无理由退换货",
+      "quality": "✓ 品质保证"
+    },
+    "successModal": {
+      "title": "订单已接收",
+      "p1": "尊敬的客户，感谢您的信任与支持。",
+      "p2": "我们已成功接收您的订单需求。我们的销售专员将尽快与您取得联系，为您提供一对一的专业跟进服务。",
+      "button": "我知道了"
+    }
+  },
+  "QuotationPage": {
+    "title": "最新报价",
+    "subtitle": "实时更新的产品价格信息",
+    "searchPlaceholder": "搜索编号、品名或成分...",
+    "all": "全部",
+    "table": {
+      "title": "产品报价列表",
+      "number": "编号",
+      "name": "品名名称",
+      "width": "幅宽",
+      "weight": "克重",
+      "metersPerKg": "每公斤出米数",
+      "composition": "成份",
+      "whitePrice": "白色价格",
+      "colorPrice": "彩色价格",
+      "samplePrice": "版布价",
+      "empty": "没有找到匹配的产品",
+      "categoryTotal": "（共 {count} 个产品）"
+    },
+    "total": "共 {count} 个产品"
+  },
+  "ProductsPage": {
+    "title": "全部商品",
+    "foundCount": "找到 {count} 件商品",
+    "sort": {
+      "newest": "最新上架",
+      "priceAsc": "价格从低到高",
+      "priceDesc": "价格从高到低",
+      "name": "按名称排序"
+    },
+    "filter": "筛选",
+    "close": "关闭",
+    "loading": "加载中...",
+    "noProducts": "未找到匹配的商品",
+    "noProductsDesc": "尝试调整筛选条件或搜索其他关键词",
+    "clearFilter": "清空筛选"
+  },
+  "ProductFilter": {
+    "clearAll": "清空所有",
+    "fabricType": "面料类型",
+    "category": "分类",
+    "composition": "成分",
+    "tag": "标签",
+    "selected": "已选"
   }
 }

@@ -104,7 +104,7 @@ export default async function Home() {
       {/* 精选商品 */}
       {featuredProducts.length > 0 && (
         <FeaturedSection
-          title="精选推荐"
+          title={th('featuredProducts')}
           products={featuredProducts}
           viewAllLink="/products?featured=true"
         />
@@ -113,7 +113,7 @@ export default async function Home() {
       {/* 新品上架 */}
       {newProducts.length > 0 && (
         <FeaturedSection
-          title="新品上架"
+          title={th('newProducts')}
           products={newProducts}
           viewAllLink="/products?tags=New"
         />
@@ -126,7 +126,7 @@ export default async function Home() {
       {saleProducts.length > 0 && (
         <div className="bg-gray-50">
           <FeaturedSection
-            title="限时优惠"
+            title={th('saleProducts')}
             products={saleProducts}
             viewAllLink="/products?tags=Sale"
           />
