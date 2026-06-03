@@ -31,7 +31,7 @@ export default function ProductFilter({
 }: ProductFilterProps) {
   const locale = useLocale()
   const t = useTranslations("ProductFilter")
-  const categories = locale === 'en' ? enCategories : zhCategories
+  const categories = locale === 'zh' ? zhCategories : enCategories
   const [isOpen, setIsOpen] = useState(true) // 筛选器展开状态
 
   // 切换分类筛选

@@ -281,14 +281,17 @@
     "error": "加载关于我们图片失败:"
   },
   "ChatWidget": {
-    "title": "销售专员",
-    "welcome": "您好！欢迎来到我们的面料中心。请问您来自哪个国家/地区？",
-    "askQuantity": "好的，了解！请问您的预计采购数量是多少？（例如：1000米 / 50卷）",
-    "askContact": "收到。最后，请留下您的联系方式（邮箱或 WhatsApp），我们会安排销售专员为您报价。",
-    "thankYou": "非常感谢！我们已收到您的需求，销售专员会尽快与您取得联系。",
-    "defaultReply": "如果您还有其他问题，请随时留言。",
-    "placeholderActive": "请输入您的回复...",
-    "placeholderEnded": "对话已结束"
+    "title": "专属销售专员",
+    "welcomeTitle": "您好！很高兴遇见您 👋",
+    "welcomeDesc": "为了给您提供更精准的面料采购方案，您可以留下简单的信息，我们的专属服务人员会第一时间与您热诚跟进！(所有信息均为选填)",
+    "countryLabel": "国家 / 地区",
+    "countryPlaceholder": "例如：中国、美国、欧洲...",
+    "contactLabel": "联系方式",
+    "contactPlaceholder": "手机号 / 微信 / WhatsApp / 邮箱",
+    "submitBtn": "发送给专属顾问",
+    "submittedTitle": "收到您的信息啦！🎉",
+    "submittedDesc": "感谢您的信任，我们的服务团队正在为您准备专属方案，请留意我们的联系。",
+    "floatingText": "联系我们"
   },
   "CartPage": {
     "empty": {
@@ -379,5 +382,38 @@
     "composition": "成分",
     "tag": "标签",
     "selected": "已选"
+  },
+  "ProductDetailPage": {
+    "productNotFound": "商品未找到",
+    "productNotFoundMessage": "抱歉，您查找的商品不存在。",
+    "whiteColor": "白色",
+    "perMeter": "/米",
+    "color": "彩色",
+    "samplePrice": "版布价",
+    "save": "节省",
+    "productNumber": "产品编号",
+    "fabricType": "面料类型",
+    "composition": "成分",
+    "width": "幅宽",
+    "weight": "克重",
+    "metersPerKg": "每公斤出米数",
+    "stockStatus": "库存状态",
+    "inStock": "有货",
+    "outOfStock": "暂时缺货",
+    "purchaseQuantity": "购买数量",
+    "meters": "（米）",
+    "minQuantity": "最少 0.5 米，以 0.5 米为单位",
+    "subtotal": "小计",
+    "addedToCart": "已加入购物车",
+    "addToCart": "加入购物车",
+    "freeShipping": "全场满 $150 包邮",
+    "productOutOfStock": "商品暂时缺货，请选择其他商品",
+    "freeShippingThreshold": "满 $150 免费配送",
+    "returnPolicy": "30 天无理由退换货",
+    "qualityGuarantee": "100% 品质保证",
+    "securePayment": "安全支付保护",
+    "productDetails": "商品详情",
+    "detailImage": "详情图片",
+    "youMightAlsoLike": "您可能还喜欢"
   }
 }

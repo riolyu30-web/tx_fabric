@@ -3,7 +3,7 @@ import {createNavigation} from 'next-intl/navigation';
 
 export const routing = defineRouting({
   // 支持的语言列表
-  locales: ['en', 'zh'],
+  locales: ['en', 'zh', 'vi'],
   
   // 默认语言
   defaultLocale: 'zh',

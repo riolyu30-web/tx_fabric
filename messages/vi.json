@@ -1,0 +1,419 @@
+{
+  "Common": {
+    "title": "Miya Fabric - Cửa hàng vải cao cấp",
+    "description": "Khám phá các loại vải chất lượng cao",
+    "nav": {
+      "home": "Trang chủ",
+      "newProducts": "Hàng mới về",
+      "quotation": "Báo giá mới nhất",
+      "products": "Mua vải",
+      "sourcing": "Tìm kiếm vải",
+      "about": "Về chúng tôi",
+      "contact": "Liên hệ",
+      "cart": "Giỏ hàng"
+    },
+    "header": {
+      "announcement": "Để được tư vấn, vui lòng liên hệ CSKH trực tuyến: +86 185-2058-3992",
+      "openMenu": "Mở Menu",
+      "brandName": "Miya Fabric",
+      "search": "Tìm kiếm",
+      "searchPlaceholder": "Tìm kiếm vải, màu sắc, loại..."
+    },
+    "footer": {
+      "aboutTitle": "Về Miya Fabric",
+      "aboutDesc": "Chúng tôi tận tâm cung cấp các loại vải chất lượng cao cho những người đam mê may vá và các nhà thiết kế chuyên nghiệp, tìm nguồn vật liệu cao cấp trên toàn cầu và hỗ trợ phát triển bền vững.",
+      "customerService": "Dịch vụ khách hàng",
+      "shipping": "Thông tin vận chuyển",
+      "returns": "Chính sách đổi trả",
+      "faq": "Câu hỏi thường gặp",
+      "contactTitle": "Liên hệ chúng tôi",
+      "contactPhone": "Điện thoại: +86 185-2058-3992",
+      "contactEmail": "Email: kefu@miyafab.com",
+      "contactAddress1": "Địa chỉ: Khu Bắc, Thành phố Dệt may Trường Giang (Trung Quốc)",
+      "contactAddress2": "H024-026, HT101-108",
+      "contactCity": "Quảng Châu",
+      "copyright": "© {year} Miya Fabric. Đã đăng ký bản quyền.",
+      "privacy": "Chính sách bảo mật",
+      "terms": "Điều khoản dịch vụ",
+      "accessibility": "Tuyên bố về khả năng truy cập"
+    }
+  },
+  "HomePage": {
+    "factoryTitle": "Nhà máy của tôi",
+    "factoryProduction": "Sản xuất",
+    "factoryInspection": "Kiểm tra",
+    "factoryLogistics": "Hậu cần",
+    "contactTitle": "Liên hệ nhanh",
+    "workTime": "Giờ làm việc: 9:00 - 23:00",
+    "wechatConsult": "Tư vấn WeChat",
+    "wechatDesc": "Tìm nguồn / Yêu cầu",
+    "featuredProducts": "Sản phẩm nổi bật",
+    "newProducts": "Hàng mới về",
+    "saleProducts": "Ưu đãi có hạn",
+    "viewAll": "Xem tất cả →",
+    "shopByCategory": "Mua sắm theo danh mục"
+  },
+  "BrandIntro": {
+    "title": "Câu chuyện của chúng tôi",
+    "subtitle": "Không chỉ là một nhà máy sản xuất vải, chúng tôi là đối tác chiến lược của bạn trong việc tìm nguồn và mua sắm Tencel.",
+    "description": "Được hỗ trợ bởi nhiều thập kỷ kinh nghiệm sản xuất Tencel, chúng tôi là công ty con xuất khẩu độc quyền do nhà máy mẹ thành lập. Sứ mệnh của chúng tôi rất rõ ràng: <strong>phá vỡ rào cản giữa giá gốc tại nhà máy và thương mại quốc tế liền mạch</strong>. Chúng tôi kết hợp lợi thế về chi phí của nhà máy gốc với dịch vụ chuyên nghiệp đa ngôn ngữ, nhanh nhẹn của một đại lý tìm nguồn hàng đầu.",
+    "whyChooseUs": "Tại sao các thương hiệu chọn chúng tôi?",
+    "features": {
+      "feature1Title": "Thực tế & Linh hoạt:",
+      "feature1Desc": "Phá vỡ các quy tắc cứng nhắc của ngành và MOQ cao, tập trung vào những gì ảnh hưởng đến lợi nhuận của bạn: chất lượng thương mại, màu sắc tùy chỉnh chính xác và tính linh hoạt cực cao.",
+      "feature2Title": "Kiểm soát chất lượng minh bạch:",
+      "feature2Desc": "Xác nhận mẫu hàng loạt trước khi vận chuyển, tuân thủ lời hứa của chúng tôi: \"Những gì bạn xác nhận là những gì chúng tôi giao.\"",
+      "feature3Title": "Chứng nhận theo yêu cầu:",
+      "feature3Desc": "Cần thẻ Oeko-Tex hoặc Lenzing? Chúng tôi không áp đặt chi phí ẩn; chúng tôi chỉ hỗ trợ bạn khi cần, giúp bạn tiết kiệm tiền trong khi vẫn phù hợp với thị trường."
+    },
+    "stats": {
+      "stat1": "Vải cao cấp",
+      "stat2": "Nhà cung cấp đối tác",
+      "stat3": "Khách hàng hài lòng",
+      "stat4": "Đảm bảo chất lượng"
+    },
+    "buttons": {
+      "learnMore": "Tìm hiểu thêm",
+      "startShopping": "Bắt đầu mua sắm"
+    },
+    "imageAlt": {
+      "img1": "Về Miya Fabric - Trưng bày Sức mạnh",
+      "img2": "Về Miya Fabric - Đội ngũ Chuyên nghiệp",
+      "img3": "Về Miya Fabric - Dịch vụ Cao cấp"
+    }
+  },
+  "Layout": {
+    "title": "Miya Fabric - Cửa hàng vải cao cấp",
+    "description": "Khám phá các loại vải chất lượng cao, cotton, lanh, lụa, len và nhiều chất liệu khác, mang đến sự lựa chọn tốt nhất cho sáng tạo của bạn.",
+    "keywords": "vải, vải vóc, cotton, lanh, lụa, len, may vá, thủ công"
+  },
+  "NewProducts": {
+    "metaTitle": "Hàng mới về - Miya Fabric",
+    "metaDesc": "Khám phá tất cả các sản phẩm vải mới về",
+    "title": "Hàng mới về",
+    "subtitle": "Khám phá các bộ sưu tập vải mới nhất của chúng tôi, mang đến cho bạn nhiều lựa chọn cao cấp hơn",
+    "updateTime": "Cập nhật lúc:",
+    "moreImages": "+{count} hình ảnh khác",
+    "viewDetails": "Xem chi tiết",
+    "getQuote": "Nhận báo giá",
+    "imageAlt": "{title} - Hình ảnh {index}",
+    "noProducts": "Không có hàng mới",
+    "noProductsDesc": "Hiện tại không có hàng mới về, vui lòng kiểm tra lại sau.",
+    "browseAll": "Duyệt tất cả sản phẩm",
+    "helpTitle": "Cần thêm trợ giúp?",
+    "helpDesc": "Đội ngũ chuyên nghiệp của chúng tôi luôn sẵn sàng cung cấp dịch vụ tư vấn và tùy chỉnh vải.",
+    "sourcing": "Tìm nguồn vải",
+    "contact": "Liên hệ chúng tôi"
+  },
+  "FabricSourcing": {
+    "metaTitle": "Dịch vụ Tìm nguồn Vải - Đại lý Mua hàng Chuyên nghiệp",
+    "metaDesc": "Cung cấp dịch vụ đại lý mua vải chuyên nghiệp, tài nguyên bán buôn địa phương, nhiều năm kinh nghiệm tìm nguồn hàng và cung cấp đầy đủ các loại vải tại Chợ Trung Đại.",
+    "heroTitle": "Dịch vụ Tìm nguồn Vải Chuyên nghiệp",
+    "heroSubtitle": "Có trụ sở tại Thành phố Dệt may Trung Đại, với nhiều năm kinh nghiệm trong ngành, chúng tôi cung cấp cho bạn các dịch vụ đại lý mua hàng và tìm nguồn vải chính xác, hiệu quả.",
+    "consultNow": "Tư vấn Ngay",
+    "learnProcess": "Tìm hiểu Quy trình",
+    "whyChoose": "Tại sao Chọn Dịch vụ Tìm nguồn của chúng tôi?",
+    "advantage1Title": "Lợi thế Tài nguyên Địa phương",
+    "advantage1Desc": "Tọa lạc tại chợ bán buôn vải lớn nhất Châu Á—Thành phố Dệt may Quảng Châu Trung Đại, chúng tôi có lợi thế địa lý độc đáo, kết nối trực tiếp với hàng chục nghìn quầy vải và nhà máy.",
+    "advantage2Title": "Kinh nghiệm Chuyên môn Phong phú",
+    "advantage2Desc": "Đội ngũ của chúng tôi có nhiều năm kinh nghiệm trong việc tìm nguồn và phát triển vải, am hiểu các đặc tính, thành phần, quy trình và xu hướng thị trường của nhiều loại vải khác nhau, nắm bắt chính xác nhu cầu của khách hàng.",
+    "advantage3Title": "Hiệu quả và An tâm",
+    "advantage3Desc": "Tiết kiệm thời gian và chi phí đi lại của bạn khi tự mình dạo quanh chợ. Chúng tôi cung cấp dịch vụ khép kín một cửa từ tìm nguồn, gửi mẫu, báo giá, đến theo dõi đơn hàng số lượng lớn.",
+    "whatWeFind": "Chúng tôi có thể giúp bạn tìm gì?",
+    "scope1Title": "Vải Thông thường và Đặc biệt",
+    "scope1Desc": "Cotton, lanh, lụa, len, sợi tổng hợp, vải pha, các loại vải dệt kim và dệt thoi, cũng như các loại vải chức năng đặc biệt.",
+    "scope2Title": "Tìm nguồn theo Mẫu",
+    "scope2Desc": "Cung cấp mẫu vật lý hoặc hình ảnh rõ nét, và chúng tôi sẽ tìm các lựa chọn thay thế giống hệt hoặc tương tự cao trên thị trường.",
+    "scope3Title": "Phát triển Tùy chỉnh",
+    "scope3Desc": "Nếu không có hàng sẵn trên thị trường, chúng tôi có thể hỗ trợ kết nối với các nhà máy để dệt, nhuộm hoặc thực hiện các quy trình hoàn thiện đặc biệt.",
+    "scope4Title": "Tìm nguồn Phụ kiện",
+    "scope4Desc": "Không giới hạn ở vải, chúng tôi còn cung cấp dịch vụ tìm nguồn cho các phụ kiện may mặc khác nhau như nút, khóa kéo, dây vải và ren.",
+    "imageAlt": "Tài nguyên vải phong phú và đa dạng",
+    "processTitle": "Quy trình Dịch vụ Tiêu chuẩn",
+    "processSubtitle": "Hoạt động được chuẩn hóa để đảm bảo chất lượng dịch vụ và hiệu quả giao tiếp",
+    "step1Title": "1. Giao tiếp Yêu cầu và Gửi Mẫu",
+    "step1Desc": "Khách hàng cung cấp hình ảnh vải, thông số kỹ thuật hoặc gửi trực tiếp mẫu vật lý ban đầu cho chúng tôi. Chúng tôi sẽ tiến hành đánh giá ban đầu.",
+    "step2Title": "2. Tìm kiếm trên Thị trường",
+    "step2Desc": "Đội ngũ chuyên nghiệp của chúng tôi tiến hành tìm kiếm toàn diện trên thị trường, so sánh nhiều quầy hàng và chọn ra các lựa chọn A, B và C phù hợp và tiết kiệm chi phí nhất cho bạn.",
+    "step3Title": "3. Gửi Mẫu và Báo giá",
+    "step3Desc": "Chúng tôi sẽ chuyển phát nhanh các mẫu đã tìm thấy (thẻ màu / mẫu mét) cho khách hàng để xác nhận, cùng với báo giá chi tiết của nhà cung cấp, chiều rộng, trọng lượng và giải thích tình trạng kho.",
+    "step4Title": "4. Khách hàng Xác nhận và Mua Số lượng lớn",
+    "step4Desc": "Sau khi khách hàng xác nhận mẫu, nếu đặt đơn hàng số lượng lớn, chúng tôi có thể cung cấp các dịch vụ tiếp theo như mua hàng, kiểm tra vải và giao nhận hậu cần để đảm bảo chất lượng hàng loạt khớp với mẫu.",
+    "feeTitle": "Mô tả Phí Dịch vụ",
+    "fee1Title": "Phí Tìm nguồn Cơ bản",
+    "fee1Desc": "Có thể thương lượng dựa trên độ khó và số lượng tìm nguồn, thường là <strong>50-200 RMB/mặt hàng</strong> (không bao gồm chi phí vải mẫu và phí chuyển phát nhanh). Nếu một đơn hàng số lượng lớn (đạt MOQ) được đặt với chúng tôi sau đó, khoản phí tìm nguồn này có thể được khấu trừ hoàn toàn vào khoản thanh toán.",
+    "fee2Title": "Phí Đại lý Mua hàng (Hoa hồng)",
+    "fee2Desc": "Nếu ủy thác cho chúng tôi mua hàng số lượng lớn và theo dõi, khoản hoa hồng dịch vụ <strong>3% - 5%</strong> trên tổng số tiền mua hàng sẽ được tính (tùy thuộc vào giá trị đơn hàng và độ khó của danh mục), bao gồm kiểm tra, kiểm tra vải và sắp xếp hậu cần.",
+    "feeTipTitle": "Cam kết Đặc biệt:",
+    "feeTipDesc": "Chúng tôi tuân thủ chính sách định giá minh bạch, cung cấp báo giá quầy hàng gốc cho tất cả giá vải. Chúng tôi không bao giờ kiếm chênh lệch giá ở giữa, chỉ tính phí đại lý mua hàng hợp lý.",
+    "contactTitle": "Sẵn sàng để chúng tôi tìm vải cho bạn chưa?",
+    "phoneConsult": "Tư vấn qua Điện thoại",
+    "workTime": "Giờ làm việc: Thứ 2-Thứ 7 9:00-18:00",
+    "wechatConsult": "Thêm CSKH WeChat",
+    "wechatDesc": "Gửi hình ảnh mẫu ban đầu để đánh giá sơ bộ",
+    "mailAddress": "Địa chỉ Gửi Mẫu Gốc:",
+    "addressDetail": "H024-026, HT101-108, Khu Bắc, Thành phố Dệt may Trường Giang (Trung Quốc), Quảng Châu. Người nhận: Kaka Điện thoại: +86 185 2058 3992",
+    "mailTip": "(Lưu ý: Vui lòng đảm bảo giao tiếp và xác nhận với chúng tôi qua WeChat hoặc điện thoại trước khi gửi, và đính kèm thông tin liên hệ cũng như yêu cầu tìm nguồn hàng của bạn vào bưu kiện)"
+  },
+  "ContactPage": {
+    "title": "Liên hệ",
+    "subtitle": "Chúng tôi ở đây để phục vụ bạn. Đừng ngần ngại liên hệ thông qua các phương thức sau.",
+    "method1": {
+      "title": "Phương thức 1: Liên hệ Trực tiếp",
+      "desc": "Cách nhanh nhất để giao tiếp theo thời gian thực",
+      "phone": {
+        "title": "WhatsApp",
+        "number": "+86 185 2058 3992",
+        "time": "Giờ làm việc: 9:00 - 23:00"
+      },
+      "wechat": {
+        "title": "Yêu cầu WeChat",
+        "id": "ababa288",
+        "note": "Vui lòng ghi chú: Tìm nguồn/Yêu cầu khi thêm"
+      },
+      "requirements": {
+        "title": "📋 Vui lòng cho chúng tôi biết:",
+        "item1": "• Mẫu vải bạn cần mua (có cần mẫu số lượng lớn không)",
+        "item2": "• Số lượng gần đúng cần thiết",
+        "item3": "• Phạm vi ngân sách (tùy chọn)",
+        "item4": "• Yêu cầu thời gian giao hàng"
+      }
+    },
+    "method2": {
+      "title": "Phương thức 2: Gửi Mẫu",
+      "desc": "Có mẫu? Hãy gửi cho chúng tôi để có độ chính xác",
+      "address": {
+        "title": "Địa chỉ Gửi thư",
+        "detail1": "H024-026, HT101-108, Khu Bắc, Thành phố Dệt may Trường Giang (Trung Quốc), Quảng Châu",
+        "detail2": "Người nhận: Kaka",
+        "detail3": "Điện thoại: +86 185-2058-3992"
+      },
+      "note": {
+        "title": "📝 Vui lòng đính kèm một tờ giấy trong bưu kiện với:",
+        "item1": "• Tên và thông tin liên hệ của bạn",
+        "item2": "• Loại vải bạn cần (ví dụ: Tencel, Cotton, v.v.)",
+        "item3": "• Yêu cầu về chiều rộng và trọng lượng gần đúng",
+        "item4": "• Số lượng cần thiết (số lượng lớn hoặc mẫu)",
+        "item5": "• Các yêu cầu đặc biệt khác (ví dụ: màu sắc, cảm giác tay, v.v.)"
+      },
+      "tip": {
+        "title": "💡 Lời khuyên Hữu ích",
+        "desc": "Về nguyên tắc, công ty chúng tôi không nhận các bưu kiện trả cước tại điểm đến; tất cả các bưu kiện như vậy sẽ bị từ chối. Vui lòng sắp xếp giao hàng trả trước và cung cấp cho chúng tôi số theo dõi. Cảm ơn sự hiểu biết và hợp tác của bạn."
+      }
+    }
+  },
+  "AboutClient": {
+    "hero": {
+      "title": "Công ty TNHH Thương mại Quảng Đông Miyafang",
+      "subtitle": "Vải Cao cấp, Sinh ra từ Đam mê",
+      "alt": "Về Miyafang"
+    },
+    "story": {
+      "intro": "Hoạt động sâu rộng trong ngành dệt may <span1>{years}</span1> năm,\ntập trung vào nghiên cứu và sản xuất vải thời trang.",
+      "craftsmanship": {
+        "title": "Dệt may Thủ công",
+        "desc": "Công ty bao gồm ba bộ phận chính, chủ yếu điều hành các dòng vải <strong>Tencel</strong>, <strong>Washed Cotton</strong> và <strong>Embroidery</strong>. Với sự khéo léo trưởng thành và kiểm soát chất lượng nghiêm ngặt, chúng tôi cung cấp các sản phẩm và dịch vụ ổn định, chất lượng cao cho quần áo, hàng dệt gia dụng và các lĩnh vực khác. Bám sát khái niệm canh tác sâu trong các phân khúc và đặt chất lượng lên hàng đầu, chúng tôi tạo ra các loại vải đặc biệt thoải mái, thân thiện với môi trường và được chế tác tinh xảo để cùng khách hàng chiến thắng trong tương lai!"
+      },
+      "export": {
+        "title": "Xuất khẩu Độc quyền",
+        "desc": "Được hỗ trợ bởi nhiều thập kỷ kinh nghiệm sản xuất Tencel, Miya Fabric là công ty con xuất khẩu ngoại thương độc quyền do nhà máy mẹ ở Quảng Châu của chúng tôi thành lập. Chúng tôi không chỉ sở hữu lợi thế tuyệt đối về chi phí của một nhà máy sản xuất gốc mà còn có khả năng dịch vụ ngoại thương đa ngôn ngữ chuyên nghiệp và hiệu quả của một đại lý mua hàng hàng đầu."
+      },
+      "mission": {
+        "title": "Chúng tôi tận tâm đơn giản hóa việc tìm nguồn vải của bạn: \n<span1>Cung cấp các dịch vụ thương mại quốc tế suôn sẻ, không phải lo lắng với giá sàn của nhà máy gốc.</span1>",
+        "desc": "Các loại vải cao cấp là nền tảng của thiết kế thành công và chúng tôi cung cấp hỗ trợ chuỗi cung ứng đáng tin cậy cùng các lựa chọn bền vững. <strong1>Hãy giao việc tìm nguồn hàng tẻ nhạt cho chúng tôi, để bạn có thể hoàn toàn tập trung vào việc tạo ra các sản phẩm bán chạy nhất cho mùa tới.</strong1>"
+      },
+      "auth": {
+        "title": "Tuyên bố Chung Chính thức",
+        "cnAlt": "Tuyên bố Chung - Phiên bản Tiếng Trung",
+        "enAlt": "Tuyên bố Chung - Phiên bản Tiếng Anh"
+      }
+    },
+    "gallery": {
+      "title": "Cửa hàng và Kho hàng của Chúng tôi",
+      "alt": "Miya Fabric - Hình ảnh {index}"
+    },
+    "video": {
+      "title": "Hình ảnh Thực tế Kỷ niệm 15 Năm"
+    },
+    "advantages": {
+      "title": "Lợi thế Cốt lõi của Chúng tôi",
+      "factory": {
+        "title": "Giá Trực tiếp từ Nhà máy",
+        "desc": "Không có người trung gian. Bạn nhận hàng trực tiếp từ nhà máy gốc."
+      },
+      "fast": {
+        "title": "Nhanh chóng & Linh hoạt",
+        "desc": "MOQ thấp hơn cho các bộ sưu tập theo mùa của bạn."
+      },
+      "color": {
+        "title": "Nhuộm Tùy chỉnh",
+        "desc": "Phối màu chính xác."
+      },
+      "sourcing": {
+        "title": "Đại lý Tìm nguồn",
+        "desc": "Chúng tôi tìm nút, khóa kéo và phụ kiện trang trí cho bạn."
+      },
+      "compliance": {
+        "title": "Hỗ trợ Tuân thủ",
+        "desc": "Cần chứng nhận hoặc thẻ cụ thể? Chúng tôi chỉ giúp bạn đăng ký khi bạn cần."
+      }
+    },
+    "stats": {
+      "fabrics": "Vải Cao cấp",
+      "area": "Diện tích Kho",
+      "clients": "Khách hàng Hài lòng",
+      "quality": "Đảm bảo Chất lượng"
+    },
+    "contact": {
+      "title": "Liên hệ",
+      "subtitle": "Luôn Sẵn sàng Phục vụ Bạn",
+      "desc": "Nếu bạn có bất kỳ câu hỏi nào về vải, đơn đặt hàng hoặc dịch vụ, vui lòng liên hệ với chúng tôi bất cứ lúc nào. Đội ngũ chuyên nghiệp của chúng tôi tận tâm giúp đỡ bạn.",
+      "phone": "Số điện thoại",
+      "wechat": "CSKH WeChat",
+      "scan": "Quét để Thêm WeChat",
+      "qrAlt": "Mã QR WeChat"
+    },
+    "cta": {
+      "title": "Sẵn sàng Bắt đầu Sáng tạo của bạn?",
+      "desc": "Khám phá bộ sưu tập các loại vải cao cấp được tuyển chọn của chúng tôi",
+      "button": "Bắt đầu Mua sắm"
+    },
+    "error": "Tải hình ảnh Về chúng tôi thất bại:"
+  },
+  "ChatWidget": {
+    "title": "Đại diện Bán hàng Chuyên trách",
+    "welcomeTitle": "Xin chào! Rất vui được gặp bạn 👋",
+    "welcomeDesc": "Để cung cấp cho bạn dịch vụ tìm nguồn vải chính xác nhất, vui lòng để lại một số thông tin cơ bản. Đội ngũ dịch vụ chuyên trách của chúng tôi sẽ theo dõi bạn nhiệt tình! (Tất cả các trường là tùy chọn)",
+    "countryLabel": "Quốc gia / Khu vực",
+    "countryPlaceholder": "ví dụ: Hoa Kỳ, Anh, Úc...",
+    "contactLabel": "Thông tin Liên hệ",
+    "contactPlaceholder": "Di động / WhatsApp / WeChat / Email",
+    "submitBtn": "Gửi cho Cố vấn",
+    "submittedTitle": "Đã Nhận Tin nhắn! 🎉",
+    "submittedDesc": "Cảm ơn sự tin tưởng của bạn. Đội ngũ dịch vụ của chúng tôi đang chuẩn bị một giải pháp tùy chỉnh cho bạn và sẽ liên hệ trong thời gian sớm nhất.",
+    "floatingText": "Liên hệ"
+  },
+  "CartPage": {
+    "empty": {
+      "title": "Giỏ hàng Trống",
+      "desc": "Chưa có mặt hàng nào được thêm vào, hãy xem các loại vải được chọn lọc của chúng tôi!",
+      "button": "Bắt đầu Mua sắm"
+    },
+    "title": "Giỏ hàng",
+    "clear": "Xóa Giỏ hàng",
+    "item": {
+      "width": "Chiều rộng",
+      "quantity": "Số lượng:",
+      "meter": "m",
+      "subtotal": "Tổng phụ"
+    },
+    "summary": {
+      "title": "Tóm tắt Đơn hàng",
+      "itemsTotal": "Tổng số Mặt hàng:",
+      "shipping": "Vận chuyển:",
+      "free": "Miễn phí",
+      "total": "Tổng cộng:",
+      "freeShippingTip": "✓ Đơn hàng của bạn đủ điều kiện giao hàng miễn phí",
+      "buyMore": "Mua thêm ",
+      "enjoyFreeShipping": " để được giao hàng miễn phí",
+      "country": "Quốc gia/Khu vực",
+      "countryPlaceholder": "Vui lòng nhập quốc gia hoặc khu vực của bạn",
+      "countryRequired": "Bắt buộc phải có Quốc gia/Khu vực",
+      "contact": "Thông tin Liên hệ",
+      "contactPlaceholder": "Vui lòng nhập email hoặc số điện thoại của bạn",
+      "contactRequired": "Bắt buộc phải có Thông tin liên hệ",
+      "processing": "Đang xử lý...",
+      "checkout": "Thanh toán",
+      "continue": "Tiếp tục Mua sắm"
+    },
+    "guarantees": {
+      "secure": "✓ Thanh toán An toàn 100%",
+      "return": "✓ Đổi trả trong 30 Ngày",
+      "quality": "✓ Đảm bảo Chất lượng"
+    },
+    "successModal": {
+      "title": "Đã Nhận Đơn hàng",
+      "p1": "Kính gửi khách hàng, cảm ơn sự tin tưởng và ủng hộ của bạn.",
+      "p2": "Chúng tôi đã nhận được yêu cầu đặt hàng của bạn thành công. Đại diện bán hàng của chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất để cung cấp dịch vụ theo dõi chuyên nghiệp một kèm một.",
+      "button": "Tôi Đã Hiểu"
+    }
+  },
+  "QuotationPage": {
+    "title": "Báo giá Mới nhất",
+    "subtitle": "Thông tin giá sản phẩm cập nhật theo thời gian thực",
+    "searchPlaceholder": "Tìm kiếm số, tên hoặc thành phần...",
+    "all": "Tất cả",
+    "table": {
+      "title": "Danh sách Báo giá Sản phẩm",
+      "number": "Số",
+      "name": "Tên Sản phẩm",
+      "width": "Chiều rộng",
+      "weight": "Trọng lượng",
+      "metersPerKg": "Số mét mỗi kg",
+      "composition": "Thành phần",
+      "whitePrice": "Giá Trắng",
+      "colorPrice": "Giá Màu",
+      "samplePrice": "Giá Mẫu",
+      "empty": "Không tìm thấy sản phẩm phù hợp",
+      "categoryTotal": "(Tổng cộng {count} sản phẩm)"
+    },
+    "total": "Tổng cộng {count} sản phẩm"
+  },
+  "ProductsPage": {
+    "title": "Tất cả Sản phẩm",
+    "foundCount": "Đã tìm thấy {count} sản phẩm",
+    "sort": {
+      "newest": "Mới nhất",
+      "priceAsc": "Giá: Thấp đến Cao",
+      "priceDesc": "Giá: Cao đến Thấp",
+      "name": "Sắp xếp theo Tên"
+    },
+    "filter": "Bộ lọc",
+    "close": "Đóng",
+    "loading": "Đang tải...",
+    "noProducts": "Không tìm thấy sản phẩm phù hợp",
+    "noProductsDesc": "Hãy thử điều chỉnh bộ lọc hoặc tìm kiếm các từ khóa khác",
+    "clearFilter": "Xóa Bộ lọc"
+  },
+  "ProductFilter": {
+    "clearAll": "Xóa Tất cả",
+    "fabricType": "Loại Vải",
+    "category": "Danh mục",
+    "composition": "Thành phần",
+    "tag": "Thẻ",
+    "selected": "Đã chọn"
+  },
+  "ProductDetailPage": {
+    "productNotFound": "Không tìm thấy sản phẩm",
+    "productNotFoundMessage": "Xin lỗi, sản phẩm bạn đang tìm không tồn tại.",
+    "whiteColor": "Màu trắng",
+    "perMeter": "/mét",
+    "color": "Màu",
+    "samplePrice": "Giá mẫu",
+    "save": "Tiết kiệm",
+    "productNumber": "Mã sản phẩm",
+    "fabricType": "Loại vải",
+    "composition": "Thành phần",
+    "width": "Chiều rộng",
+    "weight": "Trọng lượng",
+    "metersPerKg": "Số mét mỗi kg",
+    "stockStatus": "Tình trạng kho",
+    "inStock": "Còn hàng",
+    "outOfStock": "Tạm thời hết hàng",
+    "purchaseQuantity": "Số lượng mua",
+    "meters": "(mét)",
+    "minQuantity": "Tối thiểu 0.5 mét, theo đơn vị 0.5 mét",
+    "subtotal": "Tổng phụ",
+    "addedToCart": "Đã thêm vào giỏ hàng",
+    "addToCart": "Thêm vào giỏ hàng",
+    "freeShipping": "Miễn phí vận chuyển cho đơn hàng trên $150",
+    "productOutOfStock": "Sản phẩm tạm thời hết hàng, vui lòng chọn sản phẩm khác",
+    "freeShippingThreshold": "✓ Miễn phí vận chuyển cho đơn hàng trên $150",
+    "returnPolicy": "✓ Đổi trả trong 30 ngày không cần lý do",
+    "qualityGuarantee": "✓ Đảm bảo chất lượng 100%",
+    "securePayment": "✓ Bảo vệ thanh toán an toàn",
+    "productDetails": "Chi tiết sản phẩm",
+    "detailImage": "Hình ảnh chi tiết",
+    "youMightAlsoLike": "Bạn cũng có thể thích"
+  }
+}

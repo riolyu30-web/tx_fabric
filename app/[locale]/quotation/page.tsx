@@ -18,8 +18,8 @@ import { formatPrice } from "@/lib/utils"
 export default function QuotationPage() {
   const locale = useLocale()
   const t = useTranslations("QuotationPage")
-  const categories = locale === 'en' ? enCategories : zhCategories
-  const products = locale === 'en' ? enProducts : zhProducts
+  const categories = locale === 'zh' ? zhCategories : enCategories
+  const products = locale === 'zh' ? zhProducts : enProducts
   const [searchQuery, setSearchQuery] = useState("") // 搜索关键词
   const [selectedCategory, setSelectedCategory] = useState<string>("all") // 选中的分类
   const [collapsedCategories, setCollapsedCategories] = useState<Set<string>>(new Set()) // 折叠的分类

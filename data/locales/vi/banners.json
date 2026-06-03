@@ -1,0 +1,29 @@
+[
+  {
+    "id": "banner-1",
+    "title": "Bộ sưu tập Thu & Đông",
+    "subtitle": "Vải theo mùa ấm áp và thoải mái",
+    "image": "/images/banners/banner_1.png",
+    "link": "/products?tags=New",
+    "buttonText": "Khám phá thêm",
+    "order": 1
+  },
+  {
+    "id": "banner-2",
+    "title": "Chất lượng cao, giá tốt nhất",
+    "subtitle": "Thân thiện với môi trường, lành mạnh và mềm mại",
+    "image": "/images/banners/banner_2.png",
+    "link": "/products",
+    "buttonText": "Mua ngay",
+    "order": 2
+  },
+  {
+    "id": "banner-3",
+    "title": "Đội ngũ tìm nguồn chuyên nghiệp",
+    "subtitle": "Phản hồi 24h, không phí nếu không tìm thấy",
+    "image": "/images/banners/banner_3.png",
+    "link": "/fabric-sourcing",
+    "buttonText": "Chi tiết dịch vụ",
+    "order": 3
+  }
+]

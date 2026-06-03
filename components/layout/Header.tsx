@@ -117,6 +117,8 @@ export default function Header() {
                 <option value="zh">中文</option>
                 {/* 英文选项 */}
                 <option value="en">English</option>
+                {/* 越南语选项 */}
+                <option value="vi">Tiếng Việt</option>
               {/* 结束下拉选择框 */}
               </select>
             {/* 结束语言切换器容器 */}

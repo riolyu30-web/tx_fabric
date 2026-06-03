@@ -42,17 +42,25 @@ export default async function Home() {
   const t = await getTranslations('Common'); // 获取通用翻译
   const locale = await getLocale(); // 获取当前语言环境
   
+  // 辅助函数，带后备处理的动态导入
+  const getLocaleData = async (fileName: string, currentLocale: string) => {
+    try {
+      const module = await import(`@/data/locales/${currentLocale}/${fileName}.json`);
+      return module.default;
+    } catch (e) {
+      const module = await import(`@/data/locales/zh/${fileName}.json`);
+      return module.default;
+    }
+  }
+
   // 动态导入当前语言对应的 banner 数据
-  const bannersModule = await import(`@/data/locales/${locale}/banners.json`);
-  const banners = bannersModule.default;
+  const banners = await getLocaleData('banners', locale);
   
   // 动态导入当前语言对应的 categories 数据
-  const categoriesModule = await import(`@/data/locales/${locale}/categories.json`);
-  const categories = categoriesModule.default;
+  const categories = await getLocaleData('categories', locale);
 
   // 动态导入当前语言对应的 products 数据
-  const productsModule = await import(`@/data/locales/${locale}/products.json`);
-  const products = productsModule.default;
+  const products = await getLocaleData('products', locale);
   
   // 类型断言
   const typedBanners = banners as Banner[] // 断言为 Banner 类型数组

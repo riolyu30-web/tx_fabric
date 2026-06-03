@@ -281,14 +281,17 @@
     "error": "Failed to load about us images:"
   },
   "ChatWidget": {
-    "title": "Sales Representative",
-    "welcome": "Hello! Welcome to our fabric center. May I ask which country/region you are from?",
-    "askQuantity": "Got it! What is your estimated purchase quantity? (e.g., 1000 meters / 50 rolls)",
-    "askContact": "Received. Finally, please leave your contact information (Email or WhatsApp), and our dedicated sales representative will provide a quotation for you.",
-    "thankYou": "Thank you very much! We have received your request, and our sales representative will contact you as soon as possible.",
-    "defaultReply": "If you have any other questions, please feel free to leave a message.",
-    "placeholderActive": "Type your message...",
-    "placeholderEnded": "Chat has ended"
+    "title": "Dedicated Sales Rep",
+    "welcomeTitle": "Hello! So glad to meet you 👋",
+    "welcomeDesc": "To provide you with the most precise fabric sourcing service, please leave some basic info. Our dedicated service team will follow up with you enthusiastically! (All fields are optional)",
+    "countryLabel": "Country / Region",
+    "countryPlaceholder": "e.g., USA, UK, Australia...",
+    "contactLabel": "Contact Info",
+    "contactPlaceholder": "Mobile / WhatsApp / WeChat / Email",
+    "submitBtn": "Send to Advisor",
+    "submittedTitle": "Message Received! 🎉",
+    "submittedDesc": "Thank you for your trust. Our service team is preparing a customized solution for you and will be in touch shortly.",
+    "floatingText": "Contact Us"
   },
   "CartPage": {
     "empty": {
@@ -379,5 +382,38 @@
     "composition": "Composition",
     "tag": "Tags",
     "selected": "Selected"
+  },
+  "ProductDetailPage": {
+    "productNotFound": "Product Not Found",
+    "productNotFoundMessage": "Sorry, the product you are looking for does not exist.",
+    "whiteColor": "White",
+    "perMeter": "/meter",
+    "color": "Color",
+    "samplePrice": "Sample Price",
+    "save": "Save",
+    "productNumber": "Product No.",
+    "fabricType": "Fabric Type",
+    "composition": "Composition",
+    "width": "Width",
+    "weight": "Weight",
+    "metersPerKg": "Meters per Kg",
+    "stockStatus": "Stock Status",
+    "inStock": "In Stock",
+    "outOfStock": "Temporarily Out of Stock",
+    "purchaseQuantity": "Purchase Quantity",
+    "meters": "(meters)",
+    "minQuantity": "Minimum 0.5 meters, in 0.5 meter increments",
+    "subtotal": "Subtotal",
+    "addedToCart": "Added to Cart",
+    "addToCart": "Add to Cart",
+    "freeShipping": "Free shipping on orders over $150",
+    "productOutOfStock": "Product temporarily out of stock, please choose another product",
+    "freeShippingThreshold": "✓ Free shipping on orders over $150",
+    "returnPolicy": "✓ 30-day hassle-free returns",
+    "qualityGuarantee": "✓ 100% Quality Guarantee",
+    "securePayment": "✓ Secure Payment Protection",
+    "productDetails": "Product Details",
+    "detailImage": "Detail Image",
+    "youMightAlsoLike": "You Might Also Like"
   }
 }

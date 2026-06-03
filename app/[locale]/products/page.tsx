@@ -15,7 +15,7 @@ import { useLocale, useTranslations } from "next-intl"
 function ProductsContent() {
   const locale = useLocale()
   const t = useTranslations("ProductsPage")
-  const products = locale === 'en' ? enProducts : zhProducts
+  const products = locale === 'zh' ? zhProducts : enProducts
   const searchParams = useSearchParams()
   const [showMobileFilter, setShowMobileFilter] = useState(false) // 移动端筛选器显示状态
   

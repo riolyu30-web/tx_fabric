@@ -10,7 +10,9 @@ import zhPrice from "@/data/locales/zh/price.json"
 import enPrice from "@/data/locales/en/price.json"
 
 export function getPriceConfig(locale: string) {
-  return locale === 'en' ? enPrice : zhPrice;
+  if (locale === 'zh') return zhPrice;
+  // 默认返回英文配置（包括 vi 和其他语言）
+  return enPrice;
 }
 
 // 格式化价格（根据当前语言环境和汇率）

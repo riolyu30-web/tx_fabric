@@ -8,7 +8,7 @@ import { createPortal } from "react-dom"
 import { useCartStore } from "@/lib/store/cart"
 import zhCategories from "@/data/locales/zh/categories.json"
 import enCategories from "@/data/locales/en/categories.json"
-import { useLocale } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 
 // 移动端导航抽屉组件
 interface MobileNavProps {
@@ -18,7 +18,8 @@ interface MobileNavProps {
 
 export default function MobileNav({ open, onClose }: MobileNavProps) {
   const locale = useLocale()
-  const categories = locale === 'en' ? enCategories : zhCategories
+  const tNav = useTranslations('Common.nav')
+  const categories = locale === 'zh' ? zhCategories : enCategories
   const [expandedSection, setExpandedSection] = useState<string | null>(null) // 展开的分类
   const { items } = useCartStore() // 获取购物车商品数量
   const cartItemsCount = items.reduce((sum, item) => sum + item.quantity, 0)
@@ -32,11 +33,11 @@ export default function MobileNav({ open, onClose }: MobileNavProps) {
 
   // 主导航项
   const mainNav = [
-    { name: "首页", href: "/" },
-    { name: "新品上线", href: "/new-products" },
-    { name: "最新报价", href: "/quotation" },
-    { name: "代客找版", href: "/fabric-sourcing" },
-    { name: "关于我们", href: "/about" },
+    { name: tNav('home'), href: "/" },
+    { name: tNav('newProducts'), href: "/new-products" },
+    { name: tNav('quotation'), href: "/quotation" },
+    { name: tNav('sourcing'), href: "/fabric-sourcing" },
+    { name: tNav('about'), href: "/about" },
   ]
 
   // 使用 data/categories.json 中的分类
@@ -97,7 +98,7 @@ export default function MobileNav({ open, onClose }: MobileNavProps) {
             >
               <div className="flex items-center gap-2">
                 <ShoppingCart className="h-5 w-5" />
-                购物车
+                {tNav('cart')}
                 {cartItemsCount > 0 && (
                   <span className="ml-auto h-6 w-6 rounded-full bg-brand-brown text-white text-xs flex items-center justify-center">
                     {cartItemsCount}

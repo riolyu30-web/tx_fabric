@@ -13,37 +13,38 @@ import { calculateProductDisplayPrices } from "@/lib/config/pricing"
 import zhProducts from "@/data/locales/zh/products.json"
 import enProducts from "@/data/locales/en/products.json"
 import { Product } from "@/types"
-import { useLocale } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 
-// 商品详情页面
+// Product detail page
 export default function ProductDetailPage() {
   const locale = useLocale()
-  const products = locale === 'en' ? enProducts : zhProducts
+  const t = useTranslations('ProductDetailPage')
+  const products = locale === 'zh' ? zhProducts : enProducts
   const params = useParams()
   const productSlug = params.id as string
   
-  const [quantity, setQuantity] = useState(1) // 购买数量（米数）
-  const [addedToCart, setAddedToCart] = useState(false) // 是否已加入购物车
+  const [quantity, setQuantity] = useState(1) // Purchase quantity (meters)
+  const [addedToCart, setAddedToCart] = useState(false) // Whether added to cart
 
   const addItem = useCartStore((state) => state.addItem) // 购物车添加函数
 
-  // 类型断言
+  // Type assertion
   const typedProducts = products as Product[]
 
-  // 查找当前商品
+  // Find current product
   const product = typedProducts.find((p) => p.slug === productSlug)
 
-  // 如果商品不存在，显示404
+  // If product not found, display 404
   if (!product) {
     return (
       <div className="container mx-auto px-4 py-16 text-center">
-        <h1 className="text-3xl font-bold mb-4">商品未找到</h1>
-        <p className="text-gray-600">抱歉，您查找的商品不存在。</p>
+        <h1 className="text-3xl font-bold mb-4">{t('productNotFound')}</h1>
+        <p className="text-gray-600">{t('productNotFoundMessage')}</p>
       </div>
     )
   }
 
-  // 计算显示价格（成本价转换为足米价并加上利润率）
+  // Calculate display prices (cost price converted to full meter price plus profit margin)
   const displayPrices = calculateProductDisplayPrices(product)
 
   // 推荐商品（同分类，且有库存）
@@ -64,10 +65,10 @@ export default function ProductDetailPage() {
 
   return (
     <div className="min-h-screen">
-      {/* 商品详情区域 */}
+      {/* Product Detail Area */}
       <div className="container mx-auto px-4 py-8">
         <div className="grid md:grid-cols-2 gap-12">
-          {/* 左侧：商品图片 */}
+          {/* Left: Product Images */}
           <div>
             <ProductImageGallery
               images={product.images}
@@ -75,9 +76,9 @@ export default function ProductDetailPage() {
             />
           </div>
 
-          {/* 右侧：商品信息 */}
+          {/* Right: Product Information */}
           <div className="space-y-6">
-            {/* 标题和标签 */}
+            {/* Title and Tags */}
             <div>
               <div className="flex flex-wrap gap-2 mb-3">
                 {product.tags.map((tag) => (
@@ -99,31 +100,31 @@ export default function ProductDetailPage() {
               <p className="text-gray-600">{product.description}</p>
             </div>
 
-            {/* 价格（显示计算后的足米价） */}
+            {/* Price (display calculated full meter price) */}
             <div className="border-y py-6">
               <div className="space-y-3">
-                {/* 白色/彩色价格 */}
+                {/* White/Color Price */}
                 {displayPrices.whitePrice ? (
                   <div className="space-y-2">
                     <div className="flex items-baseline gap-3">
-                      <span className="text-gray-600 text-sm">白色：</span>
+                      <span className="text-gray-600 text-sm">{t('whiteColor')}:</span>
                       <span className="text-3xl font-bold">
                         {formatPrice(displayPrices.whitePrice, locale)}
                       </span>
-                      <span className="text-lg text-gray-500">/米</span>
+                      <span className="text-lg text-gray-500">{t('perMeter')}</span>
                     </div>
                     {displayPrices.colorPrice && (
                       <div className="flex items-baseline gap-3">
-                        <span className="text-gray-600 text-sm">彩色：</span>
+                        <span className="text-gray-600 text-sm">{t('color')}:</span>
                         <span className="text-3xl font-bold">
                           {formatPrice(displayPrices.colorPrice, locale)}
                         </span>
-                        <span className="text-lg text-gray-500">/米</span>
+                        <span className="text-lg text-gray-500">{t('perMeter')}</span>
                       </div>
                     )}
                     {displayPrices.samplePrice && (
                       <div className="flex items-baseline gap-3">
-                        <span className="text-gray-600 text-sm">版布价：</span>
+                        <span className="text-gray-600 text-sm">{t('samplePrice')}:</span>
                         <span className="text-xl font-medium text-brand-brown">
                           {formatPrice(displayPrices.samplePrice, locale)}
                         </span>
@@ -151,62 +152,62 @@ export default function ProductDetailPage() {
                 )}
                 {product.salePrice && !displayPrices.whitePrice && (
                   <p className="text-sm text-red-600">
-                    节省{" "}
+                    {t('save')} {" "}
                     {formatPrice(displayPrices.basePrice - product.salePrice, locale)}
                   </p>
                 )}
               </div>
             </div>
 
-            {/* 商品规格信息 */}
+            {/* Additional Information */}
             <div className="space-y-3">
               <div className="flex justify-between py-2 border-b">
-                <span className="text-gray-600">产品编号：</span>
+                <span className="text-gray-600">{t('productNumber')}:</span>
                 <span className="font-medium">{product.productNo}</span>
               </div>
               <div className="flex justify-between py-2 border-b">
-                <span className="text-gray-600">面料类型：</span>
+                <span className="text-gray-600">{t('fabricType')}:</span>
                 <span className="font-medium">{product.type}</span> {/* 使用新字段 type */}
               </div>
               <div className="flex justify-between py-2 border-b">
-                <span className="text-gray-600">成分：</span>
+                <span className="text-gray-600">{t('composition')}:</span>
                 <span className="font-medium">
                   {product.content.map(c => `${c.name} ${c.percentage}%`).join("、")}
                 </span>
               </div>
               <div className="flex justify-between py-2 border-b">
-                <span className="text-gray-600">幅宽：</span>
+                <span className="text-gray-600">{t('width')}:</span>
                 <span className="font-medium">{product.width} cm</span>
               </div>
               {product.weight && (
                 <div className="flex justify-between py-2 border-b">
-                  <span className="text-gray-600">克重：</span>
+                  <span className="text-gray-600">{t('weight')}:</span>
                   <span className="font-medium">{product.weight} g/m²</span>
                 </div>
               )}
               {product.metersPerKg && (
                 <div className="flex justify-between py-2 border-b">
-                  <span className="text-gray-600">每公斤出米数：</span>
+                  <span className="text-gray-600">{t('metersPerKg')}:</span>
                   <span className="font-medium">{product.metersPerKg} m/kg</span>
                 </div>
               )}
               <div className="flex justify-between py-2 border-b">
-                <span className="text-gray-600">库存状态：</span>
+                <span className="text-gray-600">{t('stockStatus')}:</span>
                 <span
                   className={`font-medium ${
                     product.inStock ? "text-green-600" : "text-red-600"
                   }`}
                 >
-                  {product.inStock ? "有货" : "暂时缺货"}
+                  {product.inStock ? t('inStock') : t('outOfStock')}
                 </span>
               </div>
             </div>
 
-            {/* 数量选择 */}
+            {/* Quantity Selection */}
             <div className="space-y-4">
               <div>
                 <label className="block text-sm font-medium mb-2">
-                  购买数量（米）
+                  {t('purchaseQuantity')}{t('meters')}
                 </label>
                 <div className="flex items-center gap-3">
                   <Button
@@ -237,19 +238,19 @@ export default function ProductDetailPage() {
                     +
                   </Button>
                   <span className="text-sm text-gray-600">
-                    最少 0.5 米，以 0.5 米为单位
+                    {t('minQuantity')}
                   </span>
                 </div>
               </div>
 
-              {/* 小计 */}
+              {/* Subtotal */}
               <div className="flex items-baseline gap-2 text-xl">
-                <span className="text-gray-600">小计：</span>
+                <span className="text-gray-600">{t('subtotal')}:</span>
                 <span className="font-bold">{formatPrice(totalPrice, locale)}</span>
               </div>
             </div>
 
-            {/* 加入购物车按钮 */}
+            {/* Add to Cart Button */}
             <div className="space-y-3">
               <Button
                 size="lg"
@@ -260,41 +261,41 @@ export default function ProductDetailPage() {
                 {addedToCart ? (
                   <>
                     <Check className="mr-2 h-5 w-5" />
-                    已加入购物车
+                    {t('addedToCart')}
                   </>
                 ) : (
                   <>
                     <ShoppingCart className="mr-2 h-5 w-5" />
-                    加入购物车
+                    {t('addToCart')}
                   </>
                 )}
               </Button>
               <p className="text-sm text-gray-500 text-center">
                 {product.inStock
-                  ? "全场满 $150 包邮"
-                  : "商品暂时缺货，请选择其他商品"}
+                  ? t('freeShipping')
+                  : t('productOutOfStock')}
               </p>
             </div>
 
-            {/* 额外信息 */}
+            {/* Additional Information */}
             <div className="bg-gray-50 rounded-lg p-4 space-y-2 text-sm">
-              <p>✓ 满 $150 免费配送</p>
-              <p>✓ 30 天无理由退换货</p>
-              <p>✓ 100% 品质保证</p>
-              <p>✓ 安全支付保护</p>
+              <p>✓ {t('returnPolicy')}</p>
+              <p>✓ {t('qualityGuarantee')}</p>
+              <p>✓ {t('securePayment')}</p>
+              <p>✓ {t('freeShippingThreshold')}</p>
             </div>
 
-            {/* 详情图片 */}
+            {/* Detail Images */}
             {getDetailImages(product.images).length > 0 && (
               <div className="pt-8 border-t">
-                <h3 className="text-lg font-bold mb-4">商品详情</h3>
+                <h3 className="text-lg font-bold mb-4">{t('productDetails')}</h3>
                 <div className="space-y-4">
                   {getDetailImages(product.images).map((img, idx) => (
                     <div key={idx} className="relative w-full rounded-lg overflow-hidden border">
                       {/* 使用 img 标签以支持自适应高度 */}
                       <img 
                         src={img} 
-                        alt={`${product.name} 详情图片 ${idx + 1}`} 
+                        alt={`${product.name} ${t('detailImage')} ${idx + 1}`} 
                         className="w-full h-auto object-cover" 
                         loading="lazy"
                       />
@@ -307,11 +308,11 @@ export default function ProductDetailPage() {
         </div>
       </div>
 
-      {/* 推荐商品 */}
+      {/* Recommended Products */}
       {recommendedProducts.length > 0 && (
         <div className="bg-gray-50 py-12">
           <div className="container mx-auto px-4">
-            <h2 className="text-2xl font-bold mb-8">您可能还喜欢</h2>
+            <h2 className="text-2xl font-bold mb-8">{t('youMightAlsoLike')}</h2>
             <ProductGrid products={recommendedProducts} />
           </div>
         </div>

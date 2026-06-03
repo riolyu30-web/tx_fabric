@@ -1,0 +1,42 @@
+[
+  {
+    "id": "天丝",
+    "name": "Tencel",
+    "slug": "tencel",
+    "description": "Vải dòng Tencel",
+    "image": "/images/categories/cate_2.png",
+    "order": 1
+  },
+  {
+    "id": "乐丽丝",
+    "name": "Lelise",
+    "slug": "lelise",
+    "description": "Vải dòng Lelise",
+    "image": "/images/categories/cate_1.png",
+    "order": 2
+  },
+  {
+    "id": "仿牛仔",
+    "name": "Giả Denim",
+    "slug": "gia-denim",
+    "description": "Vải dòng Giả Denim",
+    "image": "/images/categories/cate_4.png",
+    "order": 3
+  },
+  {
+    "id": "绣花印花底布",
+    "name": "Vải nền thêu & in",
+    "slug": "vai-nen-theu-in",
+    "description": "Dòng vải nền thêu & in",
+    "image": "/images/categories/cate_3.png",
+    "order": 4
+  },
+  {
+    "id": "棉布",
+    "name": "Cotton",
+    "slug": "cotton",
+    "description": "Vải dòng Cotton",
+    "image": "/images/categories/cate_5.png",
+    "order": 5
+  }
+]

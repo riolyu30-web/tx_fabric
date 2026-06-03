@@ -11,7 +11,7 @@ export default function Footer() {
   const t = useTranslations('Common')
   
   // 使用对应语言的分类数据
-  const categories = locale === 'en' ? enCategories : zhCategories
+  const categories = locale === 'zh' ? zhCategories : enCategories
   const fabricTypes = categories.map(c => ({
     name: c.name,
     slug: c.slug
